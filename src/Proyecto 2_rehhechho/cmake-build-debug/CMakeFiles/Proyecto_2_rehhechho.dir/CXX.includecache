@@ -1,0 +1,106 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/norma/source/repos/Progra II/Proyectos/Proyecto 2/src/Proyecto 2_rehhechho/Analist.cpp
+Analist.h
+C:/Users/norma/source/repos/Progra II/Proyectos/Proyecto 2/src/Proyecto 2_rehhechho/Analist.h
+
+C:/Users/norma/source/repos/Progra II/Proyectos/Proyecto 2/src/Proyecto 2_rehhechho/Analist.h
+ComponenteBase.h
+C:/Users/norma/source/repos/Progra II/Proyectos/Proyecto 2/src/Proyecto 2_rehhechho/ComponenteBase.h
+List.h
+C:/Users/norma/source/repos/Progra II/Proyectos/Proyecto 2/src/Proyecto 2_rehhechho/List.h
+
+C:/Users/norma/source/repos/Progra II/Proyectos/Proyecto 2/src/Proyecto 2_rehhechho/ArrayTemplate.cpp
+ArrayTemplate.h
+C:/Users/norma/source/repos/Progra II/Proyectos/Proyecto 2/src/Proyecto 2_rehhechho/ArrayTemplate.h
+
+C:/Users/norma/source/repos/Progra II/Proyectos/Proyecto 2/src/Proyecto 2_rehhechho/ArrayTemplate.h
+iostream
+-
+sstream
+-
+Mediator.h
+C:/Users/norma/source/repos/Progra II/Proyectos/Proyecto 2/src/Proyecto 2_rehhechho/Mediator.h
+
+C:/Users/norma/source/repos/Progra II/Proyectos/Proyecto 2/src/Proyecto 2_rehhechho/ComponenteBase.cpp
+ComponenteBase.h
+C:/Users/norma/source/repos/Progra II/Proyectos/Proyecto 2/src/Proyecto 2_rehhechho/ComponenteBase.h
+
+C:/Users/norma/source/repos/Progra II/Proyectos/Proyecto 2/src/Proyecto 2_rehhechho/ComponenteBase.h
+
+C:/Users/norma/source/repos/Progra II/Proyectos/Proyecto 2/src/Proyecto 2_rehhechho/Disease.cpp
+Disease.h
+C:/Users/norma/source/repos/Progra II/Proyectos/Proyecto 2/src/Proyecto 2_rehhechho/Disease.h
+
+C:/Users/norma/source/repos/Progra II/Proyectos/Proyecto 2/src/Proyecto 2_rehhechho/Disease.h
+iostream
+-
+sstream
+-
+ComponenteBase.h
+C:/Users/norma/source/repos/Progra II/Proyectos/Proyecto 2/src/Proyecto 2_rehhechho/ComponenteBase.h
+
+C:/Users/norma/source/repos/Progra II/Proyectos/Proyecto 2/src/Proyecto 2_rehhechho/List.cpp
+List.h
+C:/Users/norma/source/repos/Progra II/Proyectos/Proyecto 2/src/Proyecto 2_rehhechho/List.h
+MediatorImplemented.h
+C:/Users/norma/source/repos/Progra II/Proyectos/Proyecto 2/src/Proyecto 2_rehhechho/MediatorImplemented.h
+
+C:/Users/norma/source/repos/Progra II/Proyectos/Proyecto 2/src/Proyecto 2_rehhechho/List.h
+Nodo.h
+C:/Users/norma/source/repos/Progra II/Proyectos/Proyecto 2/src/Proyecto 2_rehhechho/Nodo.h
+MediatorImplemented.h
+C:/Users/norma/source/repos/Progra II/Proyectos/Proyecto 2/src/Proyecto 2_rehhechho/MediatorImplemented.h
+
+C:/Users/norma/source/repos/Progra II/Proyectos/Proyecto 2/src/Proyecto 2_rehhechho/Mediator.h
+iostream
+-
+
+C:/Users/norma/source/repos/Progra II/Proyectos/Proyecto 2/src/Proyecto 2_rehhechho/MediatorImplemented.cpp
+MediatorImplemented.h
+C:/Users/norma/source/repos/Progra II/Proyectos/Proyecto 2/src/Proyecto 2_rehhechho/MediatorImplemented.h
+
+C:/Users/norma/source/repos/Progra II/Proyectos/Proyecto 2/src/Proyecto 2_rehhechho/MediatorImplemented.h
+Mediator.h
+C:/Users/norma/source/repos/Progra II/Proyectos/Proyecto 2/src/Proyecto 2_rehhechho/Mediator.h
+Patient.h
+C:/Users/norma/source/repos/Progra II/Proyectos/Proyecto 2/src/Proyecto 2_rehhechho/Patient.h
+Disease.h
+C:/Users/norma/source/repos/Progra II/Proyectos/Proyecto 2/src/Proyecto 2_rehhechho/Disease.h
+ArrayTemplate.h
+C:/Users/norma/source/repos/Progra II/Proyectos/Proyecto 2/src/Proyecto 2_rehhechho/ArrayTemplate.h
+Analist.h
+C:/Users/norma/source/repos/Progra II/Proyectos/Proyecto 2/src/Proyecto 2_rehhechho/Analist.h
+
+C:/Users/norma/source/repos/Progra II/Proyectos/Proyecto 2/src/Proyecto 2_rehhechho/Nodo.cpp
+Nodo.h
+C:/Users/norma/source/repos/Progra II/Proyectos/Proyecto 2/src/Proyecto 2_rehhechho/Nodo.h
+
+C:/Users/norma/source/repos/Progra II/Proyectos/Proyecto 2/src/Proyecto 2_rehhechho/Nodo.h
+Patient.h
+C:/Users/norma/source/repos/Progra II/Proyectos/Proyecto 2/src/Proyecto 2_rehhechho/Patient.h
+
+C:/Users/norma/source/repos/Progra II/Proyectos/Proyecto 2/src/Proyecto 2_rehhechho/Patient.cpp
+Patient.h
+C:/Users/norma/source/repos/Progra II/Proyectos/Proyecto 2/src/Proyecto 2_rehhechho/Patient.h
+
+C:/Users/norma/source/repos/Progra II/Proyectos/Proyecto 2/src/Proyecto 2_rehhechho/Patient.h
+iostream
+-
+sstream
+-
+ComponenteBase.h
+C:/Users/norma/source/repos/Progra II/Proyectos/Proyecto 2/src/Proyecto 2_rehhechho/ComponenteBase.h
+
+C:/Users/norma/source/repos/Progra II/Proyectos/Proyecto 2/src/Proyecto 2_rehhechho/main.cpp
+ArrayTemplate.cpp
+C:/Users/norma/source/repos/Progra II/Proyectos/Proyecto 2/src/Proyecto 2_rehhechho/ArrayTemplate.cpp
+Patient.h
+C:/Users/norma/source/repos/Progra II/Proyectos/Proyecto 2/src/Proyecto 2_rehhechho/Patient.h
+
