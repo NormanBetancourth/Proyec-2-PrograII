@@ -8,10 +8,9 @@
 
 #include<iostream>
 #include<sstream>
-#include "ComponenteBase.h"
 using namespace std;
 
-class Disease: public ComponenteBase {
+class Disease{
 private:
     string name;
     string ADNsequence;
@@ -20,9 +19,9 @@ public:
     virtual ~Disease();
 
     const string &getName() const;
-    const string &getAdNsequence() const;
+    const string &getADNsequence() const;
     void setName(const string &);
-    void setAdNsequence(const string &);
+    void setADNsequence(const string &);
 
     string toString() const;
 

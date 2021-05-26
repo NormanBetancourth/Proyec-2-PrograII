@@ -9,6 +9,7 @@ ArrayTemplate<T>::ArrayTemplate(int opt) {
     size = (opt > 0) ? SIZE1 : SIZE2;
     num = 0;
     vector = new T * [getSize()];
+
     for (int i = 0; i < getSize(); i++) {
         vector[i] = nullptr;
     }
@@ -18,7 +19,7 @@ template<class T>
 ArrayTemplate<T>::~ArrayTemplate() {
     for (int i = 0; i < getNum(); i++) {
         if (vector[i]) {
-            delete vector[i];
+            vector[i] = nullptr;
         }
     }
     delete[] vector;
@@ -77,7 +78,8 @@ bool ArrayTemplate<T>::addObject(T *myObject) {
         setNum(getNum() + 1);
         return true;
     }
-    return false;}
+    return false;
+}
 
 template<class T>
 T *ArrayTemplate<T>::returnObject(string id) {
@@ -99,17 +101,18 @@ bool ArrayTemplate<T>::empty() {
 
 template<class T>
 string ArrayTemplate<T>::toString() const {
-    stringstream s;
-    s << "\nArray List Information\n";
+    stringstream ss;
+    ss << "\nArray List Information\n";
     for(int i = 0; i < getNum(); i++){
-        s  << vector[i]->toString() << "\n";
+        ss << vector[i]->toStringSimple()<< "\n";
     }
-    return s.str();
+    return ss.str();
 }
 
-template<class T>
-void ArrayTemplate<T>::setMediator(Mediator *m) {
-    for(int i = 0; i < getNum(); i++){
-        vector[i]->setMediator(m);
-    }
-}
+
+//template<class T>
+//void ArrayTemplate<T>::setMediator(Mediator *m) {
+//    for(int i = 0; i < getNum(); i++){
+//        vector[i]->setMediator(m);
+//    }
+//}

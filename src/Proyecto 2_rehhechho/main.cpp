@@ -5,14 +5,29 @@
 #include "Patient.h"
 
 int main() {
+    string *dis = nullptr;
+    dis = new string[5];
+
+    for(int i=0;i<5;i++){
+        dis[i] = "";
+    }
+
+    dis[0]= "Cancer";
+    dis[1] = "Diabetes";
+
     ArrayTemplate<Patient> miA(0);
-    Patient *p1 = new Patient( "Rebe", "123", "ABC");
+    cout << "\nSize: " << miA.getSize();
 
-    cout << p1->toString();
-    cout <<miA.getSize();
-    miA.addObject(p1);
-    cout << miA.toString();
+    Patient* pat1 = new Patient("Rebe","123", "ABC");
+    Patient* pat2 = new Patient("Norman","456", "DEF");
 
+    pat1->setDiseaseArray(dis);
+
+    cout << pat1->toStringDeseases();
+    miA.addObject(pat1);
+    miA.addObject(pat2);
+
+    cout <<miA.toString();
 
     return 0;
 }

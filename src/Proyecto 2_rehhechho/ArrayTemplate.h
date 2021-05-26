@@ -8,7 +8,8 @@
 
 #include<iostream>
 #include<sstream>
-#include "Mediator.h"
+#include<string>
+//#include "Mediator.h"
 using namespace std;
 
 //SIZE1 para pacientes, SIZE2 para enfermedades
@@ -22,7 +23,7 @@ private:
     int num;
     int size;
 public:
-    ArrayTemplate(int = 0);
+    ArrayTemplate(int);
     ~ArrayTemplate();
 
     void setNum(int);
@@ -35,8 +36,10 @@ public:
     T* returnObject(string);
     bool empty();
     string toString() const;
-    void setMediator(Mediator*m);
+
+    //void setMediator(Mediator*m);
 };
+
 
 
 #endif //PROYECTO_2_REHHECHHO_ARRAYTEMPLATE_H

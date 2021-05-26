@@ -5,20 +5,19 @@
 #ifndef PROYECTO_2_REHHECHHO_PATIENT_H
 #define PROYECTO_2_REHHECHHO_PATIENT_H
 
-
 #include<iostream>
 #include<sstream>
-#include "ComponenteBase.h"
 
 using namespace std;
-const int DESEASESIZE = 30;
+//Este dato solo se usa para la inicializacion
+const int DISEASESIZE = 30;
 
-class Patient: public ComponenteBase {
+class Patient {
 private:
     string name;
     string id;
     string ADNsequence;
-    string * deseasesArray;
+    string* diseaseArray;
 
 public:
     Patient(const string & = "Undefined", const string & = "Undefined",
@@ -28,14 +27,16 @@ public:
     const string &getName() const;
     const string &getId() const;
     const string &getADNsequence() const;
-    string *getDeseasesArray() const;
+    string *getDiseaseArray() const;
 
     void setName(const string &);
     void setId(const string &);
     void setADNsequence(const string &);
+    void setDiseaseArray(string *);
 
-    string toString() const;
+    string toStringSimple() const;
     string toStringDeseases() const;
+    string toStringAll() const;
 };
 
 
