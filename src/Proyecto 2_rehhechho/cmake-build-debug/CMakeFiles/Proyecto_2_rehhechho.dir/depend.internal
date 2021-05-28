@@ -16,6 +16,11 @@ CMakeFiles/Proyecto_2_rehhechho.dir/BasicComponent.cpp.obj
 CMakeFiles/Proyecto_2_rehhechho.dir/Disease.cpp.obj
  C:/Users/rebec/Desktop/Project/Proyec-2-PrograII/src/Proyecto 2_rehhechho/Disease.cpp
  C:/Users/rebec/Desktop/Project/Proyec-2-PrograII/src/Proyecto 2_rehhechho/Disease.h
+CMakeFiles/Proyecto_2_rehhechho.dir/JsonWriter.cpp.obj
+ ../lib/json.hpp
+ C:/Users/rebec/Desktop/Project/Proyec-2-PrograII/src/Proyecto 2_rehhechho/ArrayTemplate.h
+ C:/Users/rebec/Desktop/Project/Proyec-2-PrograII/src/Proyecto 2_rehhechho/JsonWriter.cpp
+ C:/Users/rebec/Desktop/Project/Proyec-2-PrograII/src/Proyecto 2_rehhechho/JsonWriter.h
 CMakeFiles/Proyecto_2_rehhechho.dir/MediatorImplemented.cpp.obj
  C:/Users/rebec/Desktop/Project/Proyec-2-PrograII/src/Proyecto 2_rehhechho/Analyst.h
  C:/Users/rebec/Desktop/Project/Proyec-2-PrograII/src/Proyecto 2_rehhechho/ArrayTemplate.h
@@ -31,5 +36,9 @@ CMakeFiles/Proyecto_2_rehhechho.dir/Patient.cpp.obj
 CMakeFiles/Proyecto_2_rehhechho.dir/main.cpp.obj
  C:/Users/rebec/Desktop/Project/Proyec-2-PrograII/src/Proyecto 2_rehhechho/ArrayTemplate.cpp
  C:/Users/rebec/Desktop/Project/Proyec-2-PrograII/src/Proyecto 2_rehhechho/ArrayTemplate.h
+ C:/Users/rebec/Desktop/Project/Proyec-2-PrograII/src/Proyecto 2_rehhechho/Disease.h
+ C:/Users/rebec/Desktop/Project/Proyec-2-PrograII/src/Proyecto 2_rehhechho/JsonWriter.cpp
+ C:/Users/rebec/Desktop/Project/Proyec-2-PrograII/src/Proyecto 2_rehhechho/JsonWriter.h
  C:/Users/rebec/Desktop/Project/Proyec-2-PrograII/src/Proyecto 2_rehhechho/Patient.h
+ C:/Users/rebec/Desktop/Project/Proyec-2-PrograII/src/Proyecto 2_rehhechho/lib/json.hpp
  C:/Users/rebec/Desktop/Project/Proyec-2-PrograII/src/Proyecto 2_rehhechho/main.cpp

@@ -3,8 +3,17 @@
 //
 #include"ArrayTemplate.cpp"
 #include "Patient.h"
+#include"Disease.h"
+#include "lib/json.hpp"
+#include"JsonWriter.cpp"
+
+using nlohmann::json;
 
 int main() {
+    //JsonWriter<Disease>* writer = new JsonWriter<Disease>("ListaSecuenciaEnfermedad.json");
+
+
+    /**
     string *dis = nullptr;
     dis = new string[5];
 
@@ -28,6 +37,8 @@ int main() {
     miA.addObject(pat2);
 
     cout <<miA.toString();
+
+     */
 
     return 0;
 }

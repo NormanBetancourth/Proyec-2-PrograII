@@ -108,6 +108,18 @@
 		<Unit filename="C:/Users/rebec/Desktop/Project/Proyec-2-PrograII/src/Proyecto 2_rehhechho/Disease.h">
 			<Option target="Proyecto_2_rehhechho"/>
 		</Unit>
+		<Unit filename="C:/Users/rebec/Desktop/Project/Proyec-2-PrograII/src/Proyecto 2_rehhechho/JsonTransformer.cpp">
+			<Option target="Proyecto_2_rehhechho"/>
+		</Unit>
+		<Unit filename="C:/Users/rebec/Desktop/Project/Proyec-2-PrograII/src/Proyecto 2_rehhechho/JsonTransformer.h">
+			<Option target="Proyecto_2_rehhechho"/>
+		</Unit>
+		<Unit filename="C:/Users/rebec/Desktop/Project/Proyec-2-PrograII/src/Proyecto 2_rehhechho/JsonWriter.cpp">
+			<Option target="Proyecto_2_rehhechho"/>
+		</Unit>
+		<Unit filename="C:/Users/rebec/Desktop/Project/Proyec-2-PrograII/src/Proyecto 2_rehhechho/JsonWriter.h">
+			<Option target="Proyecto_2_rehhechho"/>
+		</Unit>
 		<Unit filename="C:/Users/rebec/Desktop/Project/Proyec-2-PrograII/src/Proyecto 2_rehhechho/Mediator.h">
 			<Option target="Proyecto_2_rehhechho"/>
 		</Unit>
@@ -121,6 +133,9 @@
 			<Option target="Proyecto_2_rehhechho"/>
 		</Unit>
 		<Unit filename="C:/Users/rebec/Desktop/Project/Proyec-2-PrograII/src/Proyecto 2_rehhechho/Patient.h">
+			<Option target="Proyecto_2_rehhechho"/>
+		</Unit>
+		<Unit filename="C:/Users/rebec/Desktop/Project/Proyec-2-PrograII/src/Proyecto 2_rehhechho/lib/json.hpp">
 			<Option target="Proyecto_2_rehhechho"/>
 		</Unit>
 		<Unit filename="C:/Users/rebec/Desktop/Project/Proyec-2-PrograII/src/Proyecto 2_rehhechho/main.cpp">

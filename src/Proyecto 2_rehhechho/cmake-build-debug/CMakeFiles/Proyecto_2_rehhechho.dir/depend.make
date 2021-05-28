@@ -16,6 +16,11 @@ CMakeFiles\Proyecto_2_rehhechho.dir\BasicComponent.cpp.obj: ..\Mediator.h
 CMakeFiles\Proyecto_2_rehhechho.dir\Disease.cpp.obj: ..\Disease.cpp
 CMakeFiles\Proyecto_2_rehhechho.dir\Disease.cpp.obj: ..\Disease.h
 
+CMakeFiles\Proyecto_2_rehhechho.dir\JsonWriter.cpp.obj: ..\lib\json.hpp
+CMakeFiles\Proyecto_2_rehhechho.dir\JsonWriter.cpp.obj: ..\ArrayTemplate.h
+CMakeFiles\Proyecto_2_rehhechho.dir\JsonWriter.cpp.obj: ..\JsonWriter.cpp
+CMakeFiles\Proyecto_2_rehhechho.dir\JsonWriter.cpp.obj: ..\JsonWriter.h
+
 CMakeFiles\Proyecto_2_rehhechho.dir\MediatorImplemented.cpp.obj: ..\Analyst.h
 CMakeFiles\Proyecto_2_rehhechho.dir\MediatorImplemented.cpp.obj: ..\ArrayTemplate.h
 CMakeFiles\Proyecto_2_rehhechho.dir\MediatorImplemented.cpp.obj: ..\BasicComponent.h
@@ -30,6 +35,10 @@ CMakeFiles\Proyecto_2_rehhechho.dir\Patient.cpp.obj: ..\Patient.h
 
 CMakeFiles\Proyecto_2_rehhechho.dir\main.cpp.obj: ..\ArrayTemplate.cpp
 CMakeFiles\Proyecto_2_rehhechho.dir\main.cpp.obj: ..\ArrayTemplate.h
+CMakeFiles\Proyecto_2_rehhechho.dir\main.cpp.obj: ..\Disease.h
+CMakeFiles\Proyecto_2_rehhechho.dir\main.cpp.obj: ..\JsonWriter.cpp
+CMakeFiles\Proyecto_2_rehhechho.dir\main.cpp.obj: ..\JsonWriter.h
 CMakeFiles\Proyecto_2_rehhechho.dir\main.cpp.obj: ..\Patient.h
+CMakeFiles\Proyecto_2_rehhechho.dir\main.cpp.obj: ..\lib\json.hpp
 CMakeFiles\Proyecto_2_rehhechho.dir\main.cpp.obj: ..\main.cpp
 

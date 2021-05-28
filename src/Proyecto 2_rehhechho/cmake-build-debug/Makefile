@@ -235,6 +235,60 @@ Disease.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Proyecto_2_rehhechho.dir\Disease.cpp.s
 .PHONY : Disease.cpp.s
 
+JsonTransformer.obj: JsonTransformer.cpp.obj
+
+.PHONY : JsonTransformer.obj
+
+# target to build an object file
+JsonTransformer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Proyecto_2_rehhechho.dir\JsonTransformer.cpp.obj
+.PHONY : JsonTransformer.cpp.obj
+
+JsonTransformer.i: JsonTransformer.cpp.i
+
+.PHONY : JsonTransformer.i
+
+# target to preprocess a source file
+JsonTransformer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Proyecto_2_rehhechho.dir\JsonTransformer.cpp.i
+.PHONY : JsonTransformer.cpp.i
+
+JsonTransformer.s: JsonTransformer.cpp.s
+
+.PHONY : JsonTransformer.s
+
+# target to generate assembly for a file
+JsonTransformer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Proyecto_2_rehhechho.dir\JsonTransformer.cpp.s
+.PHONY : JsonTransformer.cpp.s
+
+JsonWriter.obj: JsonWriter.cpp.obj
+
+.PHONY : JsonWriter.obj
+
+# target to build an object file
+JsonWriter.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Proyecto_2_rehhechho.dir\JsonWriter.cpp.obj
+.PHONY : JsonWriter.cpp.obj
+
+JsonWriter.i: JsonWriter.cpp.i
+
+.PHONY : JsonWriter.i
+
+# target to preprocess a source file
+JsonWriter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Proyecto_2_rehhechho.dir\JsonWriter.cpp.i
+.PHONY : JsonWriter.cpp.i
+
+JsonWriter.s: JsonWriter.cpp.s
+
+.PHONY : JsonWriter.s
+
+# target to generate assembly for a file
+JsonWriter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Proyecto_2_rehhechho.dir\JsonWriter.cpp.s
+.PHONY : JsonWriter.cpp.s
+
 MediatorImplemented.obj: MediatorImplemented.cpp.obj
 
 .PHONY : MediatorImplemented.obj
@@ -337,6 +391,12 @@ help:
 	@echo ... Disease.obj
 	@echo ... Disease.i
 	@echo ... Disease.s
+	@echo ... JsonTransformer.obj
+	@echo ... JsonTransformer.i
+	@echo ... JsonTransformer.s
+	@echo ... JsonWriter.obj
+	@echo ... JsonWriter.i
+	@echo ... JsonWriter.s
 	@echo ... MediatorImplemented.obj
 	@echo ... MediatorImplemented.i
 	@echo ... MediatorImplemented.s
