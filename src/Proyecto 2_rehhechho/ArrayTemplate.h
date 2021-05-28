@@ -5,7 +5,6 @@
 #ifndef PROYECTO_2_REHHECHHO_ARRAYTEMPLATE_H
 #define PROYECTO_2_REHHECHHO_ARRAYTEMPLATE_H
 
-
 #include<iostream>
 #include<sstream>
 #include<string>

@@ -8,7 +8,7 @@
 #include "Mediator.h"
 #include "Patient.h"
 #include "Disease.h"
-#include "ArrayTemplate.h"
+//#include "ArrayTemplate.cpp"
 #include "Analyst.h"
 
 class MediatorImplemented: public Mediator {

@@ -5,7 +5,7 @@
 #ifndef PROYECTO_2_REHHECHHO_SAVER_LOADER_H
 #define PROYECTO_2_REHHECHHO_SAVER_LOADER_H
 #include "Patient.h"
-#include "ArrayTemplate.h"
+#include "ArrayTemplate.cpp"
 #include <fstream>
 #include <sstream>
 

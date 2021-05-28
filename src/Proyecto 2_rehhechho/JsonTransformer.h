@@ -7,22 +7,23 @@
 #include"lib/json.hpp"
 #include"Patient.h"
 #include"Disease.h"
-#include"ArrayTemplate.h"
-#include<iostream>
 using nlohmann::json;
 
-// string name;
-//    string ADNsequence;
-
-void to_json(json& j, const Disease& d){
+//funciones globales
+void to_json(json& j, const Patient& p){
     j = json{
-        {"Name"},{d.getName()},
-        {"ADN sequence"},{d.getADNsequence()}
+            { "Name", p.getName() },
+            { "Id", p.getId() },
+            { "ADN sequence", p.getADNsequence() },
+            //TODO
+            //{"Diseases array"}, {p.toStringDeseases()}
     };
 }
 
-void from_json(){
-
+void from_json(const json& j, const Disease& d){
+    //d.getName() = j.at("Name").get<string>();
+    //d.getADNsequence() = j.at("ADN sequence").get<string>();
 }
+
 
 #endif //JSON_HPP_JSONTRANSFORMER_H

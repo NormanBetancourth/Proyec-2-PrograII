@@ -6,20 +6,21 @@
 #define JSON_HPP_JSONWRITER_H
 #include<fstream>
 #include <lib/json.hpp>
-#include"ArrayTemplate.h"
+#include "IWriter.h"
+
 using nlohmann::json;
 
 template<class T>
-class JsonWriter {
+class JsonWriter:public IWriter<T> {
 private:
     string filePath;
     json jsonModel;
 public:
     JsonWriter(string filePath);
     ~JsonWriter();
-    void write(T element);
-    void writeAll(ArrayTemplate<T>* elements);
-    void close();
+    void write(T element) override;
+    void writeAll(ArrayTemplate<T>* elements) override;
+    void close() override;
 };
 
 

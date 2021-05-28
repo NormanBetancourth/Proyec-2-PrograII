@@ -1,8 +1,6 @@
 //
 // Created by norma on 23/5/2021.
 //
-#include"ArrayTemplate.cpp"
-#include "Patient.h"
 #include"Disease.h"
 #include "lib/json.hpp"
 #include "Saver_Loader.h"

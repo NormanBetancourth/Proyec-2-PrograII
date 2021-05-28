@@ -16,8 +16,9 @@ JsonWriter<T>::~JsonWriter() {
 
 template<class T>
 void JsonWriter<T>::write(T element) {
-    json jsonElemen = element;
-    this->jsonModel.push_back(jsonElemen);
+    //estrategia de conversion
+    json jsonElement = element; // array / object / simple value (?)
+    this->jsonModel.push_back(jsonElement);
 }
 
 template<class T>
@@ -34,6 +35,6 @@ void JsonWriter<T>::close() {
     if(!exit.good()){
         throw invalid_argument("The file path is not valid");
     }
-    exit << jsonModel;
+    exit << jsonModel; //serialización
 }
 
