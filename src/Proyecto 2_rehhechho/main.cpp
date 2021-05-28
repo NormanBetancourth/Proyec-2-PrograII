@@ -5,13 +5,17 @@
 #include "Patient.h"
 #include"Disease.h"
 #include "lib/json.hpp"
-#include"JsonWriter.cpp"
+#include "Saver_Loader.h"
 
 using nlohmann::json;
 
 int main() {
     //JsonWriter<Disease>* writer = new JsonWriter<Disease>("ListaSecuenciaEnfermedad.json");
 
+    ArrayTemplate<Patient>*P= new ArrayTemplate<Patient>(100);
+
+    P=Saver_Loader::PatientLoader();
+    cout<<P->toString();
 
     /**
     string *dis = nullptr;

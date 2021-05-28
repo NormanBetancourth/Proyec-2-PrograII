@@ -17,7 +17,7 @@ JsonWriter<T>::~JsonWriter() {
 template<class T>
 void JsonWriter<T>::write(T element) {
     json jsonElemen = element;
-    this->jsonModel.push_back(jsonElement);
+    this->jsonModel.push_back(jsonElemen);
 }
 
 template<class T>
