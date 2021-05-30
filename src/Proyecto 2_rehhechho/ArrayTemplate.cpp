@@ -4,6 +4,7 @@
 
 #include "ArrayTemplate.h"
 //SIZE1 para pacientes, SIZE2 para enfermedades
+//TODO revisar size y num
 template<class T>
 ArrayTemplate<T>::ArrayTemplate(int opt) {
     size = (opt > 0) ? SIZE1 : SIZE2;
@@ -46,7 +47,6 @@ void ArrayTemplate<T>::moveToLeft(int position) {
     for (int i = position; i < getNum(); i++) {
         vector[i] = vector[i + 1];
     }
-    vector[getNum() - 1] = nullptr;
 }
 
 template<class T>

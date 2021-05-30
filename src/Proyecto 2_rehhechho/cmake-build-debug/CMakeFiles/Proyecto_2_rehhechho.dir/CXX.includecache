@@ -6,7 +6,41 @@
 
 #IncludeRegexTransform: 
 
-../lib/json.hpp
+../ArrayTemplate.h
+iostream
+-
+sstream
+-
+string
+-
+
+C:/Users/rebec/Desktop/p/Proyec-2-PrograII/src/Proyecto 2_rehhechho/ArrayTemplate.cpp
+ArrayTemplate.h
+C:/Users/rebec/Desktop/p/Proyec-2-PrograII/src/Proyecto 2_rehhechho/ArrayTemplate.h
+
+C:/Users/rebec/Desktop/p/Proyec-2-PrograII/src/Proyecto 2_rehhechho/FileManager.cpp
+FileManager.h
+C:/Users/rebec/Desktop/p/Proyec-2-PrograII/src/Proyecto 2_rehhechho/FileManager.h
+string
+-
+fstream
+-
+
+C:/Users/rebec/Desktop/p/Proyec-2-PrograII/src/Proyecto 2_rehhechho/FileManager.h
+lib/nlohmann/json.hpp
+C:/Users/rebec/Desktop/p/Proyec-2-PrograII/src/Proyecto 2_rehhechho/lib/nlohmann/json.hpp
+Patient.h
+C:/Users/rebec/Desktop/p/Proyec-2-PrograII/src/Proyecto 2_rehhechho/Patient.h
+ArrayTemplate.cpp
+C:/Users/rebec/Desktop/p/Proyec-2-PrograII/src/Proyecto 2_rehhechho/ArrayTemplate.cpp
+
+C:/Users/rebec/Desktop/p/Proyec-2-PrograII/src/Proyecto 2_rehhechho/Patient.h
+iostream
+-
+sstream
+-
+
+C:/Users/rebec/Desktop/p/Proyec-2-PrograII/src/Proyecto 2_rehhechho/lib/nlohmann/json.hpp
 algorithm
 -
 cstddef
@@ -329,32 +363,6 @@ utility
 -
 vector
 -
-
-C:/Users/rebec/Desktop/p/Proyec-2-PrograII/src/Proyecto 2_rehhechho/ArrayTemplate.cpp
 ArrayTemplate.h
-C:/Users/rebec/Desktop/p/Proyec-2-PrograII/src/Proyecto 2_rehhechho/ArrayTemplate.h
-
-C:/Users/rebec/Desktop/p/Proyec-2-PrograII/src/Proyecto 2_rehhechho/ArrayTemplate.h
-iostream
 -
-sstream
--
-string
--
-
-C:/Users/rebec/Desktop/p/Proyec-2-PrograII/src/Proyecto 2_rehhechho/IReader.h
-ArrayTemplate.cpp
-C:/Users/rebec/Desktop/p/Proyec-2-PrograII/src/Proyecto 2_rehhechho/ArrayTemplate.cpp
-
-C:/Users/rebec/Desktop/p/Proyec-2-PrograII/src/Proyecto 2_rehhechho/JsonReader.cpp
-JsonReader.h
-C:/Users/rebec/Desktop/p/Proyec-2-PrograII/src/Proyecto 2_rehhechho/JsonReader.h
-
-C:/Users/rebec/Desktop/p/Proyec-2-PrograII/src/Proyecto 2_rehhechho/JsonReader.h
-fstream
--
-lib/json.hpp
--
-IReader.h
-C:/Users/rebec/Desktop/p/Proyec-2-PrograII/src/Proyecto 2_rehhechho/IReader.h
 

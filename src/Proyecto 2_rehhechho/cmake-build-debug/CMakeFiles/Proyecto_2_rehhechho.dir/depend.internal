@@ -16,26 +16,13 @@ CMakeFiles/Proyecto_2_rehhechho.dir/BasicComponent.cpp.obj
 CMakeFiles/Proyecto_2_rehhechho.dir/Disease.cpp.obj
  C:/Users/rebec/Desktop/p/Proyec-2-PrograII/src/Proyecto 2_rehhechho/Disease.cpp
  C:/Users/rebec/Desktop/p/Proyec-2-PrograII/src/Proyecto 2_rehhechho/Disease.h
-CMakeFiles/Proyecto_2_rehhechho.dir/JsonReader.cpp.obj
- ../lib/json.hpp
+CMakeFiles/Proyecto_2_rehhechho.dir/FileManager.cpp.obj
+ ../ArrayTemplate.h
  C:/Users/rebec/Desktop/p/Proyec-2-PrograII/src/Proyecto 2_rehhechho/ArrayTemplate.cpp
- C:/Users/rebec/Desktop/p/Proyec-2-PrograII/src/Proyecto 2_rehhechho/ArrayTemplate.h
- C:/Users/rebec/Desktop/p/Proyec-2-PrograII/src/Proyecto 2_rehhechho/IReader.h
- C:/Users/rebec/Desktop/p/Proyec-2-PrograII/src/Proyecto 2_rehhechho/JsonReader.cpp
- C:/Users/rebec/Desktop/p/Proyec-2-PrograII/src/Proyecto 2_rehhechho/JsonReader.h
-CMakeFiles/Proyecto_2_rehhechho.dir/JsonTransformer.cpp.obj
- C:/Users/rebec/Desktop/p/Proyec-2-PrograII/src/Proyecto 2_rehhechho/Disease.h
- C:/Users/rebec/Desktop/p/Proyec-2-PrograII/src/Proyecto 2_rehhechho/JsonTransformer.cpp
- C:/Users/rebec/Desktop/p/Proyec-2-PrograII/src/Proyecto 2_rehhechho/JsonTransformer.h
+ C:/Users/rebec/Desktop/p/Proyec-2-PrograII/src/Proyecto 2_rehhechho/FileManager.cpp
+ C:/Users/rebec/Desktop/p/Proyec-2-PrograII/src/Proyecto 2_rehhechho/FileManager.h
  C:/Users/rebec/Desktop/p/Proyec-2-PrograII/src/Proyecto 2_rehhechho/Patient.h
- C:/Users/rebec/Desktop/p/Proyec-2-PrograII/src/Proyecto 2_rehhechho/lib/json.hpp
-CMakeFiles/Proyecto_2_rehhechho.dir/JsonWriter.cpp.obj
- ../lib/json.hpp
- C:/Users/rebec/Desktop/p/Proyec-2-PrograII/src/Proyecto 2_rehhechho/ArrayTemplate.cpp
- C:/Users/rebec/Desktop/p/Proyec-2-PrograII/src/Proyecto 2_rehhechho/ArrayTemplate.h
- C:/Users/rebec/Desktop/p/Proyec-2-PrograII/src/Proyecto 2_rehhechho/IWriter.h
- C:/Users/rebec/Desktop/p/Proyec-2-PrograII/src/Proyecto 2_rehhechho/JsonWriter.cpp
- C:/Users/rebec/Desktop/p/Proyec-2-PrograII/src/Proyecto 2_rehhechho/JsonWriter.h
+ C:/Users/rebec/Desktop/p/Proyec-2-PrograII/src/Proyecto 2_rehhechho/lib/nlohmann/json.hpp
 CMakeFiles/Proyecto_2_rehhechho.dir/MediatorImplemented.cpp.obj
  C:/Users/rebec/Desktop/p/Proyec-2-PrograII/src/Proyecto 2_rehhechho/Analyst.h
  C:/Users/rebec/Desktop/p/Proyec-2-PrograII/src/Proyecto 2_rehhechho/BasicComponent.h
@@ -54,10 +41,7 @@ CMakeFiles/Proyecto_2_rehhechho.dir/Saver_Loader.cpp.obj
  C:/Users/rebec/Desktop/p/Proyec-2-PrograII/src/Proyecto 2_rehhechho/Saver_Loader.cpp
  C:/Users/rebec/Desktop/p/Proyec-2-PrograII/src/Proyecto 2_rehhechho/Saver_Loader.h
 CMakeFiles/Proyecto_2_rehhechho.dir/main.cpp.obj
- C:/Users/rebec/Desktop/p/Proyec-2-PrograII/src/Proyecto 2_rehhechho/ArrayTemplate.cpp
- C:/Users/rebec/Desktop/p/Proyec-2-PrograII/src/Proyecto 2_rehhechho/ArrayTemplate.h
- C:/Users/rebec/Desktop/p/Proyec-2-PrograII/src/Proyecto 2_rehhechho/Disease.h
+ ../ArrayTemplate.h
  C:/Users/rebec/Desktop/p/Proyec-2-PrograII/src/Proyecto 2_rehhechho/Patient.h
- C:/Users/rebec/Desktop/p/Proyec-2-PrograII/src/Proyecto 2_rehhechho/Saver_Loader.h
- C:/Users/rebec/Desktop/p/Proyec-2-PrograII/src/Proyecto 2_rehhechho/lib/json.hpp
+ C:/Users/rebec/Desktop/p/Proyec-2-PrograII/src/Proyecto 2_rehhechho/lib/nlohmann/json.hpp
  C:/Users/rebec/Desktop/p/Proyec-2-PrograII/src/Proyecto 2_rehhechho/main.cpp

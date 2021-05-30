@@ -3,8 +3,8 @@
 //
 #include "Patient.h"
 
-Patient::Patient(const string &name, const string &id, const string &ADNsequence):
-        name(name),id(id), ADNsequence(ADNsequence){
+Patient::Patient(const string &name, const string &id, const string &ADNsequence, string *diseaseArray):
+        name(name),id(id), ADNsequence(ADNsequence), diseaseArray(diseaseArray){
     diseaseArray = new string[DISEASESIZE];
     for(int i =0; i < DISEASESIZE; i++) {
         diseaseArray[i] = "";

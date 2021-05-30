@@ -108,28 +108,10 @@
 		<Unit filename="C:/Users/rebec/Desktop/p/Proyec-2-PrograII/src/Proyecto 2_rehhechho/Disease.h">
 			<Option target="Proyecto_2_rehhechho"/>
 		</Unit>
-		<Unit filename="C:/Users/rebec/Desktop/p/Proyec-2-PrograII/src/Proyecto 2_rehhechho/IReader.h">
+		<Unit filename="C:/Users/rebec/Desktop/p/Proyec-2-PrograII/src/Proyecto 2_rehhechho/FileManager.cpp">
 			<Option target="Proyecto_2_rehhechho"/>
 		</Unit>
-		<Unit filename="C:/Users/rebec/Desktop/p/Proyec-2-PrograII/src/Proyecto 2_rehhechho/IWriter.h">
-			<Option target="Proyecto_2_rehhechho"/>
-		</Unit>
-		<Unit filename="C:/Users/rebec/Desktop/p/Proyec-2-PrograII/src/Proyecto 2_rehhechho/JsonReader.cpp">
-			<Option target="Proyecto_2_rehhechho"/>
-		</Unit>
-		<Unit filename="C:/Users/rebec/Desktop/p/Proyec-2-PrograII/src/Proyecto 2_rehhechho/JsonReader.h">
-			<Option target="Proyecto_2_rehhechho"/>
-		</Unit>
-		<Unit filename="C:/Users/rebec/Desktop/p/Proyec-2-PrograII/src/Proyecto 2_rehhechho/JsonTransformer.cpp">
-			<Option target="Proyecto_2_rehhechho"/>
-		</Unit>
-		<Unit filename="C:/Users/rebec/Desktop/p/Proyec-2-PrograII/src/Proyecto 2_rehhechho/JsonTransformer.h">
-			<Option target="Proyecto_2_rehhechho"/>
-		</Unit>
-		<Unit filename="C:/Users/rebec/Desktop/p/Proyec-2-PrograII/src/Proyecto 2_rehhechho/JsonWriter.cpp">
-			<Option target="Proyecto_2_rehhechho"/>
-		</Unit>
-		<Unit filename="C:/Users/rebec/Desktop/p/Proyec-2-PrograII/src/Proyecto 2_rehhechho/JsonWriter.h">
+		<Unit filename="C:/Users/rebec/Desktop/p/Proyec-2-PrograII/src/Proyecto 2_rehhechho/FileManager.h">
 			<Option target="Proyecto_2_rehhechho"/>
 		</Unit>
 		<Unit filename="C:/Users/rebec/Desktop/p/Proyec-2-PrograII/src/Proyecto 2_rehhechho/Mediator.h">
@@ -153,7 +135,7 @@
 		<Unit filename="C:/Users/rebec/Desktop/p/Proyec-2-PrograII/src/Proyecto 2_rehhechho/Saver_Loader.h">
 			<Option target="Proyecto_2_rehhechho"/>
 		</Unit>
-		<Unit filename="C:/Users/rebec/Desktop/p/Proyec-2-PrograII/src/Proyecto 2_rehhechho/lib/json.hpp">
+		<Unit filename="C:/Users/rebec/Desktop/p/Proyec-2-PrograII/src/Proyecto 2_rehhechho/lib/nlohmann/json.hpp">
 			<Option target="Proyecto_2_rehhechho"/>
 		</Unit>
 		<Unit filename="C:/Users/rebec/Desktop/p/Proyec-2-PrograII/src/Proyecto 2_rehhechho/main.cpp">

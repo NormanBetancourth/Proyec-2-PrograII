@@ -21,7 +21,7 @@ private:
 
 public:
     Patient(const string & = "Undefined", const string & = "Undefined",
-            const string & = "Undefined");
+            const string & = "Undefined", string* = nullptr);
     virtual ~Patient();
 
     const string &getName() const;

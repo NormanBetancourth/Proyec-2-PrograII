@@ -235,86 +235,32 @@ Disease.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Proyecto_2_rehhechho.dir\Disease.cpp.s
 .PHONY : Disease.cpp.s
 
-JsonReader.obj: JsonReader.cpp.obj
+FileManager.obj: FileManager.cpp.obj
 
-.PHONY : JsonReader.obj
-
-# target to build an object file
-JsonReader.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Proyecto_2_rehhechho.dir\JsonReader.cpp.obj
-.PHONY : JsonReader.cpp.obj
-
-JsonReader.i: JsonReader.cpp.i
-
-.PHONY : JsonReader.i
-
-# target to preprocess a source file
-JsonReader.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Proyecto_2_rehhechho.dir\JsonReader.cpp.i
-.PHONY : JsonReader.cpp.i
-
-JsonReader.s: JsonReader.cpp.s
-
-.PHONY : JsonReader.s
-
-# target to generate assembly for a file
-JsonReader.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Proyecto_2_rehhechho.dir\JsonReader.cpp.s
-.PHONY : JsonReader.cpp.s
-
-JsonTransformer.obj: JsonTransformer.cpp.obj
-
-.PHONY : JsonTransformer.obj
+.PHONY : FileManager.obj
 
 # target to build an object file
-JsonTransformer.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Proyecto_2_rehhechho.dir\JsonTransformer.cpp.obj
-.PHONY : JsonTransformer.cpp.obj
+FileManager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Proyecto_2_rehhechho.dir\FileManager.cpp.obj
+.PHONY : FileManager.cpp.obj
 
-JsonTransformer.i: JsonTransformer.cpp.i
+FileManager.i: FileManager.cpp.i
 
-.PHONY : JsonTransformer.i
-
-# target to preprocess a source file
-JsonTransformer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Proyecto_2_rehhechho.dir\JsonTransformer.cpp.i
-.PHONY : JsonTransformer.cpp.i
-
-JsonTransformer.s: JsonTransformer.cpp.s
-
-.PHONY : JsonTransformer.s
-
-# target to generate assembly for a file
-JsonTransformer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Proyecto_2_rehhechho.dir\JsonTransformer.cpp.s
-.PHONY : JsonTransformer.cpp.s
-
-JsonWriter.obj: JsonWriter.cpp.obj
-
-.PHONY : JsonWriter.obj
-
-# target to build an object file
-JsonWriter.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Proyecto_2_rehhechho.dir\JsonWriter.cpp.obj
-.PHONY : JsonWriter.cpp.obj
-
-JsonWriter.i: JsonWriter.cpp.i
-
-.PHONY : JsonWriter.i
+.PHONY : FileManager.i
 
 # target to preprocess a source file
-JsonWriter.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Proyecto_2_rehhechho.dir\JsonWriter.cpp.i
-.PHONY : JsonWriter.cpp.i
+FileManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Proyecto_2_rehhechho.dir\FileManager.cpp.i
+.PHONY : FileManager.cpp.i
 
-JsonWriter.s: JsonWriter.cpp.s
+FileManager.s: FileManager.cpp.s
 
-.PHONY : JsonWriter.s
+.PHONY : FileManager.s
 
 # target to generate assembly for a file
-JsonWriter.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Proyecto_2_rehhechho.dir\JsonWriter.cpp.s
-.PHONY : JsonWriter.cpp.s
+FileManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Proyecto_2_rehhechho.dir\FileManager.cpp.s
+.PHONY : FileManager.cpp.s
 
 MediatorImplemented.obj: MediatorImplemented.cpp.obj
 
@@ -445,15 +391,9 @@ help:
 	@echo ... Disease.obj
 	@echo ... Disease.i
 	@echo ... Disease.s
-	@echo ... JsonReader.obj
-	@echo ... JsonReader.i
-	@echo ... JsonReader.s
-	@echo ... JsonTransformer.obj
-	@echo ... JsonTransformer.i
-	@echo ... JsonTransformer.s
-	@echo ... JsonWriter.obj
-	@echo ... JsonWriter.i
-	@echo ... JsonWriter.s
+	@echo ... FileManager.obj
+	@echo ... FileManager.i
+	@echo ... FileManager.s
 	@echo ... MediatorImplemented.obj
 	@echo ... MediatorImplemented.i
 	@echo ... MediatorImplemented.s

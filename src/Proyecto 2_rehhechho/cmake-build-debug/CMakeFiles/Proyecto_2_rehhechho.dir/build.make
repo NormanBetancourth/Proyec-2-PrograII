@@ -194,47 +194,9 @@ CMakeFiles\Proyecto_2_rehhechho.dir\BasicComponent.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Proyecto_2_rehhechho.dir\BasicComponent.cpp.s /c "C:\Users\rebec\Desktop\p\Proyec-2-PrograII\src\Proyecto 2_rehhechho\BasicComponent.cpp"
 <<
 
-CMakeFiles\Proyecto_2_rehhechho.dir\JsonWriter.cpp.obj: CMakeFiles\Proyecto_2_rehhechho.dir\flags.make
-CMakeFiles\Proyecto_2_rehhechho.dir\JsonWriter.cpp.obj: ..\JsonWriter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\rebec\Desktop\p\Proyec-2-PrograII\src\Proyecto 2_rehhechho\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Proyecto_2_rehhechho.dir/JsonWriter.cpp.obj"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Proyecto_2_rehhechho.dir\JsonWriter.cpp.obj /FdCMakeFiles\Proyecto_2_rehhechho.dir\ /FS -c "C:\Users\rebec\Desktop\p\Proyec-2-PrograII\src\Proyecto 2_rehhechho\JsonWriter.cpp"
-<<
-
-CMakeFiles\Proyecto_2_rehhechho.dir\JsonWriter.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto_2_rehhechho.dir/JsonWriter.cpp.i"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe > CMakeFiles\Proyecto_2_rehhechho.dir\JsonWriter.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\rebec\Desktop\p\Proyec-2-PrograII\src\Proyecto 2_rehhechho\JsonWriter.cpp"
-<<
-
-CMakeFiles\Proyecto_2_rehhechho.dir\JsonWriter.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto_2_rehhechho.dir/JsonWriter.cpp.s"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Proyecto_2_rehhechho.dir\JsonWriter.cpp.s /c "C:\Users\rebec\Desktop\p\Proyec-2-PrograII\src\Proyecto 2_rehhechho\JsonWriter.cpp"
-<<
-
-CMakeFiles\Proyecto_2_rehhechho.dir\JsonTransformer.cpp.obj: CMakeFiles\Proyecto_2_rehhechho.dir\flags.make
-CMakeFiles\Proyecto_2_rehhechho.dir\JsonTransformer.cpp.obj: ..\JsonTransformer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\rebec\Desktop\p\Proyec-2-PrograII\src\Proyecto 2_rehhechho\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Proyecto_2_rehhechho.dir/JsonTransformer.cpp.obj"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Proyecto_2_rehhechho.dir\JsonTransformer.cpp.obj /FdCMakeFiles\Proyecto_2_rehhechho.dir\ /FS -c "C:\Users\rebec\Desktop\p\Proyec-2-PrograII\src\Proyecto 2_rehhechho\JsonTransformer.cpp"
-<<
-
-CMakeFiles\Proyecto_2_rehhechho.dir\JsonTransformer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto_2_rehhechho.dir/JsonTransformer.cpp.i"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe > CMakeFiles\Proyecto_2_rehhechho.dir\JsonTransformer.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\rebec\Desktop\p\Proyec-2-PrograII\src\Proyecto 2_rehhechho\JsonTransformer.cpp"
-<<
-
-CMakeFiles\Proyecto_2_rehhechho.dir\JsonTransformer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto_2_rehhechho.dir/JsonTransformer.cpp.s"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Proyecto_2_rehhechho.dir\JsonTransformer.cpp.s /c "C:\Users\rebec\Desktop\p\Proyec-2-PrograII\src\Proyecto 2_rehhechho\JsonTransformer.cpp"
-<<
-
 CMakeFiles\Proyecto_2_rehhechho.dir\Saver_Loader.cpp.obj: CMakeFiles\Proyecto_2_rehhechho.dir\flags.make
 CMakeFiles\Proyecto_2_rehhechho.dir\Saver_Loader.cpp.obj: ..\Saver_Loader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\rebec\Desktop\p\Proyec-2-PrograII\src\Proyecto 2_rehhechho\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Proyecto_2_rehhechho.dir/Saver_Loader.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\rebec\Desktop\p\Proyec-2-PrograII\src\Proyecto 2_rehhechho\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Proyecto_2_rehhechho.dir/Saver_Loader.cpp.obj"
 	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Proyecto_2_rehhechho.dir\Saver_Loader.cpp.obj /FdCMakeFiles\Proyecto_2_rehhechho.dir\ /FS -c "C:\Users\rebec\Desktop\p\Proyec-2-PrograII\src\Proyecto 2_rehhechho\Saver_Loader.cpp"
 <<
@@ -251,23 +213,23 @@ CMakeFiles\Proyecto_2_rehhechho.dir\Saver_Loader.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Proyecto_2_rehhechho.dir\Saver_Loader.cpp.s /c "C:\Users\rebec\Desktop\p\Proyec-2-PrograII\src\Proyecto 2_rehhechho\Saver_Loader.cpp"
 <<
 
-CMakeFiles\Proyecto_2_rehhechho.dir\JsonReader.cpp.obj: CMakeFiles\Proyecto_2_rehhechho.dir\flags.make
-CMakeFiles\Proyecto_2_rehhechho.dir\JsonReader.cpp.obj: ..\JsonReader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\rebec\Desktop\p\Proyec-2-PrograII\src\Proyecto 2_rehhechho\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Proyecto_2_rehhechho.dir/JsonReader.cpp.obj"
+CMakeFiles\Proyecto_2_rehhechho.dir\FileManager.cpp.obj: CMakeFiles\Proyecto_2_rehhechho.dir\flags.make
+CMakeFiles\Proyecto_2_rehhechho.dir\FileManager.cpp.obj: ..\FileManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\rebec\Desktop\p\Proyec-2-PrograII\src\Proyecto 2_rehhechho\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Proyecto_2_rehhechho.dir/FileManager.cpp.obj"
 	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Proyecto_2_rehhechho.dir\JsonReader.cpp.obj /FdCMakeFiles\Proyecto_2_rehhechho.dir\ /FS -c "C:\Users\rebec\Desktop\p\Proyec-2-PrograII\src\Proyecto 2_rehhechho\JsonReader.cpp"
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Proyecto_2_rehhechho.dir\FileManager.cpp.obj /FdCMakeFiles\Proyecto_2_rehhechho.dir\ /FS -c "C:\Users\rebec\Desktop\p\Proyec-2-PrograII\src\Proyecto 2_rehhechho\FileManager.cpp"
 <<
 
-CMakeFiles\Proyecto_2_rehhechho.dir\JsonReader.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto_2_rehhechho.dir/JsonReader.cpp.i"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe > CMakeFiles\Proyecto_2_rehhechho.dir\JsonReader.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\rebec\Desktop\p\Proyec-2-PrograII\src\Proyecto 2_rehhechho\JsonReader.cpp"
+CMakeFiles\Proyecto_2_rehhechho.dir\FileManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto_2_rehhechho.dir/FileManager.cpp.i"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe > CMakeFiles\Proyecto_2_rehhechho.dir\FileManager.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\rebec\Desktop\p\Proyec-2-PrograII\src\Proyecto 2_rehhechho\FileManager.cpp"
 <<
 
-CMakeFiles\Proyecto_2_rehhechho.dir\JsonReader.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto_2_rehhechho.dir/JsonReader.cpp.s"
+CMakeFiles\Proyecto_2_rehhechho.dir\FileManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto_2_rehhechho.dir/FileManager.cpp.s"
 	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Proyecto_2_rehhechho.dir\JsonReader.cpp.s /c "C:\Users\rebec\Desktop\p\Proyec-2-PrograII\src\Proyecto 2_rehhechho\JsonReader.cpp"
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Proyecto_2_rehhechho.dir\FileManager.cpp.s /c "C:\Users\rebec\Desktop\p\Proyec-2-PrograII\src\Proyecto 2_rehhechho\FileManager.cpp"
 <<
 
 # Object files for target Proyecto_2_rehhechho
@@ -279,10 +241,8 @@ Proyecto_2_rehhechho_OBJECTS = \
 "CMakeFiles\Proyecto_2_rehhechho.dir\MediatorImplemented.cpp.obj" \
 "CMakeFiles\Proyecto_2_rehhechho.dir\Analyst.cpp.obj" \
 "CMakeFiles\Proyecto_2_rehhechho.dir\BasicComponent.cpp.obj" \
-"CMakeFiles\Proyecto_2_rehhechho.dir\JsonWriter.cpp.obj" \
-"CMakeFiles\Proyecto_2_rehhechho.dir\JsonTransformer.cpp.obj" \
 "CMakeFiles\Proyecto_2_rehhechho.dir\Saver_Loader.cpp.obj" \
-"CMakeFiles\Proyecto_2_rehhechho.dir\JsonReader.cpp.obj"
+"CMakeFiles\Proyecto_2_rehhechho.dir\FileManager.cpp.obj"
 
 # External object files for target Proyecto_2_rehhechho
 Proyecto_2_rehhechho_EXTERNAL_OBJECTS =
@@ -294,13 +254,11 @@ Proyecto_2_rehhechho.exe: CMakeFiles\Proyecto_2_rehhechho.dir\main.cpp.obj
 Proyecto_2_rehhechho.exe: CMakeFiles\Proyecto_2_rehhechho.dir\MediatorImplemented.cpp.obj
 Proyecto_2_rehhechho.exe: CMakeFiles\Proyecto_2_rehhechho.dir\Analyst.cpp.obj
 Proyecto_2_rehhechho.exe: CMakeFiles\Proyecto_2_rehhechho.dir\BasicComponent.cpp.obj
-Proyecto_2_rehhechho.exe: CMakeFiles\Proyecto_2_rehhechho.dir\JsonWriter.cpp.obj
-Proyecto_2_rehhechho.exe: CMakeFiles\Proyecto_2_rehhechho.dir\JsonTransformer.cpp.obj
 Proyecto_2_rehhechho.exe: CMakeFiles\Proyecto_2_rehhechho.dir\Saver_Loader.cpp.obj
-Proyecto_2_rehhechho.exe: CMakeFiles\Proyecto_2_rehhechho.dir\JsonReader.cpp.obj
+Proyecto_2_rehhechho.exe: CMakeFiles\Proyecto_2_rehhechho.dir\FileManager.cpp.obj
 Proyecto_2_rehhechho.exe: CMakeFiles\Proyecto_2_rehhechho.dir\build.make
 Proyecto_2_rehhechho.exe: CMakeFiles\Proyecto_2_rehhechho.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\rebec\Desktop\p\Proyec-2-PrograII\src\Proyecto 2_rehhechho\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable Proyecto_2_rehhechho.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\rebec\Desktop\p\Proyec-2-PrograII\src\Proyecto 2_rehhechho\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable Proyecto_2_rehhechho.exe"
 	"C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\Proyecto_2_rehhechho.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\Proyecto_2_rehhechho.dir\objects1.rsp @<<
  /out:Proyecto_2_rehhechho.exe /implib:Proyecto_2_rehhechho.lib /pdb:"C:\Users\rebec\Desktop\p\Proyec-2-PrograII\src\Proyecto 2_rehhechho\cmake-build-debug\Proyecto_2_rehhechho.pdb" /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

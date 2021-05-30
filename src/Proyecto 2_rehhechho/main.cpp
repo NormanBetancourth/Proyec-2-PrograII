@@ -1,21 +1,26 @@
 //
 // Created by norma on 23/5/2021.
 //
-#include"Disease.h"
-#include "lib/json.hpp"
-#include "Saver_Loader.h"
-
+#include "lib/nlohmann/json.hpp"
+#include"Patient.h"
+//#include "Saver_Loader.h"
 using nlohmann::json;
 
 int main() {
-    //JsonWriter<Disease>* writer = new JsonWriter<Disease>("ListaSecuenciaEnfermedad.json");
+    auto* p1 = new Patient{"Rebe", "123", "ABC"};
+    auto* p2 = new Patient{"Norman", "456", "DEF"};
 
+
+
+    delete p1;
+    delete p2;
+
+
+    /**
     ArrayTemplate<Patient>*P= new ArrayTemplate<Patient>(100);
-
     P=Saver_Loader::PatientLoader();
     cout<<P->toString();
 
-    /**
     string *dis = nullptr;
     dis = new string[5];
 
