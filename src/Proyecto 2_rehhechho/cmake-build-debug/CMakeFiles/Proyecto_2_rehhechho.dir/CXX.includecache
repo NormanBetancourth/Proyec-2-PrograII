@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/norma/source/repos/Progra II/Proyectos/Proyec-2-PrograII/src/Proyecto 2_rehhechho/ArrayTemplate.cpp
-ArrayTemplate.h
-C:/Users/norma/source/repos/Progra II/Proyectos/Proyec-2-PrograII/src/Proyecto 2_rehhechho/ArrayTemplate.h
-
 C:/Users/norma/source/repos/Progra II/Proyectos/Proyec-2-PrograII/src/Proyecto 2_rehhechho/ArrayTemplate.h
 iostream
 -
@@ -24,22 +20,6 @@ C:/Users/norma/source/repos/Progra II/Proyectos/Proyec-2-PrograII/src/Proyecto 2
 VectorIterator.h
 C:/Users/norma/source/repos/Progra II/Proyectos/Proyec-2-PrograII/src/Proyecto 2_rehhechho/VectorIterator.h
 
-C:/Users/norma/source/repos/Progra II/Proyectos/Proyec-2-PrograII/src/Proyecto 2_rehhechho/FileManager.cpp
-FileManager.h
-C:/Users/norma/source/repos/Progra II/Proyectos/Proyec-2-PrograII/src/Proyecto 2_rehhechho/FileManager.h
-string
--
-fstream
--
-
-C:/Users/norma/source/repos/Progra II/Proyectos/Proyec-2-PrograII/src/Proyecto 2_rehhechho/FileManager.h
-lib/nlohmann/json.hpp
-C:/Users/norma/source/repos/Progra II/Proyectos/Proyec-2-PrograII/src/Proyecto 2_rehhechho/lib/nlohmann/json.hpp
-Patient.h
-C:/Users/norma/source/repos/Progra II/Proyectos/Proyec-2-PrograII/src/Proyecto 2_rehhechho/Patient.h
-ArrayTemplate.cpp
-C:/Users/norma/source/repos/Progra II/Proyectos/Proyec-2-PrograII/src/Proyecto 2_rehhechho/ArrayTemplate.cpp
-
 C:/Users/norma/source/repos/Progra II/Proyectos/Proyec-2-PrograII/src/Proyecto 2_rehhechho/InterfazColeccion.h
 iostream
 -
@@ -50,20 +30,6 @@ C:/Users/norma/source/repos/Progra II/Proyectos/Proyec-2-PrograII/src/Proyecto 2
 
 C:/Users/norma/source/repos/Progra II/Proyectos/Proyec-2-PrograII/src/Proyecto 2_rehhechho/Patient.h
 iostream
--
-sstream
--
-
-C:/Users/norma/source/repos/Progra II/Proyectos/Proyec-2-PrograII/src/Proyecto 2_rehhechho/Saver_Loader.cpp
-Saver_Loader.h
-C:/Users/norma/source/repos/Progra II/Proyectos/Proyec-2-PrograII/src/Proyecto 2_rehhechho/Saver_Loader.h
-
-C:/Users/norma/source/repos/Progra II/Proyectos/Proyec-2-PrograII/src/Proyecto 2_rehhechho/Saver_Loader.h
-Patient.h
-C:/Users/norma/source/repos/Progra II/Proyectos/Proyec-2-PrograII/src/Proyecto 2_rehhechho/Patient.h
-ArrayTemplate.cpp
-C:/Users/norma/source/repos/Progra II/Proyectos/Proyec-2-PrograII/src/Proyecto 2_rehhechho/ArrayTemplate.cpp
-fstream
 -
 sstream
 -
@@ -399,4 +365,12 @@ utility
 -
 vector
 -
+
+C:/Users/norma/source/repos/Progra II/Proyectos/Proyec-2-PrograII/src/Proyecto 2_rehhechho/main.cpp
+lib/nlohmann/json.hpp
+C:/Users/norma/source/repos/Progra II/Proyectos/Proyec-2-PrograII/src/Proyecto 2_rehhechho/lib/nlohmann/json.hpp
+Patient.h
+C:/Users/norma/source/repos/Progra II/Proyectos/Proyec-2-PrograII/src/Proyecto 2_rehhechho/Patient.h
+ArrayTemplate.h
+C:/Users/norma/source/repos/Progra II/Proyectos/Proyec-2-PrograII/src/Proyecto 2_rehhechho/ArrayTemplate.h
 
