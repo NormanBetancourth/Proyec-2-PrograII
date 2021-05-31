@@ -11,6 +11,7 @@
 #include"InterfazColeccion.h"
 #include"InterfazIterator.h"
 #include"VectorIterator.h"
+
 //#include "Mediator.h"
 using namespace std;
 
@@ -27,7 +28,6 @@ private:
 public:
     ArrayTemplate(int);
     ~ArrayTemplate();
-
     void setNum(int);
     int getSize() const;
     int getNum() const;

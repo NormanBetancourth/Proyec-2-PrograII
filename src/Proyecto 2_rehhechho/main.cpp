@@ -4,9 +4,6 @@
 #include "lib/nlohmann/json.hpp"
 #include"Patient.h"
 #include "ArrayTemplate.h"
-#include "VectorIterator.h"
-#include "Patient.h"
-
 //#include "Saver_Loader.h"
 using nlohmann::json;
 
@@ -19,6 +16,13 @@ int main() {
     Patient *p5 =new Patient("rebe", "5", "asdsdasd");
 
     ArrayTemplate<Patient>* Array = new ArrayTemplate<Patient>(1);
+    Array->addObject(p1);
+    Array->addObject(p2);
+    Array->addObject(p3);
+    Array->addObject(p4);
+    Array->addObject(p5);
+    cout<<Array->toString();
+    Array->createIterador();
 
     /*
     auto* p1 = new Patient{"Rebe", "123", "ABC"};
