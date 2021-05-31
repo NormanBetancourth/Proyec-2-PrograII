@@ -8,4 +8,4 @@ include_directories(.)
 add_executable(Proyecto_2_rehhechho
         lib/nlohmann/json.hpp ArrayTemplate.cpp ArrayTemplate.h Disease.cpp Disease.h Patient.cpp Patient.h main.cpp
         Mediator.h Mediator.h MediatorImplemented.cpp MediatorImplemented.h Analyst.cpp Analyst.h BasicComponent.cpp BasicComponent.h
-        Saver_Loader.cpp Saver_Loader.h FileManager.cpp FileManager.h)
+        Saver_Loader.cpp Saver_Loader.h FileManager.cpp FileManager.h InterfazIterator.h VectorIterator.cpp VectorIterator.h InterfazColeccion.h)

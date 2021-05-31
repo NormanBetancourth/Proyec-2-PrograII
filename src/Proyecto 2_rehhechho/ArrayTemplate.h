@@ -8,6 +8,9 @@
 #include<iostream>
 #include<sstream>
 #include<string>
+#include"InterfazColeccion.h"
+#include"InterfazIterator.h"
+#include"VectorIterator.h"
 //#include "Mediator.h"
 using namespace std;
 
@@ -16,7 +19,7 @@ const int SIZE1 = 100;
 const int SIZE2 = 30;
 
 template <class T>
-class ArrayTemplate{
+class ArrayTemplate: public InterfazColeccion<T>{
 private:
     T** vector;
     int num;
@@ -35,6 +38,12 @@ public:
     T* returnObject(string);
     bool empty();
     string toString() const;
+    //------------------------------
+    void insertarAlFinal(T* elemento);
+    int getCantidad();
+    InterfazIterator<T>* createIterador();
+
+
 
     //void setMediator(Mediator*m);
 };

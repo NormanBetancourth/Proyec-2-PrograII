@@ -109,6 +109,28 @@ string ArrayTemplate<T>::toString() const {
     return ss.str();
 }
 
+template<class T>
+void ArrayTemplate<T>::insertarAlFinal(T *elemento) {
+    addObject(elemento);
+}
+
+
+
+template<class T>
+int ArrayTemplate<T>::getCantidad() {
+    return getNum();
+}
+
+template<class T>
+InterfazIterator<T> *ArrayTemplate<T>::createIterador() {
+    return new VectorIterador<T>(this->vector, this->getNum());
+}
+
+
+
+
+
+
 
 //template<class T>
 //void ArrayTemplate<T>::setMediator(Mediator *m) {

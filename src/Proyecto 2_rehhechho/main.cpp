@@ -3,10 +3,24 @@
 //
 #include "lib/nlohmann/json.hpp"
 #include"Patient.h"
+#include "ArrayTemplate.h"
+#include "VectorIterator.h"
+#include "Patient.h"
+
 //#include "Saver_Loader.h"
 using nlohmann::json;
 
 int main() {
+
+    Patient *p1 =new Patient("Norman", "1", "asdsdasd");
+    Patient *p2 =new Patient("Jose", "2", "asdsdasd");
+    Patient *p3 =new Patient("carlos", "3", "asdsdasd");
+    Patient *p4 =new Patient("andres", "4", "asdsdasd");
+    Patient *p5 =new Patient("rebe", "5", "asdsdasd");
+
+    ArrayTemplate<Patient>* Array = new ArrayTemplate<Patient>(1);
+
+    /*
     auto* p1 = new Patient{"Rebe", "123", "ABC"};
     auto* p2 = new Patient{"Norman", "456", "DEF"};
 
@@ -14,7 +28,7 @@ int main() {
 
     delete p1;
     delete p2;
-
+     */
 
     /**
     ArrayTemplate<Patient>*P= new ArrayTemplate<Patient>(100);

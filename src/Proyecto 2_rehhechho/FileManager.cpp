@@ -72,9 +72,9 @@ ArrayTemplate<Patient> FileManager::deserialize(const string &data) {
 
     //tambien da error aca
     //ArrayTemplate<Patient> patientArray = jsonData;
-    //return patientArray;
+   // return patientArray;
 
-    return ArrayTemplate<Patient>(0);
+    //return ArrayTemplate<Patient>(0);
 }
 
 void FileManager::save(const string& jsonData, const string &filename) {
