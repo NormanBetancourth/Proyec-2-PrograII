@@ -23,7 +23,7 @@ public:
     void setName(const string &);
     void setADNsequence(const string &);
 
-    string toString() const;
+    string toStringSimple() const;
 
 };
 

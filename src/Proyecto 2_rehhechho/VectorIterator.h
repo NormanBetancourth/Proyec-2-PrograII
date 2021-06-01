@@ -8,7 +8,6 @@
 
 #include"InterfazIterator.h"
 #include"ArrayTemplate.h"
-#include"Patient.h"
 using namespace std;
 template<class T>
 class VectorIterador: public InterfazIterator<T> {

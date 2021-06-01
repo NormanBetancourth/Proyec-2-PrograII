@@ -27,7 +27,7 @@ void Disease::setADNsequence(const string &ADNsequence) {
     Disease::ADNsequence = ADNsequence;
 }
 
-string Disease::toString() const {
+string Disease::toStringSimple() const {
     stringstream ss;
     ss << "\n\tName: " << getName();
     ss << "\n\tADN sequence: " << getADNsequence();

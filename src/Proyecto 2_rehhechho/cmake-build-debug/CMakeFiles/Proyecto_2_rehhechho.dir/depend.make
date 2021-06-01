@@ -10,7 +10,6 @@ CMakeFiles/Proyecto_2_rehhechho.dir/ArrayTemplate.cpp.obj: ../ArrayTemplate.cpp
 CMakeFiles/Proyecto_2_rehhechho.dir/ArrayTemplate.cpp.obj: ../ArrayTemplate.h
 CMakeFiles/Proyecto_2_rehhechho.dir/ArrayTemplate.cpp.obj: ../InterfazColeccion.h
 CMakeFiles/Proyecto_2_rehhechho.dir/ArrayTemplate.cpp.obj: ../InterfazIterator.h
-CMakeFiles/Proyecto_2_rehhechho.dir/ArrayTemplate.cpp.obj: ../Patient.h
 CMakeFiles/Proyecto_2_rehhechho.dir/ArrayTemplate.cpp.obj: ../VectorIterator.h
 
 CMakeFiles/Proyecto_2_rehhechho.dir/BasicComponent.cpp.obj: ../BasicComponent.cpp
@@ -41,23 +40,19 @@ CMakeFiles/Proyecto_2_rehhechho.dir/MediatorImplemented.cpp.obj: ../Patient.h
 CMakeFiles/Proyecto_2_rehhechho.dir/Patient.cpp.obj: ../Patient.cpp
 CMakeFiles/Proyecto_2_rehhechho.dir/Patient.cpp.obj: ../Patient.h
 
-CMakeFiles/Proyecto_2_rehhechho.dir/Saver_Loader.cpp.obj: ../ArrayTemplate.cpp
-CMakeFiles/Proyecto_2_rehhechho.dir/Saver_Loader.cpp.obj: ../ArrayTemplate.h
-CMakeFiles/Proyecto_2_rehhechho.dir/Saver_Loader.cpp.obj: ../InterfazColeccion.h
-CMakeFiles/Proyecto_2_rehhechho.dir/Saver_Loader.cpp.obj: ../InterfazIterator.h
 CMakeFiles/Proyecto_2_rehhechho.dir/Saver_Loader.cpp.obj: ../Patient.h
 CMakeFiles/Proyecto_2_rehhechho.dir/Saver_Loader.cpp.obj: ../Saver_Loader.cpp
 CMakeFiles/Proyecto_2_rehhechho.dir/Saver_Loader.cpp.obj: ../Saver_Loader.h
-CMakeFiles/Proyecto_2_rehhechho.dir/Saver_Loader.cpp.obj: ../VectorIterator.h
 
 CMakeFiles/Proyecto_2_rehhechho.dir/VectorIterator.cpp.obj: ../ArrayTemplate.h
 CMakeFiles/Proyecto_2_rehhechho.dir/VectorIterator.cpp.obj: ../InterfazColeccion.h
 CMakeFiles/Proyecto_2_rehhechho.dir/VectorIterator.cpp.obj: ../InterfazIterator.h
-CMakeFiles/Proyecto_2_rehhechho.dir/VectorIterator.cpp.obj: ../Patient.h
 CMakeFiles/Proyecto_2_rehhechho.dir/VectorIterator.cpp.obj: ../VectorIterator.cpp
 CMakeFiles/Proyecto_2_rehhechho.dir/VectorIterator.cpp.obj: ../VectorIterator.h
 
+CMakeFiles/Proyecto_2_rehhechho.dir/main.cpp.obj: ../ArrayTemplate.cpp
 CMakeFiles/Proyecto_2_rehhechho.dir/main.cpp.obj: ../ArrayTemplate.h
+CMakeFiles/Proyecto_2_rehhechho.dir/main.cpp.obj: ../Disease.h
 CMakeFiles/Proyecto_2_rehhechho.dir/main.cpp.obj: ../InterfazColeccion.h
 CMakeFiles/Proyecto_2_rehhechho.dir/main.cpp.obj: ../InterfazIterator.h
 CMakeFiles/Proyecto_2_rehhechho.dir/main.cpp.obj: ../Patient.h

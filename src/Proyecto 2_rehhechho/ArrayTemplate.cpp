@@ -123,7 +123,8 @@ int ArrayTemplate<T>::getCantidad() {
 
 template<class T>
 InterfazIterator<T> *ArrayTemplate<T>::createIterador() {
-    return new VectorIterador<T>(vector, this->getNum());
+    return new VectorIterador<T>(vector, getNum());
+    //return nullptr;
 }
 
 

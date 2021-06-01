@@ -3,7 +3,7 @@
 //
 
 #include "Saver_Loader.h"
-
+/*
 ArrayTemplate<Patient>* Saver_Loader::PatientLoader() {
     ArrayTemplate<Patient>* A = new ArrayTemplate<Patient>(100);
     fstream file;
@@ -24,3 +24,4 @@ ArrayTemplate<Patient>* Saver_Loader::PatientLoader() {
     file.close();
     return A;
 }
+*/

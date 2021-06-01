@@ -9,7 +9,6 @@
 #include<sstream>
 #include<string>
 #include"InterfazColeccion.h"
-#include"InterfazIterator.h"
 #include"VectorIterator.h"
 
 //#include "Mediator.h"
