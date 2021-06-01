@@ -31,28 +31,7 @@ int main() {
     //IReader<Patient>* reader = new CSVReader<Patient>("CadenaADN-Pacientes.csv");
      **/
 
-    /**
-    ArrayTemplate<Patient>* A = new ArrayTemplate<Patient>(100);
-    ifstream file;
-    file.open("doc.txt", ios::in);
-    string linea;
-    string nombre, id, cadena;
-    if (file.is_open()){
-        while (!file.eof()){
-            getline(file, nombre, ';');
-            getline(file, id, ';');
-            getline(file, cadena, '\n');
-            Patient* P = new Patient(nombre, id, cadena);
-            cout<<P->toStringAll();
-            A->addObject(P);
-        }
-    }
-    else
-        cout<<"no se abrio el archivo";
-    file.close();
-    cout<<A->toString();
 
-    **/
     Patient* pat1 = new Patient("May Mueller","1", "TCGGCGTATAGCTAACTTGCAGGGACGGCTGGGCCCACGTTGCAACTCCTAGATGGCTGGCATCCTCTGAGGTTTGCACTCTAACGTGTCACCGTACTCGATAATCACGTCCTACACCCCCGCTTAGAAGGATAATCTCTAACGGACAAACAGGTGTCACATCATAAAATGTTCGGAAAGACAACTGTGCGATGTAGATGATTGGAACGTCGTTCCGAGCAAGGTTTTTACTAATACCCACCGTTACCCATCGCGAAGCTAGCGTTTGACATGATGTTGTCACTACCTAACCACATGCTGATGTTATCAGTCCAAGTCTGCTGGGCCAGCTCTCCAACAATAAGGCTTTAGATTTACTTCCCTCGCCCCAGTAAGGCTTCGCGGGGGAGCGACGTAGTCC",
                                 nullptr);
     Patient* pat2 = new Patient("Declan Obrien","2", "GACGTGAGAACGACCGCTTCGCGGAATTACCGGCATTGTGAGCTCGGCAGCCCGGACATCCCTCGTACGTCACAGGTGAGTACCATACCCTGTCACCCGGGGGTCTTGAATGTCAAGTAAGGGTGTTGGACTATGCCTGCAACCTGCCTGTCGTCTTAACTAGAGTCATGCCCGCTGTCACTTAGTCCGACGTTCTAACCTTGGCCGGCTTCGATTTCAATTTCACCGGTCGGTAGCATGCTTCCGCTACCGCAAAGCTCACCGAATGTTATTTCGCGGATATGACTTCACGGTACAGCTGGTTTCCGGCGATGCTTAGTTCCCTGGAAAACTACAAAGTTATATAAGTGCACTTCGGCCAGAATACGTAGCTTATAGAAACCTATTTGGTTCTAAGTGA",
@@ -122,6 +101,8 @@ int main() {
 
     cout<< PatientColection->toString();
     cout<< DiseaseColection->toString();
+
+    PatientColection->analisis1(DiseaseColection);
 
     /*
     auto* p1 = new Patient{"Rebe", "123", "ABC"};

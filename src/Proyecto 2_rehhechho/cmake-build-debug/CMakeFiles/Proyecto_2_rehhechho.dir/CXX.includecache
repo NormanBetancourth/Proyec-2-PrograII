@@ -6,59 +6,75 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/rebec/Desktop/project/Proyec-2-PrograII/src/Proyecto 2_rehhechho/ArrayTemplate.h
+../Disease.h
+iostream
+-
+sstream
+-
+
+C:/Users/norma/source/repos/Progra II/Proyectos/OFICIAL/Proyec-2-PrograII/src/Proyecto 2_rehhechho/ArrayTemplate.h
 iostream
 -
 sstream
 -
 string
 -
-
-C:/Users/rebec/Desktop/project/Proyec-2-PrograII/src/Proyecto 2_rehhechho/CSVReader.cpp
-CSVReader.h
-C:/Users/rebec/Desktop/project/Proyec-2-PrograII/src/Proyecto 2_rehhechho/CSVReader.h
-
-C:/Users/rebec/Desktop/project/Proyec-2-PrograII/src/Proyecto 2_rehhechho/CSVReader.h
-IFiles.h
-C:/Users/rebec/Desktop/project/Proyec-2-PrograII/src/Proyecto 2_rehhechho/IFiles.h
-fstream
+Disease.h
 -
-ICSVTransformer.h
-C:/Users/rebec/Desktop/project/Proyec-2-PrograII/src/Proyecto 2_rehhechho/ICSVTransformer.h
-
-C:/Users/rebec/Desktop/project/Proyec-2-PrograII/src/Proyecto 2_rehhechho/CSVWriter.cpp
-CSVWriter.h
-C:/Users/rebec/Desktop/project/Proyec-2-PrograII/src/Proyecto 2_rehhechho/CSVWriter.h
-
-C:/Users/rebec/Desktop/project/Proyec-2-PrograII/src/Proyecto 2_rehhechho/CSVWriter.h
-IFiles.h
-C:/Users/rebec/Desktop/project/Proyec-2-PrograII/src/Proyecto 2_rehhechho/IFiles.h
-ICSVTransformer.h
-C:/Users/rebec/Desktop/project/Proyec-2-PrograII/src/Proyecto 2_rehhechho/ICSVTransformer.h
-fstream
--
-
-C:/Users/rebec/Desktop/project/Proyec-2-PrograII/src/Proyecto 2_rehhechho/ICSVTransformer.cpp
-ICSVTransformer.h
-C:/Users/rebec/Desktop/project/Proyec-2-PrograII/src/Proyecto 2_rehhechho/ICSVTransformer.h
-
-C:/Users/rebec/Desktop/project/Proyec-2-PrograII/src/Proyecto 2_rehhechho/ICSVTransformer.h
-ArrayTemplate.h
-C:/Users/rebec/Desktop/project/Proyec-2-PrograII/src/Proyecto 2_rehhechho/ArrayTemplate.h
 Patient.h
-C:/Users/rebec/Desktop/project/Proyec-2-PrograII/src/Proyecto 2_rehhechho/Patient.h
+-
 
-C:/Users/rebec/Desktop/project/Proyec-2-PrograII/src/Proyecto 2_rehhechho/IFiles.h
-ArrayTemplate.h
-C:/Users/rebec/Desktop/project/Proyec-2-PrograII/src/Proyecto 2_rehhechho/ArrayTemplate.h
+C:/Users/norma/source/repos/Progra II/Proyectos/OFICIAL/Proyec-2-PrograII/src/Proyecto 2_rehhechho/CSVReader.cpp
+CSVReader.h
+C:/Users/norma/source/repos/Progra II/Proyectos/OFICIAL/Proyec-2-PrograII/src/Proyecto 2_rehhechho/CSVReader.h
 
-C:/Users/rebec/Desktop/project/Proyec-2-PrograII/src/Proyecto 2_rehhechho/Patient.h
+C:/Users/norma/source/repos/Progra II/Proyectos/OFICIAL/Proyec-2-PrograII/src/Proyecto 2_rehhechho/CSVReader.h
+IFiles.h
+C:/Users/norma/source/repos/Progra II/Proyectos/OFICIAL/Proyec-2-PrograII/src/Proyecto 2_rehhechho/IFiles.h
+fstream
+-
+ICSVTransformer.h
+C:/Users/norma/source/repos/Progra II/Proyectos/OFICIAL/Proyec-2-PrograII/src/Proyecto 2_rehhechho/ICSVTransformer.h
+
+C:/Users/norma/source/repos/Progra II/Proyectos/OFICIAL/Proyec-2-PrograII/src/Proyecto 2_rehhechho/CSVWriter.cpp
+CSVWriter.h
+C:/Users/norma/source/repos/Progra II/Proyectos/OFICIAL/Proyec-2-PrograII/src/Proyecto 2_rehhechho/CSVWriter.h
+
+C:/Users/norma/source/repos/Progra II/Proyectos/OFICIAL/Proyec-2-PrograII/src/Proyecto 2_rehhechho/CSVWriter.h
+IFiles.h
+C:/Users/norma/source/repos/Progra II/Proyectos/OFICIAL/Proyec-2-PrograII/src/Proyecto 2_rehhechho/IFiles.h
+ICSVTransformer.h
+C:/Users/norma/source/repos/Progra II/Proyectos/OFICIAL/Proyec-2-PrograII/src/Proyecto 2_rehhechho/ICSVTransformer.h
+fstream
+-
+
+C:/Users/norma/source/repos/Progra II/Proyectos/OFICIAL/Proyec-2-PrograII/src/Proyecto 2_rehhechho/Disease.h
 iostream
 -
 sstream
 -
 
-C:/Users/rebec/Desktop/project/Proyec-2-PrograII/src/Proyecto 2_rehhechho/lib/nlohmann/json.hpp
+C:/Users/norma/source/repos/Progra II/Proyectos/OFICIAL/Proyec-2-PrograII/src/Proyecto 2_rehhechho/ICSVTransformer.cpp
+ICSVTransformer.h
+C:/Users/norma/source/repos/Progra II/Proyectos/OFICIAL/Proyec-2-PrograII/src/Proyecto 2_rehhechho/ICSVTransformer.h
+
+C:/Users/norma/source/repos/Progra II/Proyectos/OFICIAL/Proyec-2-PrograII/src/Proyecto 2_rehhechho/ICSVTransformer.h
+ArrayTemplate.h
+C:/Users/norma/source/repos/Progra II/Proyectos/OFICIAL/Proyec-2-PrograII/src/Proyecto 2_rehhechho/ArrayTemplate.h
+Patient.h
+C:/Users/norma/source/repos/Progra II/Proyectos/OFICIAL/Proyec-2-PrograII/src/Proyecto 2_rehhechho/Patient.h
+
+C:/Users/norma/source/repos/Progra II/Proyectos/OFICIAL/Proyec-2-PrograII/src/Proyecto 2_rehhechho/IFiles.h
+ArrayTemplate.h
+C:/Users/norma/source/repos/Progra II/Proyectos/OFICIAL/Proyec-2-PrograII/src/Proyecto 2_rehhechho/ArrayTemplate.h
+
+C:/Users/norma/source/repos/Progra II/Proyectos/OFICIAL/Proyec-2-PrograII/src/Proyecto 2_rehhechho/Patient.h
+iostream
+-
+sstream
+-
+
+C:/Users/norma/source/repos/Progra II/Proyectos/OFICIAL/Proyec-2-PrograII/src/Proyecto 2_rehhechho/lib/nlohmann/json.hpp
 algorithm
 -
 cstddef
@@ -382,15 +398,19 @@ utility
 vector
 -
 
-C:/Users/rebec/Desktop/project/Proyec-2-PrograII/src/Proyecto 2_rehhechho/main.cpp
+C:/Users/norma/source/repos/Progra II/Proyectos/OFICIAL/Proyec-2-PrograII/src/Proyecto 2_rehhechho/main.cpp
 lib/nlohmann/json.hpp
-C:/Users/rebec/Desktop/project/Proyec-2-PrograII/src/Proyecto 2_rehhechho/lib/nlohmann/json.hpp
+C:/Users/norma/source/repos/Progra II/Proyectos/OFICIAL/Proyec-2-PrograII/src/Proyecto 2_rehhechho/lib/nlohmann/json.hpp
 Patient.h
-C:/Users/rebec/Desktop/project/Proyec-2-PrograII/src/Proyecto 2_rehhechho/Patient.h
+C:/Users/norma/source/repos/Progra II/Proyectos/OFICIAL/Proyec-2-PrograII/src/Proyecto 2_rehhechho/Patient.h
+Disease.h
+C:/Users/norma/source/repos/Progra II/Proyectos/OFICIAL/Proyec-2-PrograII/src/Proyecto 2_rehhechho/Disease.h
 CSVReader.h
-C:/Users/rebec/Desktop/project/Proyec-2-PrograII/src/Proyecto 2_rehhechho/CSVReader.h
+C:/Users/norma/source/repos/Progra II/Proyectos/OFICIAL/Proyec-2-PrograII/src/Proyecto 2_rehhechho/CSVReader.h
 CSVWriter.h
-C:/Users/rebec/Desktop/project/Proyec-2-PrograII/src/Proyecto 2_rehhechho/CSVWriter.h
+C:/Users/norma/source/repos/Progra II/Proyectos/OFICIAL/Proyec-2-PrograII/src/Proyecto 2_rehhechho/CSVWriter.h
 ICSVTransformer.h
-C:/Users/rebec/Desktop/project/Proyec-2-PrograII/src/Proyecto 2_rehhechho/ICSVTransformer.h
+C:/Users/norma/source/repos/Progra II/Proyectos/OFICIAL/Proyec-2-PrograII/src/Proyecto 2_rehhechho/ICSVTransformer.h
+fstream
+C:/Users/norma/source/repos/Progra II/Proyectos/OFICIAL/Proyec-2-PrograII/src/Proyecto 2_rehhechho/fstream
 
