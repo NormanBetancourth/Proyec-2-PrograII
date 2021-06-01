@@ -8,6 +8,8 @@
 #include<iostream>
 #include<sstream>
 #include<string>
+#include<Disease.h>
+#include<Patient.h>
 //#include "Mediator.h"
 using namespace std;
 
@@ -139,6 +141,9 @@ public:
     T* returnObjectPos(int);
     bool empty();
     string toString() const;
+    void analisis1(ArrayTemplate<Disease>* DVect);
+    void analisis2(Patient*);
+
 };
 
 template<class T>
@@ -255,6 +260,30 @@ string ArrayTemplate<T>::toString() const {
     }
     return ss.str();
 }
+
+template<class T>
+void ArrayTemplate<T>::analisis1(ArrayTemplate<Disease> *DVect) {
+    for(int i = 0; i < getNum(); i++){
+        DVect->analisis2(vector[i]);
+    }
+}
+
+template<class T>
+void ArrayTemplate<T>::analisis2(Patient *P) {
+    string DNAsec = P->getADNsequence();//sobre lo que vamos a buscar matches.
+    string match;//el auxiliar que vamos ir usando, este sera cada code de enfermedad.
+    for(int i = 0; i < getNum(); i++){
+        match = vector[i]->getADNsequence();
+        if(DNAsec.find(match)!= string::npos ){
+            P->getDiseaseArray()->append(vector[i]->getName());
+        }
+
+    }
+}
+
+
+
+
 
 //template<class T>
 //void ArrayTemplate<T>::setMediator(Mediator *m) {

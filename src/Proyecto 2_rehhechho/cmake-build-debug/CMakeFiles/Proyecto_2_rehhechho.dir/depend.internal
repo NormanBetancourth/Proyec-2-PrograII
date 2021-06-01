@@ -11,6 +11,7 @@ CMakeFiles/Proyecto_2_rehhechho.dir/BasicComponent.cpp.obj
  C:/Users/norma/source/repos/Progra II/Proyectos/OFICIAL/Proyec-2-PrograII/src/Proyecto 2_rehhechho/BasicComponent.h
  C:/Users/norma/source/repos/Progra II/Proyectos/OFICIAL/Proyec-2-PrograII/src/Proyecto 2_rehhechho/Mediator.h
 CMakeFiles/Proyecto_2_rehhechho.dir/CSVReader.cpp.obj
+ ../Disease.h
  C:/Users/norma/source/repos/Progra II/Proyectos/OFICIAL/Proyec-2-PrograII/src/Proyecto 2_rehhechho/ArrayTemplate.h
  C:/Users/norma/source/repos/Progra II/Proyectos/OFICIAL/Proyec-2-PrograII/src/Proyecto 2_rehhechho/CSVReader.cpp
  C:/Users/norma/source/repos/Progra II/Proyectos/OFICIAL/Proyec-2-PrograII/src/Proyecto 2_rehhechho/CSVReader.h
@@ -18,6 +19,7 @@ CMakeFiles/Proyecto_2_rehhechho.dir/CSVReader.cpp.obj
  C:/Users/norma/source/repos/Progra II/Proyectos/OFICIAL/Proyec-2-PrograII/src/Proyecto 2_rehhechho/IFiles.h
  C:/Users/norma/source/repos/Progra II/Proyectos/OFICIAL/Proyec-2-PrograII/src/Proyecto 2_rehhechho/Patient.h
 CMakeFiles/Proyecto_2_rehhechho.dir/CSVWriter.cpp.obj
+ ../Disease.h
  C:/Users/norma/source/repos/Progra II/Proyectos/OFICIAL/Proyec-2-PrograII/src/Proyecto 2_rehhechho/ArrayTemplate.h
  C:/Users/norma/source/repos/Progra II/Proyectos/OFICIAL/Proyec-2-PrograII/src/Proyecto 2_rehhechho/CSVWriter.cpp
  C:/Users/norma/source/repos/Progra II/Proyectos/OFICIAL/Proyec-2-PrograII/src/Proyecto 2_rehhechho/CSVWriter.h
@@ -28,6 +30,7 @@ CMakeFiles/Proyecto_2_rehhechho.dir/Disease.cpp.obj
  C:/Users/norma/source/repos/Progra II/Proyectos/OFICIAL/Proyec-2-PrograII/src/Proyecto 2_rehhechho/Disease.cpp
  C:/Users/norma/source/repos/Progra II/Proyectos/OFICIAL/Proyec-2-PrograII/src/Proyecto 2_rehhechho/Disease.h
 CMakeFiles/Proyecto_2_rehhechho.dir/ICSVTransformer.cpp.obj
+ ../Disease.h
  C:/Users/norma/source/repos/Progra II/Proyectos/OFICIAL/Proyec-2-PrograII/src/Proyecto 2_rehhechho/ArrayTemplate.h
  C:/Users/norma/source/repos/Progra II/Proyectos/OFICIAL/Proyec-2-PrograII/src/Proyecto 2_rehhechho/ICSVTransformer.cpp
  C:/Users/norma/source/repos/Progra II/Proyectos/OFICIAL/Proyec-2-PrograII/src/Proyecto 2_rehhechho/ICSVTransformer.h

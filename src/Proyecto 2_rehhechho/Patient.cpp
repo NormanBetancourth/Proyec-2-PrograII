@@ -59,6 +59,7 @@ string Patient::toStringSimple() const {
     s << "\n\tName: " << getName();
     s << "\n\tId: " << getId();
     s << "\n\tADN sequence: " << getADNsequence();
+
     return s.str();
 }
 
@@ -66,7 +67,7 @@ string Patient::toStringDeseases() const {
     stringstream ss;
     ss << "\n\n\tSusceptible diseases\n";
     for(int i = 0; i < getDiseaseArray()->size() - 1; i++){
-        ss << "\t" << getDiseaseArray()[i] << "\n";
+        ss << "\t" << diseaseArray[i] << "\n";
     }
     return ss.str();
 }
