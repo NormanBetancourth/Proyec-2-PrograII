@@ -2,7 +2,6 @@
 // Created by rebec on 31/5/2021.
 //
 
-#pragma once
 #ifndef JSON_HPP_IFILES_H
 #define JSON_HPP_IFILES_H
 #include"ArrayTemplate.h"

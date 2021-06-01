@@ -108,7 +108,7 @@ string ArrayTemplateString<string>::toString() const {
 
 template<class string>
 string ArrayTemplateString<string>::getInPos(int pos) const {
-    for(int i=0;i<getNum();i++){
+    for(int i=0;i<getSize();i++){
         if(i == pos){
             return vector[i];
         }
