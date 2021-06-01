@@ -3,31 +3,28 @@
 //
 #include "lib/nlohmann/json.hpp"
 #include"Patient.h"
-#include"Disease.h"
-#include "Saver_Loader.h"
+#include"CSVReader.h"
+#include"CSVWriter.h"
+#include "ICSVTransformer.h"
 using nlohmann::json;
 
+//Se crea el archivo pero no carga la info jeje
+//Falta el reader que en eso estoy tambien
+
 int main() {
+    IWriter<Patient*>* writer= new CSVWriter<Patient*>("pruebaowo.csv", new PatientCSVTransformer() );
+    auto *pa1 = new Patient("Rebe", "123", "ABC");
+    auto *pa2 = new Patient("Norman", "456", "DEF");
 
-    ArrayTemplate<Patient>* A = new ArrayTemplate<Patient>(100);
-    ifstream file;
-    file.open("CadenaADN-Pacientes.csv");
-    string linea;
-    string nombre, id, cadena;
-    if (file.is_open()){
-        while (!file.eof()){
-            getline(file, nombre, ';');
-            getline(file, id, ';');
-            getline(file, cadena, '\n');
-            Patient* P = new Patient(nombre, id, cadena);
-            cout<<P->toStringAll();
-            A->addObject(P);
-        }
-    }
-    file.close();
 
-    cout<<A->toString();
+    writer->write(pa1);
+    writer->write(pa2);
 
+    delete pa1;
+    delete pa2;
+    delete writer;
+
+    //IReader<Patient>* reader = new CSVReader<Patient>("CadenaADN-Pacientes.csv");
 
 
     /**
@@ -98,8 +95,8 @@ int main() {
     DiseaseColection->addObject(dis17);
     DiseaseColection->addObject(dis18);
 
-    cout<< PatientColection->toString();
-    cout<< DiseaseColection->toString();
+    cout<< PatientColection->toStringVector();
+    cout<< DiseaseColection->toStringVector();
      **/
     /*
     auto* p1 = new Patient{"Rebe", "123", "ABC"};
@@ -114,7 +111,7 @@ int main() {
     /**
     ArrayTemplate<Patient>*P= new ArrayTemplate<Patient>(100);
     P=Saver_Loader::PatientLoader();
-    cout<<P->toString();
+    cout<<P->toStringVector();
 
     string *dis = nullptr;
     dis = new string[5];
@@ -138,7 +135,7 @@ int main() {
     miA.addObject(pat1);
     miA.addObject(pat2);
 
-    cout <<miA.toString();
+    cout <<miA.toStringVector();
 
      */
 

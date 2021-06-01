@@ -17,7 +17,7 @@ private:
     string name;
     string id;
     string ADNsequence;
-    string* diseaseArray;
+    string* diseaseArray; //TODO aquí podría usarse el array template pa strings
 
 public:
     Patient(const string & = "Undefined", const string & = "Undefined",
@@ -28,6 +28,7 @@ public:
     const string &getId() const;
     const string &getADNsequence() const;
     string *getDiseaseArray() const;
+    int getNumDiseases();
 
     void setName(const string &);
     void setId(const string &);

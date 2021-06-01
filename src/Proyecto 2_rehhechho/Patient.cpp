@@ -33,6 +33,10 @@ string *Patient::getDiseaseArray() const {
     return diseaseArray;
 }
 
+int Patient::getNumDiseases() {
+    return getDiseaseArray()->size();
+}
+
 void Patient::setName(const string &name) {
     Patient::name = name;
 }
@@ -75,3 +79,4 @@ string Patient::toStringAll() const {
 
     return sss.str();
 }
+
