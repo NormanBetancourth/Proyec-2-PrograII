@@ -41,9 +41,14 @@ CMakeFiles/Proyecto_2_rehhechho.dir/Patient.cpp.obj
  C:/Users/norma/source/repos/Progra II/Proyectos/Proyec-2-PrograII/src/Proyecto 2_rehhechho/Patient.cpp
  C:/Users/norma/source/repos/Progra II/Proyectos/Proyec-2-PrograII/src/Proyecto 2_rehhechho/Patient.h
 CMakeFiles/Proyecto_2_rehhechho.dir/Saver_Loader.cpp.obj
+ C:/Users/norma/source/repos/Progra II/Proyectos/Proyec-2-PrograII/src/Proyecto 2_rehhechho/ArrayTemplate.cpp
+ C:/Users/norma/source/repos/Progra II/Proyectos/Proyec-2-PrograII/src/Proyecto 2_rehhechho/ArrayTemplate.h
+ C:/Users/norma/source/repos/Progra II/Proyectos/Proyec-2-PrograII/src/Proyecto 2_rehhechho/InterfazColeccion.h
+ C:/Users/norma/source/repos/Progra II/Proyectos/Proyec-2-PrograII/src/Proyecto 2_rehhechho/InterfazIterator.h
  C:/Users/norma/source/repos/Progra II/Proyectos/Proyec-2-PrograII/src/Proyecto 2_rehhechho/Patient.h
  C:/Users/norma/source/repos/Progra II/Proyectos/Proyec-2-PrograII/src/Proyecto 2_rehhechho/Saver_Loader.cpp
  C:/Users/norma/source/repos/Progra II/Proyectos/Proyec-2-PrograII/src/Proyecto 2_rehhechho/Saver_Loader.h
+ C:/Users/norma/source/repos/Progra II/Proyectos/Proyec-2-PrograII/src/Proyecto 2_rehhechho/VectorIterator.h
 CMakeFiles/Proyecto_2_rehhechho.dir/VectorIterator.cpp.obj
  C:/Users/norma/source/repos/Progra II/Proyectos/Proyec-2-PrograII/src/Proyecto 2_rehhechho/ArrayTemplate.h
  C:/Users/norma/source/repos/Progra II/Proyectos/Proyec-2-PrograII/src/Proyecto 2_rehhechho/InterfazColeccion.h
@@ -57,6 +62,7 @@ CMakeFiles/Proyecto_2_rehhechho.dir/main.cpp.obj
  C:/Users/norma/source/repos/Progra II/Proyectos/Proyec-2-PrograII/src/Proyecto 2_rehhechho/InterfazColeccion.h
  C:/Users/norma/source/repos/Progra II/Proyectos/Proyec-2-PrograII/src/Proyecto 2_rehhechho/InterfazIterator.h
  C:/Users/norma/source/repos/Progra II/Proyectos/Proyec-2-PrograII/src/Proyecto 2_rehhechho/Patient.h
+ C:/Users/norma/source/repos/Progra II/Proyectos/Proyec-2-PrograII/src/Proyecto 2_rehhechho/Saver_Loader.h
  C:/Users/norma/source/repos/Progra II/Proyectos/Proyec-2-PrograII/src/Proyecto 2_rehhechho/VectorIterator.h
  C:/Users/norma/source/repos/Progra II/Proyectos/Proyec-2-PrograII/src/Proyecto 2_rehhechho/lib/nlohmann/json.hpp
  C:/Users/norma/source/repos/Progra II/Proyectos/Proyec-2-PrograII/src/Proyecto 2_rehhechho/main.cpp

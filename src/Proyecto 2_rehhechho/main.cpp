@@ -4,12 +4,33 @@
 #include "lib/nlohmann/json.hpp"
 #include"Patient.h"
 #include"Disease.h"
-#include "ArrayTemplate.cpp"
-//#include "Saver_Loader.h"
+#include "Saver_Loader.h"
 using nlohmann::json;
 
 int main() {
 
+    ArrayTemplate<Patient>* A = new ArrayTemplate<Patient>(100);
+    ifstream file;
+    file.open("CadenaADN-Pacientes.csv");
+    string linea;
+    string nombre, id, cadena;
+    if (file.is_open()){
+        while (!file.eof()){
+            getline(file, nombre, ';');
+            getline(file, id, ';');
+            getline(file, cadena, '\n');
+            Patient* P = new Patient(nombre, id, cadena);
+            cout<<P->toStringAll();
+            A->addObject(P);
+        }
+    }
+    file.close();
+
+    cout<<A->toString();
+
+
+
+    /**
     Patient* pat1 = new Patient("May Mueller","1", "TCGGCGTATAGCTAACTTGCAGGGACGGCTGGGCCCACGTTGCAACTCCTAGATGGCTGGCATCCTCTGAGGTTTGCACTCTAACGTGTCACCGTACTCGATAATCACGTCCTACACCCCCGCTTAGAAGGATAATCTCTAACGGACAAACAGGTGTCACATCATAAAATGTTCGGAAAGACAACTGTGCGATGTAGATGATTGGAACGTCGTTCCGAGCAAGGTTTTTACTAATACCCACCGTTACCCATCGCGAAGCTAGCGTTTGACATGATGTTGTCACTACCTAACCACATGCTGATGTTATCAGTCCAAGTCTGCTGGGCCAGCTCTCCAACAATAAGGCTTTAGATTTACTTCCCTCGCCCCAGTAAGGCTTCGCGGGGGAGCGACGTAGTCC",
                                 nullptr);
     Patient* pat2 = new Patient("Declan Obrien","2", "GACGTGAGAACGACCGCTTCGCGGAATTACCGGCATTGTGAGCTCGGCAGCCCGGACATCCCTCGTACGTCACAGGTGAGTACCATACCCTGTCACCCGGGGGTCTTGAATGTCAAGTAAGGGTGTTGGACTATGCCTGCAACCTGCCTGTCGTCTTAACTAGAGTCATGCCCGCTGTCACTTAGTCCGACGTTCTAACCTTGGCCGGCTTCGATTTCAATTTCACCGGTCGGTAGCATGCTTCCGCTACCGCAAAGCTCACCGAATGTTATTTCGCGGATATGACTTCACGGTACAGCTGGTTTCCGGCGATGCTTAGTTCCCTGGAAAACTACAAAGTTATATAAGTGCACTTCGGCCAGAATACGTAGCTTATAGAAACCTATTTGGTTCTAAGTGA",
@@ -48,8 +69,6 @@ int main() {
 
     ArrayTemplate<Patient>* PatientColection = new ArrayTemplate<Patient>(1);
     ArrayTemplate<Disease>* DiseaseColection = new ArrayTemplate<Disease>(-1);
-    InterfazIterator<Disease>* Iterador= nullptr;
-    Iterador = DiseaseColection->createIterador();
 
     PatientColection->addObject(pat1);
     PatientColection->addObject(pat2);
@@ -81,11 +100,7 @@ int main() {
 
     cout<< PatientColection->toString();
     cout<< DiseaseColection->toString();
-
-
-
-
-
+     **/
     /*
     auto* p1 = new Patient{"Rebe", "123", "ABC"};
     auto* p2 = new Patient{"Norman", "456", "DEF"};

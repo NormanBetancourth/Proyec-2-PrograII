@@ -3,11 +3,11 @@
 //
 
 #include "Saver_Loader.h"
-/*
+
 ArrayTemplate<Patient>* Saver_Loader::PatientLoader() {
     ArrayTemplate<Patient>* A = new ArrayTemplate<Patient>(100);
     fstream file;
-    file.open("../../CadenaADN-Pacientes.csv" ,ios::in);
+    file.open("CadenaADN-Pacientes.csv" ,ios::in);
     string linea;
     char delimitador =',';
     while (getline(file,linea)){
@@ -24,4 +24,3 @@ ArrayTemplate<Patient>* Saver_Loader::PatientLoader() {
     file.close();
     return A;
 }
-*/

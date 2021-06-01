@@ -6,13 +6,13 @@
 #define PROYECTO_2_REHHECHHO_SAVER_LOADER_H
 
 #include "Patient.h"
-//#include "ArrayTemplate.cpp"
+#include "ArrayTemplate.cpp"
 #include <fstream>
 #include <sstream>
 
 class Saver_Loader {
 public:
-    //static ArrayTemplate<Patient>* PatientLoader();
+    static ArrayTemplate<Patient>* PatientLoader();
 };
 
 

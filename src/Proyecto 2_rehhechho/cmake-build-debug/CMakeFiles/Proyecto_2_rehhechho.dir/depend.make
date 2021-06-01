@@ -40,9 +40,14 @@ CMakeFiles/Proyecto_2_rehhechho.dir/MediatorImplemented.cpp.obj: ../Patient.h
 CMakeFiles/Proyecto_2_rehhechho.dir/Patient.cpp.obj: ../Patient.cpp
 CMakeFiles/Proyecto_2_rehhechho.dir/Patient.cpp.obj: ../Patient.h
 
+CMakeFiles/Proyecto_2_rehhechho.dir/Saver_Loader.cpp.obj: ../ArrayTemplate.cpp
+CMakeFiles/Proyecto_2_rehhechho.dir/Saver_Loader.cpp.obj: ../ArrayTemplate.h
+CMakeFiles/Proyecto_2_rehhechho.dir/Saver_Loader.cpp.obj: ../InterfazColeccion.h
+CMakeFiles/Proyecto_2_rehhechho.dir/Saver_Loader.cpp.obj: ../InterfazIterator.h
 CMakeFiles/Proyecto_2_rehhechho.dir/Saver_Loader.cpp.obj: ../Patient.h
 CMakeFiles/Proyecto_2_rehhechho.dir/Saver_Loader.cpp.obj: ../Saver_Loader.cpp
 CMakeFiles/Proyecto_2_rehhechho.dir/Saver_Loader.cpp.obj: ../Saver_Loader.h
+CMakeFiles/Proyecto_2_rehhechho.dir/Saver_Loader.cpp.obj: ../VectorIterator.h
 
 CMakeFiles/Proyecto_2_rehhechho.dir/VectorIterator.cpp.obj: ../ArrayTemplate.h
 CMakeFiles/Proyecto_2_rehhechho.dir/VectorIterator.cpp.obj: ../InterfazColeccion.h
@@ -56,6 +61,7 @@ CMakeFiles/Proyecto_2_rehhechho.dir/main.cpp.obj: ../Disease.h
 CMakeFiles/Proyecto_2_rehhechho.dir/main.cpp.obj: ../InterfazColeccion.h
 CMakeFiles/Proyecto_2_rehhechho.dir/main.cpp.obj: ../InterfazIterator.h
 CMakeFiles/Proyecto_2_rehhechho.dir/main.cpp.obj: ../Patient.h
+CMakeFiles/Proyecto_2_rehhechho.dir/main.cpp.obj: ../Saver_Loader.h
 CMakeFiles/Proyecto_2_rehhechho.dir/main.cpp.obj: ../VectorIterator.h
 CMakeFiles/Proyecto_2_rehhechho.dir/main.cpp.obj: ../lib/nlohmann/json.hpp
 CMakeFiles/Proyecto_2_rehhechho.dir/main.cpp.obj: ../main.cpp
