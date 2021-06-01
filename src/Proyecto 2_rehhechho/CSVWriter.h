@@ -30,7 +30,7 @@ private:
         }
 
         while (begin != end){
-            ss << ",";
+            ss << ";";
             ss << begin;
             begin = record->getInPos(cont++);
         }
@@ -76,7 +76,7 @@ void CSVWriter<T>::write(T element) {
 
 template<class T>
 void CSVWriter<T>::writeAll(ArrayTemplate<T> *elements) {
-    for(int i=0;i<elements->getNum();i++){
+    for(int i=0;i<elements->getSize();i++){
         this->write(*elements->returnObjectPos(i));
     }
 }

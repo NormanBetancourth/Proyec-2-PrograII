@@ -19,8 +19,9 @@ public:
 class PatientCSVTransformer: public ICSVTransformer<Patient*>{
 public:
     //hice especializacion template string
-    ArrayTemplateString<string>* toStringVector(Patient* element);
-    Patient* fromStringArray(ArrayTemplateString<string>* array);
+    ~PatientCSVTransformer() override =default;
+    ArrayTemplateString<string>* toStringVector(Patient* element) override;
+    Patient* fromStringArray(ArrayTemplateString<string>* array) override;
 };
 
 
