@@ -3,6 +3,7 @@
 //
 #include "lib/nlohmann/json.hpp"
 #include"Patient.h"
+#include"Disease.h"
 #include"CSVReader.h"
 #include"CSVWriter.h"
 #include "ICSVTransformer.h"
@@ -12,6 +13,8 @@ using nlohmann::json;
 //Falta el reader que en eso estoy tambien
 
 int main() {
+
+    /**
     IWriter<Patient*>* writer= new CSVWriter<Patient*>("pruebaowo.csv", new PatientCSVTransformer() );
     auto *pa1 = new Patient("Rebe", "123", "ABC");
     auto *pa2 = new Patient("Norman", "456", "DEF");
@@ -25,9 +28,9 @@ int main() {
     delete writer;
 
     //IReader<Patient>* reader = new CSVReader<Patient>("CadenaADN-Pacientes.csv");
+     **/
 
 
-    /**
     Patient* pat1 = new Patient("May Mueller","1", "TCGGCGTATAGCTAACTTGCAGGGACGGCTGGGCCCACGTTGCAACTCCTAGATGGCTGGCATCCTCTGAGGTTTGCACTCTAACGTGTCACCGTACTCGATAATCACGTCCTACACCCCCGCTTAGAAGGATAATCTCTAACGGACAAACAGGTGTCACATCATAAAATGTTCGGAAAGACAACTGTGCGATGTAGATGATTGGAACGTCGTTCCGAGCAAGGTTTTTACTAATACCCACCGTTACCCATCGCGAAGCTAGCGTTTGACATGATGTTGTCACTACCTAACCACATGCTGATGTTATCAGTCCAAGTCTGCTGGGCCAGCTCTCCAACAATAAGGCTTTAGATTTACTTCCCTCGCCCCAGTAAGGCTTCGCGGGGGAGCGACGTAGTCC",
                                 nullptr);
     Patient* pat2 = new Patient("Declan Obrien","2", "GACGTGAGAACGACCGCTTCGCGGAATTACCGGCATTGTGAGCTCGGCAGCCCGGACATCCCTCGTACGTCACAGGTGAGTACCATACCCTGTCACCCGGGGGTCTTGAATGTCAAGTAAGGGTGTTGGACTATGCCTGCAACCTGCCTGTCGTCTTAACTAGAGTCATGCCCGCTGTCACTTAGTCCGACGTTCTAACCTTGGCCGGCTTCGATTTCAATTTCACCGGTCGGTAGCATGCTTCCGCTACCGCAAAGCTCACCGAATGTTATTTCGCGGATATGACTTCACGGTACAGCTGGTTTCCGGCGATGCTTAGTTCCCTGGAAAACTACAAAGTTATATAAGTGCACTTCGGCCAGAATACGTAGCTTATAGAAACCTATTTGGTTCTAAGTGA",
@@ -95,9 +98,9 @@ int main() {
     DiseaseColection->addObject(dis17);
     DiseaseColection->addObject(dis18);
 
-    cout<< PatientColection->toStringVector();
-    cout<< DiseaseColection->toStringVector();
-     **/
+    cout<< PatientColection->toString();
+    cout<< DiseaseColection->toString();
+
     /*
     auto* p1 = new Patient{"Rebe", "123", "ABC"};
     auto* p2 = new Patient{"Norman", "456", "DEF"};
