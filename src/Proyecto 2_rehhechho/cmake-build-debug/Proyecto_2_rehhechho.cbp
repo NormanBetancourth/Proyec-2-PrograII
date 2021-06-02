@@ -141,6 +141,12 @@
 		<Unit filename="C:/Users/norma/source/repos/Progra II/Proyectos/OFICIAL/Proyec-2-PrograII/src/Proyecto 2_rehhechho/Patient.h">
 			<Option target="Proyecto_2_rehhechho"/>
 		</Unit>
+		<Unit filename="C:/Users/norma/source/repos/Progra II/Proyectos/OFICIAL/Proyec-2-PrograII/src/Proyecto 2_rehhechho/StringArray.cpp">
+			<Option target="Proyecto_2_rehhechho"/>
+		</Unit>
+		<Unit filename="C:/Users/norma/source/repos/Progra II/Proyectos/OFICIAL/Proyec-2-PrograII/src/Proyecto 2_rehhechho/StringArray.h">
+			<Option target="Proyecto_2_rehhechho"/>
+		</Unit>
 		<Unit filename="C:/Users/norma/source/repos/Progra II/Proyectos/OFICIAL/Proyec-2-PrograII/src/Proyecto 2_rehhechho/lib/nlohmann/json.hpp">
 			<Option target="Proyecto_2_rehhechho"/>
 		</Unit>

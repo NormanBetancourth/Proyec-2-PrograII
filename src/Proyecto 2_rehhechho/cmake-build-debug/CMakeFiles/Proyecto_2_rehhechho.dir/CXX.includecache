@@ -12,6 +12,12 @@ iostream
 sstream
 -
 
+../StringArray.h
+iostream
+-
+sstream
+-
+
 C:/Users/norma/source/repos/Progra II/Proyectos/OFICIAL/Proyec-2-PrograII/src/Proyecto 2_rehhechho/ArrayTemplate.h
 iostream
 -
@@ -72,6 +78,8 @@ C:/Users/norma/source/repos/Progra II/Proyectos/OFICIAL/Proyec-2-PrograII/src/Pr
 iostream
 -
 sstream
+-
+StringArray.h
 -
 
 C:/Users/norma/source/repos/Progra II/Proyectos/OFICIAL/Proyec-2-PrograII/src/Proyecto 2_rehhechho/lib/nlohmann/json.hpp

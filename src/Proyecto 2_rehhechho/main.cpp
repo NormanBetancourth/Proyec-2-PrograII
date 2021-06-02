@@ -102,7 +102,7 @@ int main() {
     cout<< PatientColection->toString();
     cout<< DiseaseColection->toString();
 
-    //PatientColection->analisis1(DiseaseColection);
+    PatientColection->analisis1(DiseaseColection);
     cout<<PatientColection->getNum();
 
     /*

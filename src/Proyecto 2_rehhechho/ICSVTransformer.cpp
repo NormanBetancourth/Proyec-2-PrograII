@@ -26,5 +26,5 @@ ArrayTemplateString<string> *PatientCSVTransformer::toStringVector(Patient* elem
 
 //Lo usa el Reader: Deserealizar
 Patient *PatientCSVTransformer::fromStringArray(ArrayTemplateString<string> *array) {
-    return new Patient(array->getInPos(0), array->getInPos(1), array->getInPos(2), new string(0));
+    return new Patient(array->getInPos(0), array->getInPos(1), array->getInPos(2), new StringArray);
 }

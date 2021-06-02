@@ -3,12 +3,10 @@
 //
 #include "Patient.h"
 
-Patient::Patient(const string &name, const string &id, const string &ADNsequence, string *diseaseArray):
+Patient::Patient(const string &name, const string &id, const string &ADNsequence, StringArray *diseaseArray):
         name(name),id(id), ADNsequence(ADNsequence), diseaseArray(diseaseArray){
-    diseaseArray = new string[DISEASESIZE];
-    for(int i =0; i < DISEASESIZE; i++) {
-        diseaseArray[i] = "";
-    }
+    diseaseArray = new StringArray();
+
 }
 
 Patient::~Patient() {
@@ -32,7 +30,7 @@ const string &Patient::getADNsequence() const {
 
 
 int Patient::getNumDiseases() {
-    return getDiseaseArray()->size();
+    return getDiseaseArray()->getNum();
 }
 
 void Patient::setName(const string &name) {
@@ -47,7 +45,7 @@ void Patient::setADNsequence(const string &ADNsequence) {
     Patient::ADNsequence = ADNsequence;
 }
 
-void Patient::setDiseaseArray(string *diseaseArray) {
+void Patient::setDiseaseArray(StringArray *diseaseArray) {
     Patient::diseaseArray = diseaseArray;
 }
 
@@ -58,16 +56,12 @@ string Patient::toStringSimple() const {
     s << "\n\tId: " << getId();
     s << "\n\tADN sequence: " << getADNsequence();
 
+
     return s.str();
 }
 
 string Patient::toStringDeseases() const {
-    stringstream ss;
-    ss << "\n\n\tSusceptible diseases\n";
-    for(int i = 0; i < getDiseaseArray()->size() - 1; i++){
-        ss << "\t" << diseaseArray[i] << "\n";
-    }
-    return ss.str();
+    return diseaseArray->toString();
 }
 
 string Patient::toStringAll() const {
@@ -79,7 +73,11 @@ string Patient::toStringAll() const {
     return sss.str();
 }
 
-string *Patient::getDiseaseArray() const {
-    return nullptr;
+StringArray *Patient::getDiseaseArray() const {
+    return diseaseArray;
+}
+
+void Patient::addDisease(string k) {
+    diseaseArray->addObject(k);
 }
 

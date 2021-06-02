@@ -358,6 +358,33 @@ Patient.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make CMakeFiles/Proyecto_2_rehhechho.dir/Patient.cpp.s
 .PHONY : Patient.cpp.s
 
+StringArray.obj: StringArray.cpp.obj
+
+.PHONY : StringArray.obj
+
+# target to build an object file
+StringArray.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make CMakeFiles/Proyecto_2_rehhechho.dir/StringArray.cpp.obj
+.PHONY : StringArray.cpp.obj
+
+StringArray.i: StringArray.cpp.i
+
+.PHONY : StringArray.i
+
+# target to preprocess a source file
+StringArray.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make CMakeFiles/Proyecto_2_rehhechho.dir/StringArray.cpp.i
+.PHONY : StringArray.cpp.i
+
+StringArray.s: StringArray.cpp.s
+
+.PHONY : StringArray.s
+
+# target to generate assembly for a file
+StringArray.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make CMakeFiles/Proyecto_2_rehhechho.dir/StringArray.cpp.s
+.PHONY : StringArray.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -418,6 +445,9 @@ help:
 	@echo ... Patient.obj
 	@echo ... Patient.i
 	@echo ... Patient.s
+	@echo ... StringArray.obj
+	@echo ... StringArray.i
+	@echo ... StringArray.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

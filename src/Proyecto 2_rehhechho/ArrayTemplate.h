@@ -141,7 +141,7 @@ public:
     bool empty();
     string toString() const;
     void analisis1(ArrayTemplate<Disease>* DVect);
-    void analisis2(T*);
+    void analisis2(Patient*);
 
 };
 
@@ -269,7 +269,7 @@ void ArrayTemplate<T>::analisis1(ArrayTemplate<Disease> *DVect) {
 }
 
 template<class T>
-void ArrayTemplate<T>::analisis2(T *P) {
+void ArrayTemplate<T>::analisis2(Patient *P) {
     string DNAsec = P->getADNsequence();//sobre lo que vamos a buscar matches.
     string match;//el auxiliar que vamos ir usando, este sera cada code de enfermedad.
     cout<<P->getName()<<endl;
@@ -278,6 +278,7 @@ void ArrayTemplate<T>::analisis2(T *P) {
         match = vector[i]->getADNsequence();
         if(DNAsec.find(match)!= string::npos ){
             cout<<vector[i]->getName()<<endl;
+           // P->addDisease(vector[i]->getName());
         }
 
     }

@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/norma/source/repos/Progra II/Proyectos/OFICIAL/Proyec-2-PrograII/src/Proyecto 2_rehhechho/ICSVTransformer.cpp" "C:/Users/norma/source/repos/Progra II/Proyectos/OFICIAL/Proyec-2-PrograII/src/Proyecto 2_rehhechho/cmake-build-debug/CMakeFiles/Proyecto_2_rehhechho.dir/ICSVTransformer.cpp.obj"
   "C:/Users/norma/source/repos/Progra II/Proyectos/OFICIAL/Proyec-2-PrograII/src/Proyecto 2_rehhechho/MediatorImplemented.cpp" "C:/Users/norma/source/repos/Progra II/Proyectos/OFICIAL/Proyec-2-PrograII/src/Proyecto 2_rehhechho/cmake-build-debug/CMakeFiles/Proyecto_2_rehhechho.dir/MediatorImplemented.cpp.obj"
   "C:/Users/norma/source/repos/Progra II/Proyectos/OFICIAL/Proyec-2-PrograII/src/Proyecto 2_rehhechho/Patient.cpp" "C:/Users/norma/source/repos/Progra II/Proyectos/OFICIAL/Proyec-2-PrograII/src/Proyecto 2_rehhechho/cmake-build-debug/CMakeFiles/Proyecto_2_rehhechho.dir/Patient.cpp.obj"
+  "C:/Users/norma/source/repos/Progra II/Proyectos/OFICIAL/Proyec-2-PrograII/src/Proyecto 2_rehhechho/StringArray.cpp" "C:/Users/norma/source/repos/Progra II/Proyectos/OFICIAL/Proyec-2-PrograII/src/Proyecto 2_rehhechho/cmake-build-debug/CMakeFiles/Proyecto_2_rehhechho.dir/StringArray.cpp.obj"
   "C:/Users/norma/source/repos/Progra II/Proyectos/OFICIAL/Proyec-2-PrograII/src/Proyecto 2_rehhechho/main.cpp" "C:/Users/norma/source/repos/Progra II/Proyectos/OFICIAL/Proyec-2-PrograII/src/Proyecto 2_rehhechho/cmake-build-debug/CMakeFiles/Proyecto_2_rehhechho.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

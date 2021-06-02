@@ -11,6 +11,7 @@ CMakeFiles/Proyecto_2_rehhechho.dir/BasicComponent.cpp.obj: ../BasicComponent.h
 CMakeFiles/Proyecto_2_rehhechho.dir/BasicComponent.cpp.obj: ../Mediator.h
 
 CMakeFiles/Proyecto_2_rehhechho.dir/CSVReader.cpp.obj: ../Disease.h
+CMakeFiles/Proyecto_2_rehhechho.dir/CSVReader.cpp.obj: ../StringArray.h
 CMakeFiles/Proyecto_2_rehhechho.dir/CSVReader.cpp.obj: ../ArrayTemplate.h
 CMakeFiles/Proyecto_2_rehhechho.dir/CSVReader.cpp.obj: ../CSVReader.cpp
 CMakeFiles/Proyecto_2_rehhechho.dir/CSVReader.cpp.obj: ../CSVReader.h
@@ -19,6 +20,7 @@ CMakeFiles/Proyecto_2_rehhechho.dir/CSVReader.cpp.obj: ../IFiles.h
 CMakeFiles/Proyecto_2_rehhechho.dir/CSVReader.cpp.obj: ../Patient.h
 
 CMakeFiles/Proyecto_2_rehhechho.dir/CSVWriter.cpp.obj: ../Disease.h
+CMakeFiles/Proyecto_2_rehhechho.dir/CSVWriter.cpp.obj: ../StringArray.h
 CMakeFiles/Proyecto_2_rehhechho.dir/CSVWriter.cpp.obj: ../ArrayTemplate.h
 CMakeFiles/Proyecto_2_rehhechho.dir/CSVWriter.cpp.obj: ../CSVWriter.cpp
 CMakeFiles/Proyecto_2_rehhechho.dir/CSVWriter.cpp.obj: ../CSVWriter.h
@@ -30,11 +32,13 @@ CMakeFiles/Proyecto_2_rehhechho.dir/Disease.cpp.obj: ../Disease.cpp
 CMakeFiles/Proyecto_2_rehhechho.dir/Disease.cpp.obj: ../Disease.h
 
 CMakeFiles/Proyecto_2_rehhechho.dir/ICSVTransformer.cpp.obj: ../Disease.h
+CMakeFiles/Proyecto_2_rehhechho.dir/ICSVTransformer.cpp.obj: ../StringArray.h
 CMakeFiles/Proyecto_2_rehhechho.dir/ICSVTransformer.cpp.obj: ../ArrayTemplate.h
 CMakeFiles/Proyecto_2_rehhechho.dir/ICSVTransformer.cpp.obj: ../ICSVTransformer.cpp
 CMakeFiles/Proyecto_2_rehhechho.dir/ICSVTransformer.cpp.obj: ../ICSVTransformer.h
 CMakeFiles/Proyecto_2_rehhechho.dir/ICSVTransformer.cpp.obj: ../Patient.h
 
+CMakeFiles/Proyecto_2_rehhechho.dir/MediatorImplemented.cpp.obj: ../StringArray.h
 CMakeFiles/Proyecto_2_rehhechho.dir/MediatorImplemented.cpp.obj: ../Analyst.h
 CMakeFiles/Proyecto_2_rehhechho.dir/MediatorImplemented.cpp.obj: ../BasicComponent.h
 CMakeFiles/Proyecto_2_rehhechho.dir/MediatorImplemented.cpp.obj: ../Disease.h
@@ -43,9 +47,14 @@ CMakeFiles/Proyecto_2_rehhechho.dir/MediatorImplemented.cpp.obj: ../MediatorImpl
 CMakeFiles/Proyecto_2_rehhechho.dir/MediatorImplemented.cpp.obj: ../MediatorImplemented.h
 CMakeFiles/Proyecto_2_rehhechho.dir/MediatorImplemented.cpp.obj: ../Patient.h
 
+CMakeFiles/Proyecto_2_rehhechho.dir/Patient.cpp.obj: ../StringArray.h
 CMakeFiles/Proyecto_2_rehhechho.dir/Patient.cpp.obj: ../Patient.cpp
 CMakeFiles/Proyecto_2_rehhechho.dir/Patient.cpp.obj: ../Patient.h
 
+CMakeFiles/Proyecto_2_rehhechho.dir/StringArray.cpp.obj: ../StringArray.cpp
+CMakeFiles/Proyecto_2_rehhechho.dir/StringArray.cpp.obj: ../StringArray.h
+
+CMakeFiles/Proyecto_2_rehhechho.dir/main.cpp.obj: ../StringArray.h
 CMakeFiles/Proyecto_2_rehhechho.dir/main.cpp.obj: ../ArrayTemplate.h
 CMakeFiles/Proyecto_2_rehhechho.dir/main.cpp.obj: ../CSVReader.h
 CMakeFiles/Proyecto_2_rehhechho.dir/main.cpp.obj: ../CSVWriter.h
