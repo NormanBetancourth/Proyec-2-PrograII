@@ -7,7 +7,6 @@
 
 #include<iostream>
 #include<sstream>
-
 using namespace std;
 //Este dato solo se usa para la inicializacion
 const int DISEASESIZE = 30;
@@ -17,7 +16,8 @@ private:
     string name;
     string id;
     string ADNsequence;
-    string* diseaseArray; //TODO aquí podría usarse el array template pa strings
+    string * diseaseArray;
+
 
 public:
     Patient(const string & = "Undefined", const string & = "Undefined",
@@ -33,7 +33,7 @@ public:
     void setName(const string &);
     void setId(const string &);
     void setADNsequence(const string &);
-    void setDiseaseArray(string *);
+    void setDiseaseArray(string*);
 
     string toStringSimple() const;
     string toStringDeseases() const;

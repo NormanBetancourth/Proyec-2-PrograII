@@ -29,9 +29,7 @@ const string &Patient::getADNsequence() const {
     return ADNsequence;
 }
 
-string *Patient::getDiseaseArray() const {
-    return diseaseArray;
-}
+
 
 int Patient::getNumDiseases() {
     return getDiseaseArray()->size();
@@ -79,5 +77,9 @@ string Patient::toStringAll() const {
     sss << toStringDeseases();
 
     return sss.str();
+}
+
+string *Patient::getDiseaseArray() const {
+    return nullptr;
 }
 

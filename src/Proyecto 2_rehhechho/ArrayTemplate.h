@@ -4,7 +4,6 @@
 
 #ifndef PROYECTO_2_REHHECHHO_ARRAYTEMPLATE_H
 #define PROYECTO_2_REHHECHHO_ARRAYTEMPLATE_H
-
 #include<iostream>
 #include<sstream>
 #include<string>
@@ -142,7 +141,7 @@ public:
     bool empty();
     string toString() const;
     void analisis1(ArrayTemplate<Disease>* DVect);
-    void analisis2(Patient*);
+    void analisis2(T*);
 
 };
 
@@ -270,7 +269,7 @@ void ArrayTemplate<T>::analisis1(ArrayTemplate<Disease> *DVect) {
 }
 
 template<class T>
-void ArrayTemplate<T>::analisis2(Patient *P) {
+void ArrayTemplate<T>::analisis2(T *P) {
     string DNAsec = P->getADNsequence();//sobre lo que vamos a buscar matches.
     string match;//el auxiliar que vamos ir usando, este sera cada code de enfermedad.
     cout<<P->getName()<<endl;
