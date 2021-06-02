@@ -12,27 +12,67 @@ template <class T>
 class CSVReader:public IReader<T> {
 private:
     fstream entry;
+    ICSVTransformer<T>* transformer;
+
+    SimpleArrayTemplate<string>* registerGeneration(const string& actualRecord){
+        auto* records = new SimpleArrayTemplate<string>();
+        string value;
+        istringstream  iss(actualRecord);
+        while(getline(iss, value, ';')){
+            records->addObject(value);
+        }
+        return records;
+    }
 public:
+    CSVReader(string, ICSVTransformer<T>*);
     ArrayTemplate<T>* readAll();
-    void close();
     ~CSVReader();
+
+    ICSVTransformer<T>* getTransformer();
+    void setTransformer(ICSVTransformer<T>*);
 };
 
 //::::::::::::::::::::::::::::::::::::::
 
+
 template<class T>
-ArrayTemplate<T> *CSVReader<T>::readAll() {
-    return nullptr;
+CSVReader<T>::CSVReader(string filePath, ICSVTransformer<T> * transformer) {
+    this->transformer=transformer;
+    this->entry.open(filePath, ios::in);
+
+    if(!entry.good()){
+        throw invalid_argument("The file path is not valid\n");
+    }
 }
 
 template<class T>
-void CSVReader<T>::close() {
+ArrayTemplate<T>* CSVReader<T>::readAll() {
+    string actualRegister;
+    auto* objects = new ArrayTemplate<T>(1);
 
+    while(getline(this->entry, actualRegister)){
+        SimpleArrayTemplate<string>* records = this->registerGeneration(actualRegister);
+        objects->addObject(this->transformer->fromStringArray(records));
+        delete records;
+    }
+    return objects;
 }
 
 template<class T>
 CSVReader<T>::~CSVReader() {
+    if(getTransformer()){
+        delete getTransformer();
+    }
+}
 
+template<class T>
+ICSVTransformer<T> *CSVReader<T>::getTransformer() {
+    return transformer;
+}
+
+template<class T>
+void CSVReader<T>::setTransformer(ICSVTransformer<T> *transformer) {
+    this->transformer=transformer;
 }
 
 
