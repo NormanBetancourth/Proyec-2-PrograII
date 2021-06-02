@@ -1,3 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Proyecto_2_rehhechho.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\Proyecto_2_rehhechho.dir/objects.a @CMakeFiles\Proyecto_2_rehhechho.dir\objects1.rsp
-C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\Proyecto_2_rehhechho.dir/objects.a -Wl,--no-whole-archive  -o Proyecto_2_rehhechho.exe -Wl,--out-implib,libProyecto_2_rehhechho.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Proyecto_2_rehhechho.dir\linklibs.rsp

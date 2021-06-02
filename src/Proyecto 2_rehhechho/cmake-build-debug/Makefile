@@ -67,10 +67,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\norma\source\repos\Progra II\Proyectos\Proyecto 2\src\Proyecto 2_rehhechho"
+CMAKE_SOURCE_DIR = "C:\Users\norma\source\repos\Progra II\Proyectos\OFICIAL\Proyec-2-PrograII\src\Proyecto 2_rehhechho"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\norma\source\repos\Progra II\Proyectos\Proyecto 2\src\Proyecto 2_rehhechho\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\norma\source\repos\Progra II\Proyectos\OFICIAL\Proyec-2-PrograII\src\Proyecto 2_rehhechho\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\norma\source\repos\Progra II\Proyectos\Proyecto 2\src\Proyecto 2_rehhechho\cmake-build-debug\CMakeFiles" "C:\Users\norma\source\repos\Progra II\Proyectos\Proyecto 2\src\Proyecto 2_rehhechho\cmake-build-debug\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\norma\source\repos\Progra II\Proyectos\OFICIAL\Proyec-2-PrograII\src\Proyecto 2_rehhechho\cmake-build-debug\CMakeFiles" "C:\Users\norma\source\repos\Progra II\Proyectos\OFICIAL\Proyec-2-PrograII\src\Proyecto 2_rehhechho\cmake-build-debug\CMakeFiles\progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\norma\source\repos\Progra II\Proyectos\Proyecto 2\src\Proyecto 2_rehhechho\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\norma\source\repos\Progra II\Proyectos\OFICIAL\Proyec-2-PrograII\src\Proyecto 2_rehhechho\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -142,86 +142,113 @@ Proyecto_2_rehhechho/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make CMakeFiles/Proyecto_2_rehhechho.dir/build
 .PHONY : Proyecto_2_rehhechho/fast
 
-Analist.obj: Analist.cpp.obj
+Analyst.obj: Analyst.cpp.obj
 
-.PHONY : Analist.obj
-
-# target to build an object file
-Analist.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make CMakeFiles/Proyecto_2_rehhechho.dir/Analist.cpp.obj
-.PHONY : Analist.cpp.obj
-
-Analist.i: Analist.cpp.i
-
-.PHONY : Analist.i
-
-# target to preprocess a source file
-Analist.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make CMakeFiles/Proyecto_2_rehhechho.dir/Analist.cpp.i
-.PHONY : Analist.cpp.i
-
-Analist.s: Analist.cpp.s
-
-.PHONY : Analist.s
-
-# target to generate assembly for a file
-Analist.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make CMakeFiles/Proyecto_2_rehhechho.dir/Analist.cpp.s
-.PHONY : Analist.cpp.s
-
-ArrayTemplate.obj: ArrayTemplate.cpp.obj
-
-.PHONY : ArrayTemplate.obj
+.PHONY : Analyst.obj
 
 # target to build an object file
-ArrayTemplate.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make CMakeFiles/Proyecto_2_rehhechho.dir/ArrayTemplate.cpp.obj
-.PHONY : ArrayTemplate.cpp.obj
+Analyst.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make CMakeFiles/Proyecto_2_rehhechho.dir/Analyst.cpp.obj
+.PHONY : Analyst.cpp.obj
 
-ArrayTemplate.i: ArrayTemplate.cpp.i
+Analyst.i: Analyst.cpp.i
 
-.PHONY : ArrayTemplate.i
+.PHONY : Analyst.i
 
 # target to preprocess a source file
-ArrayTemplate.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make CMakeFiles/Proyecto_2_rehhechho.dir/ArrayTemplate.cpp.i
-.PHONY : ArrayTemplate.cpp.i
+Analyst.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make CMakeFiles/Proyecto_2_rehhechho.dir/Analyst.cpp.i
+.PHONY : Analyst.cpp.i
 
-ArrayTemplate.s: ArrayTemplate.cpp.s
+Analyst.s: Analyst.cpp.s
 
-.PHONY : ArrayTemplate.s
+.PHONY : Analyst.s
 
 # target to generate assembly for a file
-ArrayTemplate.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make CMakeFiles/Proyecto_2_rehhechho.dir/ArrayTemplate.cpp.s
-.PHONY : ArrayTemplate.cpp.s
+Analyst.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make CMakeFiles/Proyecto_2_rehhechho.dir/Analyst.cpp.s
+.PHONY : Analyst.cpp.s
 
-ComponenteBase.obj: ComponenteBase.cpp.obj
+BasicComponent.obj: BasicComponent.cpp.obj
 
-.PHONY : ComponenteBase.obj
+.PHONY : BasicComponent.obj
 
 # target to build an object file
-ComponenteBase.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make CMakeFiles/Proyecto_2_rehhechho.dir/ComponenteBase.cpp.obj
-.PHONY : ComponenteBase.cpp.obj
+BasicComponent.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make CMakeFiles/Proyecto_2_rehhechho.dir/BasicComponent.cpp.obj
+.PHONY : BasicComponent.cpp.obj
 
-ComponenteBase.i: ComponenteBase.cpp.i
+BasicComponent.i: BasicComponent.cpp.i
 
-.PHONY : ComponenteBase.i
+.PHONY : BasicComponent.i
 
 # target to preprocess a source file
-ComponenteBase.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make CMakeFiles/Proyecto_2_rehhechho.dir/ComponenteBase.cpp.i
-.PHONY : ComponenteBase.cpp.i
+BasicComponent.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make CMakeFiles/Proyecto_2_rehhechho.dir/BasicComponent.cpp.i
+.PHONY : BasicComponent.cpp.i
 
-ComponenteBase.s: ComponenteBase.cpp.s
+BasicComponent.s: BasicComponent.cpp.s
 
-.PHONY : ComponenteBase.s
+.PHONY : BasicComponent.s
 
 # target to generate assembly for a file
-ComponenteBase.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make CMakeFiles/Proyecto_2_rehhechho.dir/ComponenteBase.cpp.s
-.PHONY : ComponenteBase.cpp.s
+BasicComponent.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make CMakeFiles/Proyecto_2_rehhechho.dir/BasicComponent.cpp.s
+.PHONY : BasicComponent.cpp.s
+
+CSVReader.obj: CSVReader.cpp.obj
+
+.PHONY : CSVReader.obj
+
+# target to build an object file
+CSVReader.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make CMakeFiles/Proyecto_2_rehhechho.dir/CSVReader.cpp.obj
+.PHONY : CSVReader.cpp.obj
+
+CSVReader.i: CSVReader.cpp.i
+
+.PHONY : CSVReader.i
+
+# target to preprocess a source file
+CSVReader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make CMakeFiles/Proyecto_2_rehhechho.dir/CSVReader.cpp.i
+.PHONY : CSVReader.cpp.i
+
+CSVReader.s: CSVReader.cpp.s
+
+.PHONY : CSVReader.s
+
+# target to generate assembly for a file
+CSVReader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make CMakeFiles/Proyecto_2_rehhechho.dir/CSVReader.cpp.s
+.PHONY : CSVReader.cpp.s
+
+CSVWriter.obj: CSVWriter.cpp.obj
+
+.PHONY : CSVWriter.obj
+
+# target to build an object file
+CSVWriter.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make CMakeFiles/Proyecto_2_rehhechho.dir/CSVWriter.cpp.obj
+.PHONY : CSVWriter.cpp.obj
+
+CSVWriter.i: CSVWriter.cpp.i
+
+.PHONY : CSVWriter.i
+
+# target to preprocess a source file
+CSVWriter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make CMakeFiles/Proyecto_2_rehhechho.dir/CSVWriter.cpp.i
+.PHONY : CSVWriter.cpp.i
+
+CSVWriter.s: CSVWriter.cpp.s
+
+.PHONY : CSVWriter.s
+
+# target to generate assembly for a file
+CSVWriter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make CMakeFiles/Proyecto_2_rehhechho.dir/CSVWriter.cpp.s
+.PHONY : CSVWriter.cpp.s
 
 Disease.obj: Disease.cpp.obj
 
@@ -250,32 +277,32 @@ Disease.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make CMakeFiles/Proyecto_2_rehhechho.dir/Disease.cpp.s
 .PHONY : Disease.cpp.s
 
-List.obj: List.cpp.obj
+ICSVTransformer.obj: ICSVTransformer.cpp.obj
 
-.PHONY : List.obj
+.PHONY : ICSVTransformer.obj
 
 # target to build an object file
-List.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make CMakeFiles/Proyecto_2_rehhechho.dir/List.cpp.obj
-.PHONY : List.cpp.obj
+ICSVTransformer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make CMakeFiles/Proyecto_2_rehhechho.dir/ICSVTransformer.cpp.obj
+.PHONY : ICSVTransformer.cpp.obj
 
-List.i: List.cpp.i
+ICSVTransformer.i: ICSVTransformer.cpp.i
 
-.PHONY : List.i
+.PHONY : ICSVTransformer.i
 
 # target to preprocess a source file
-List.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make CMakeFiles/Proyecto_2_rehhechho.dir/List.cpp.i
-.PHONY : List.cpp.i
+ICSVTransformer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make CMakeFiles/Proyecto_2_rehhechho.dir/ICSVTransformer.cpp.i
+.PHONY : ICSVTransformer.cpp.i
 
-List.s: List.cpp.s
+ICSVTransformer.s: ICSVTransformer.cpp.s
 
-.PHONY : List.s
+.PHONY : ICSVTransformer.s
 
 # target to generate assembly for a file
-List.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make CMakeFiles/Proyecto_2_rehhechho.dir/List.cpp.s
-.PHONY : List.cpp.s
+ICSVTransformer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make CMakeFiles/Proyecto_2_rehhechho.dir/ICSVTransformer.cpp.s
+.PHONY : ICSVTransformer.cpp.s
 
 MediatorImplemented.obj: MediatorImplemented.cpp.obj
 
@@ -303,33 +330,6 @@ MediatorImplemented.s: MediatorImplemented.cpp.s
 MediatorImplemented.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make CMakeFiles/Proyecto_2_rehhechho.dir/MediatorImplemented.cpp.s
 .PHONY : MediatorImplemented.cpp.s
-
-Nodo.obj: Nodo.cpp.obj
-
-.PHONY : Nodo.obj
-
-# target to build an object file
-Nodo.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make CMakeFiles/Proyecto_2_rehhechho.dir/Nodo.cpp.obj
-.PHONY : Nodo.cpp.obj
-
-Nodo.i: Nodo.cpp.i
-
-.PHONY : Nodo.i
-
-# target to preprocess a source file
-Nodo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make CMakeFiles/Proyecto_2_rehhechho.dir/Nodo.cpp.i
-.PHONY : Nodo.cpp.i
-
-Nodo.s: Nodo.cpp.s
-
-.PHONY : Nodo.s
-
-# target to generate assembly for a file
-Nodo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make CMakeFiles/Proyecto_2_rehhechho.dir/Nodo.cpp.s
-.PHONY : Nodo.cpp.s
 
 Patient.obj: Patient.cpp.obj
 
@@ -394,27 +394,27 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Proyecto_2_rehhechho
-	@echo ... Analist.obj
-	@echo ... Analist.i
-	@echo ... Analist.s
-	@echo ... ArrayTemplate.obj
-	@echo ... ArrayTemplate.i
-	@echo ... ArrayTemplate.s
-	@echo ... ComponenteBase.obj
-	@echo ... ComponenteBase.i
-	@echo ... ComponenteBase.s
+	@echo ... Analyst.obj
+	@echo ... Analyst.i
+	@echo ... Analyst.s
+	@echo ... BasicComponent.obj
+	@echo ... BasicComponent.i
+	@echo ... BasicComponent.s
+	@echo ... CSVReader.obj
+	@echo ... CSVReader.i
+	@echo ... CSVReader.s
+	@echo ... CSVWriter.obj
+	@echo ... CSVWriter.i
+	@echo ... CSVWriter.s
 	@echo ... Disease.obj
 	@echo ... Disease.i
 	@echo ... Disease.s
-	@echo ... List.obj
-	@echo ... List.i
-	@echo ... List.s
+	@echo ... ICSVTransformer.obj
+	@echo ... ICSVTransformer.i
+	@echo ... ICSVTransformer.s
 	@echo ... MediatorImplemented.obj
 	@echo ... MediatorImplemented.i
 	@echo ... MediatorImplemented.s
-	@echo ... Nodo.obj
-	@echo ... Nodo.i
-	@echo ... Nodo.s
 	@echo ... Patient.obj
 	@echo ... Patient.i
 	@echo ... Patient.s
