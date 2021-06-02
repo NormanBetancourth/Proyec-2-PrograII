@@ -278,7 +278,7 @@ void ArrayTemplate<T>::analisis2(Patient *P) {
         match = vector[i]->getADNsequence();
         if(DNAsec.find(match)!= string::npos ){
             cout<<vector[i]->getName()<<endl;
-           // P->addDisease(vector[i]->getName());
+            P->addDisease(vector[i]->getName());
         }
 
     }

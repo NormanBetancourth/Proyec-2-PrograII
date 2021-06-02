@@ -23,12 +23,12 @@ int StringArray::getNum() const {
 void StringArray::addObject(string line) {
     if (num < 30) {
         vector[num] = line;
-        setNum(num++);
+        setNum(num+ 1);
     }
 }
 
 bool StringArray::empty() {
-    for (int i = 0; i < getNum(); i++) {
+    for (int i = 0; i < num; i++) {
         if (vector[i] == "")
             return true;
     }
@@ -38,7 +38,7 @@ bool StringArray::empty() {
 string StringArray::toString() const {
     stringstream ss;
     ss << "\nArray List Information\n";
-    for(int i = 0; i < getNum(); i++){
+    for(int i = 0; i < num; i++){
         ss << vector[i] << "\n";
     }
     return ss.str();

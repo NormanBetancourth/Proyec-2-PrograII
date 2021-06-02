@@ -55,6 +55,8 @@ string Patient::toStringSimple() const {
     s << "\n\tName: " << getName();
     s << "\n\tId: " << getId();
     s << "\n\tADN sequence: " << getADNsequence();
+    if (!diseaseArray->empty())
+        s << "\n\tDiseases: " << toStringDeseases();
 
 
     return s.str();
