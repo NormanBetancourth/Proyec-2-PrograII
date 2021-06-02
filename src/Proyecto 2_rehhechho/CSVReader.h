@@ -14,8 +14,8 @@ private:
     fstream entry;
     ICSVTransformer<T>* transformer;
 
-    ArrayTemplateString<string>* registerGeneration(const string& actualRecord){
-        auto* records = new ArrayTemplateString<string>(SIZE1 * 4);
+    SimpleArrayTemplate<string>* registerGeneration(const string& actualRecord){
+        auto* records = new SimpleArrayTemplate<string>();
         string value;
         istringstream  iss(actualRecord);
         while(getline(iss, value, ';')){
@@ -51,7 +51,7 @@ ArrayTemplate<T>* CSVReader<T>::readAll() {
     auto* objects = new ArrayTemplate<T>(1);
 
     while(getline(this->entry, actualRegister)){
-        ArrayTemplateString<string>* records = this->registerGeneration(actualRegister);
+        SimpleArrayTemplate<string>* records = this->registerGeneration(actualRegister);
         objects->addObject(this->transformer->fromStringArray(records));
         delete records;
     }

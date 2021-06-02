@@ -17,107 +17,6 @@ using namespace std;
 const int SIZE1 = 100;
 const int SIZE2 = 30;
 
-//:::::::::::   CASO ESPECIAL    :::::::::::::::
-//:::::::::::   CLASE TEMPLATE ESPECIALIZADA PARA ARRAY STRING   :::::::::::::::
-//TODO para seguir manteniendo la idea de template, esta plantilla se puede hacer para
-// datos simples, por ej string, int, ...
-template <class string>
-class ArrayTemplateString{
-private:
-    string* vector;
-    int num;
-    int size;
-public:
-    ArrayTemplateString(int);
-    ~ArrayTemplateString();
-    void setNum(int);
-    int getSize() const;
-    int getNum() const;
-    bool addObject(const string&);
-    bool empty();
-    string toString() const;
-    string getInPos(int)const;
-
-};
-
-template<class string>
-ArrayTemplateString<string>::ArrayTemplateString(int opt) {
-    size = (opt > 0) ? SIZE1 : SIZE2;
-    num = 0;
-    vector = new string [getSize()];
-
-    //for (int i = 0; i < getSize(); i++) {
-    //    vector[i] = '\n';
-    //}
-}
-
-template<class string>
-ArrayTemplateString<string>::~ArrayTemplateString() {
-    for (int i = 0; i < getNum(); i++) {
-        //if (vector[i]) {
-        //vector[i] = '0';
-        //}
-    }
-    //delete[] vector;
-    setNum(0);
-
-}
-
-template<class string>
-void ArrayTemplateString<string>::setNum(int num) {
-    this->num = num;
-}
-
-template<class string>
-int ArrayTemplateString<string>::getSize() const {
-    return size;
-}
-
-template<class string>
-int ArrayTemplateString<string>::getNum() const {
-    return num;
-}
-
-template<class string>
-bool ArrayTemplateString<string>::addObject(const string& line) {
-    if (getNum() < getSize()) {
-        vector[getNum()] = line;
-        setNum(getNum() + 1);
-        return true;
-    }
-    return false;
-}
-
-template<class string>
-bool ArrayTemplateString<string>::empty() {
-    for (int i = 0; i < getNum(); i++) {
-        if (vector[i] == nullptr)
-            return true;
-    }
-    return false;
-}
-
-template<class string>
-string ArrayTemplateString<string>::toString() const {
-    stringstream ss;
-    ss << "\nArray List Information\n";
-    for(int i = 0; i < getNum(); i++){
-        ss << vector[i]->toStringSimple() << "\n";
-    }
-    return ss.str();
-}
-
-template<class string>
-string ArrayTemplateString<string>::getInPos(int pos) const {
-    for(int i=0;i<getSize();i++){
-        if(i == pos){
-            return vector[i];
-        }
-    }
-    return nullptr;
-}
-
-
 //:::::::::::   CLASE ARRAY TEMPLATE GENERALIZADA   :::::::::::::
 
 template <class T>
@@ -141,7 +40,7 @@ public:
     bool empty();
     string toString() const;
     //::::::::::::::::::::::::
-    void analisis2(Patient *P);
+    void analisis2(Patient*);
     void analisis1(ArrayTemplate<Disease> *DVect);
 };
 
@@ -253,13 +152,12 @@ bool ArrayTemplate<T>::empty() {
 template<class T>
 string ArrayTemplate<T>::toString() const {
     stringstream ss;
-    ss << "\nArray List Information\n";
+    //ss << "\nArray List Information\n";
     for(int i = 0; i < getNum(); i++){
-        ss << vector[i]->toStringSimple() << "\n";
+        ss << vector[i]->toString() << "\n";
     }
     return ss.str();
 }
-
 
 
 template<class T>
@@ -271,7 +169,7 @@ void ArrayTemplate<T>::analisis1(ArrayTemplate<Disease> *DVect) {
 }
 
 template<class T>
-void ArrayTemplate<T>::analisis2(Patient *P) {
+void ArrayTemplate<T>::analisis2(Patient* P) {
     string DNAsec = P->getADNsequence();//sobre lo que vamos a buscar matches.
     string match;//el auxiliar que vamos ir usando, este sera cada code de enfermedad.
     cout<<P->getName()<<endl;
@@ -280,14 +178,12 @@ void ArrayTemplate<T>::analisis2(Patient *P) {
         match = vector[i]->getADNsequence();
         if(DNAsec.find(match)!= string::npos ){
             cout<<vector[i]->getName()<<endl;
-            P->addDisease(vector[i]->getName());
+            P->getDiseaseArray()->addObject(vector[i]->getName());
         }
 
     }
     cout<<"\n";
 }
-
-
 
 
 

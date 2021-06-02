@@ -15,7 +15,7 @@ private:
     fstream ex;
     ICSVTransformer<T>* transformer;
 
-    string registerGeneration(ArrayTemplateString<string>* record){
+    string registerGeneration(SimpleArrayTemplate<string>* record){
         int cont = 0;
         auto begin = record->getInPos(cont);
         auto end = record->getInPos(record->getNum());
@@ -70,7 +70,7 @@ CSVWriter<T>::~CSVWriter() {
 
 template<class T>
 void CSVWriter<T>::write(T* element) {
-    ArrayTemplateString<string>* records = this->transformer->toStringVector(element);
+    SimpleArrayTemplate<string>* records = this->transformer->toStringVector(element);
     this->ex << this->registerGeneration(records);
     delete records;
 }

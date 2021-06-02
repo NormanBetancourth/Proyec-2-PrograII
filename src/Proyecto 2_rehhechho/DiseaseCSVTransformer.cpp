@@ -4,8 +4,8 @@
 
 #include "DiseaseCSVTransformer.h"
 //Lo usa el Writer: Serializar
-ArrayTemplateString<string> *DiseaseCSVTransformer::toStringVector(Disease* element) {
-    auto* records= new ArrayTemplateString<string>(SIZE2);
+SimpleArrayTemplate<string> *DiseaseCSVTransformer::toStringVector(Disease* element) {
+    auto* records= new SimpleArrayTemplate<string>();
     records->addObject(element->getName());
     records->addObject(element->getADNsequence());
 
@@ -13,6 +13,6 @@ ArrayTemplateString<string> *DiseaseCSVTransformer::toStringVector(Disease* elem
 }
 
 //Lo usa el Reader: Deserealizar
-Disease* DiseaseCSVTransformer::fromStringArray(ArrayTemplateString<string> *array) {
+Disease* DiseaseCSVTransformer::fromStringArray(SimpleArrayTemplate<string> *array) {
     return new Disease(array->getInPos(0), array->getInPos(1));
 }

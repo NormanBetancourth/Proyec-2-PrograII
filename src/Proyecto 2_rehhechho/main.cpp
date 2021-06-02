@@ -10,12 +10,11 @@
 #include "fstream"
 using nlohmann::json;
 
-
 int main() {
     IReader<Patient>* reader = new CSVReader<Patient>("CadenaADN-Pacientes.csv", new PatientCSVTransformer());
     ArrayTemplate<Patient>* patientCollection = reader->readAll();
 
-    cout << patientCollection->toString();
+    //cout << patientCollection->toString();
 
     auto *dis1= new Disease("Cancer","CGTTTA");
     auto *dis2= new Disease("Daltonismo","GAGCATCT");
@@ -56,6 +55,7 @@ int main() {
     DiseaseColection->addObject(dis16);
     DiseaseColection->addObject(dis17);
     DiseaseColection->addObject(dis18);
+
 
     patientCollection->analisis1(DiseaseColection);
     cout<< "-----------------------------------------------------------------"<<endl;

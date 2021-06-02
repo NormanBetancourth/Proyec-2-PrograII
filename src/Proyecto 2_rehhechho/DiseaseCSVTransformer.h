@@ -9,8 +9,8 @@
 class DiseaseCSVTransformer:public ICSVTransformer<Disease>{
 public:
     ~DiseaseCSVTransformer() override =default;
-    ArrayTemplateString<string>* toStringVector(Disease* element) override;
-    Disease* fromStringArray(ArrayTemplateString<string>* array) override;
+    SimpleArrayTemplate<string>* toStringVector(Disease* element) override;
+    Disease* fromStringArray(SimpleArrayTemplate<string>* array) override;
 };
 
 

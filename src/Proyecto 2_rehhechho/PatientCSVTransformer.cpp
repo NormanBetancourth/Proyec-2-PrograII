@@ -5,9 +5,9 @@
 #include "PatientCSVTransformer.h"
 
 //Lo usa el Writer: Serializar
-ArrayTemplateString<string> *PatientCSVTransformer::toStringVector(Patient* element) {
-    auto* records= new ArrayTemplateString<string>(SIZE1);
-    //auto* records2= new ArrayTemplateString<string>(0);
+SimpleArrayTemplate<string> *PatientCSVTransformer::toStringVector(Patient* element) {
+    auto* records= new SimpleArrayTemplate<string>();
+    //auto* records2= new SimpleArrayTemplate<string>(0);
 
     records->addObject(element->getName());
     records->addObject(element->getId());
@@ -29,6 +29,6 @@ ArrayTemplateString<string> *PatientCSVTransformer::toStringVector(Patient* elem
 }
 
 //Lo usa el Reader: Deserealizar
-Patient* PatientCSVTransformer::fromStringArray(ArrayTemplateString<string> *array) {
-    return new Patient(array->getInPos(0), array->getInPos(1), array->getInPos(2),new StringArray());
+Patient* PatientCSVTransformer::fromStringArray(SimpleArrayTemplate<string> *array) {
+    return new Patient(array->getInPos(0), array->getInPos(1), array->getInPos(2), new SimpleArrayTemplate<string>());
 }
