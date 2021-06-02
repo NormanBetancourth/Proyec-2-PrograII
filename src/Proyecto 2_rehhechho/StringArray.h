@@ -4,6 +4,7 @@
 
 #ifndef PROYECTO_2_REHHECHHO_STRINGARRAY_H
 #define PROYECTO_2_REHHECHHO_STRINGARRAY_H
+/*
 #include <iostream>
 #include <sstream>
 
@@ -21,6 +22,7 @@ public:
     bool empty();
     string toString() const;
 };
+ */
 
 
 #endif //PROYECTO_2_REHHECHHO_STRINGARRAY_H

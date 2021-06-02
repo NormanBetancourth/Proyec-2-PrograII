@@ -105,6 +105,9 @@
 		<Unit filename="C:/Users/rebec/Desktop/comparacion/Proyec-2-PrograII/src/Proyecto 2_rehhechho/CSVWriter.h">
 			<Option target="Proyecto_2_rehhechho"/>
 		</Unit>
+		<Unit filename="C:/Users/rebec/Desktop/comparacion/Proyec-2-PrograII/src/Proyecto 2_rehhechho/CadenaADN-Pacientes.csv">
+			<Option target="Proyecto_2_rehhechho"/>
+		</Unit>
 		<Unit filename="C:/Users/rebec/Desktop/comparacion/Proyec-2-PrograII/src/Proyecto 2_rehhechho/Disease.cpp">
 			<Option target="Proyecto_2_rehhechho"/>
 		</Unit>

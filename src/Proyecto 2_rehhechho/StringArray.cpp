@@ -1,6 +1,7 @@
 //
 // Created by norma on 1/6/2021.
 //
+/*
 #include "StringArray.h"
 
 StringArray::StringArray() {
@@ -44,3 +45,4 @@ string StringArray::toString() const {
     }
     return ss.str();
 }
+*/
