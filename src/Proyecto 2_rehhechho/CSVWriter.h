@@ -17,24 +17,22 @@ private:
 
     string registerGeneration(ArrayTemplateString<string>* record){
         int cont = 0;
-        //TODO calcular el primer objeto y ultimo? iterador
         auto begin = record->getInPos(cont);
         auto end = record->getInPos(record->getNum());
 
         stringstream ss;
 
-        if (begin != end){
+        if (begin != end) {
             //iterador
             ss << begin;
-            begin = record->getInPos(++cont);
+            begin = record->getInPos(cont);
         }
 
         while (begin != end){
             ss << ";";
+            begin = record->getInPos(++cont);
             ss << begin;
-            begin = record->getInPos(cont++);
         }
-
         ss << endl;
         return ss.str();
     }
@@ -42,8 +40,11 @@ private:
 public:
     CSVWriter(string filePath, ICSVTransformer<T>* transformer);
     ~CSVWriter();
-    void write(T element);
+    void write(T* element);
     void writeAll(ArrayTemplate<T>* elements);
+
+    ICSVTransformer<T>* getTransformer();
+    void setTransformer(ICSVTransformer<T>*);
 };
 
 
@@ -62,12 +63,13 @@ CSVWriter<T>::CSVWriter(string filePath, ICSVTransformer<T> *transformer) {
 template<class T>
 CSVWriter<T>::~CSVWriter() {
     this->ex.close();
-    //TODO hacer get
-    delete this->transformer;
+    if(getTransformer()){
+        delete getTransformer();
+    }
 }
 
 template<class T>
-void CSVWriter<T>::write(T element) {
+void CSVWriter<T>::write(T* element) {
     ArrayTemplateString<string>* records = this->transformer->toStringVector(element);
     this->ex << this->registerGeneration(records);
     delete records;
@@ -75,10 +77,20 @@ void CSVWriter<T>::write(T element) {
 
 
 template<class T>
-void CSVWriter<T>::writeAll(ArrayTemplate<T> *elements) {
-    for(int i=0;i<elements->getSize();i++){
-        this->write(*elements->returnObjectPos(i));
+void CSVWriter<T>::writeAll(ArrayTemplate<T>* elements) {
+    for(int i = 0;i < elements->getSize();i++){
+        this->write(elements->returnObjectPos(i));
     }
+}
+
+template<class T>
+ICSVTransformer<T> *CSVWriter<T>::getTransformer() {
+    return transformer;
+}
+
+template<class T>
+void CSVWriter<T>::setTransformer(ICSVTransformer<T> *transformer) {
+    this->transformer=transformer;
 }
 
 

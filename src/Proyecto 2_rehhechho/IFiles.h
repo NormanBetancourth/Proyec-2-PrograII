@@ -9,7 +9,7 @@
 template <class T>
 class IWriter {
 public:
-    virtual void write(T element) = 0;
+    virtual void write(T* element) = 0;
     virtual void writeAll(ArrayTemplate<T>* elements) = 0;
     virtual ~IWriter() = default;
 };
@@ -19,7 +19,7 @@ class IReader {
 public:
     virtual ArrayTemplate<T>* readAll() = 0;
     virtual ~IReader() = default;
-
 };
+
 
 #endif //JSON_HPP_IFILES_H

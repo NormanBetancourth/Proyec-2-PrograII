@@ -33,7 +33,7 @@ public:
     void setNum(int);
     int getSize() const;
     int getNum() const;
-    bool addObject(string);
+    bool addObject(const string&);
     bool empty();
     string toString() const;
     string getInPos(int)const;
@@ -55,7 +55,7 @@ template<class string>
 ArrayTemplateString<string>::~ArrayTemplateString() {
     for (int i = 0; i < getNum(); i++) {
         //if (vector[i]) {
-            //vector[i] = '0';
+        //vector[i] = '0';
         //}
     }
     //delete[] vector;
@@ -79,7 +79,7 @@ int ArrayTemplateString<string>::getNum() const {
 }
 
 template<class string>
-bool ArrayTemplateString<string>::addObject(string line) {
+bool ArrayTemplateString<string>::addObject(const string& line) {
     if (getNum() < getSize()) {
         vector[getNum()] = line;
         setNum(getNum() + 1);
@@ -102,7 +102,7 @@ string ArrayTemplateString<string>::toString() const {
     stringstream ss;
     ss << "\nArray List Information\n";
     for(int i = 0; i < getNum(); i++){
-        ss << vector[i] << "\n";
+        ss << vector[i]->toStringSimple() << "\n";
     }
     return ss.str();
 }
@@ -140,9 +140,9 @@ public:
     T* returnObjectPos(int);
     bool empty();
     string toString() const;
-    void analisis1(ArrayTemplate<Disease>* DVect);
-    void analisis2(Patient*);
-
+    //::::::::::::::::::::::::
+    //void analisis2(Patient *P);
+    //void analisis1(ArrayTemplate<Disease> *DVect);
 };
 
 template<class T>
@@ -193,7 +193,7 @@ template<class T>
 void ArrayTemplate<T>::deleteObject(string id) {
     stringstream ss;
     for (int i = 0; i < getNum(); i++) {
-        if (vector[i]->getId() == id) {
+        if (verifyObject(id)) {
             delete vector[i];
             moveToLeft(i);
             setNum(getNum() - 1);
@@ -212,7 +212,7 @@ bool ArrayTemplate<T>::verifyObject(string id) {
 }
 
 template<class T>
-bool ArrayTemplate<T>::addObject(T *myObject) {
+bool ArrayTemplate<T>::addObject(T* myObject) {
     if (getNum() < getSize()) {
         vector[getNum()] = myObject;
         setNum(getNum() + 1);
@@ -255,11 +255,13 @@ string ArrayTemplate<T>::toString() const {
     stringstream ss;
     ss << "\nArray List Information\n";
     for(int i = 0; i < getNum(); i++){
-        ss << vector[i]->toStringSimple()<< "\n";
+        ss << vector[i]->toStringSimple() << "\n";
     }
     return ss.str();
 }
 
+
+/*
 template<class T>
 void ArrayTemplate<T>::analisis1(ArrayTemplate<Disease> *DVect) {
     cout<<"Persona con enfermedades\n";
@@ -285,7 +287,7 @@ void ArrayTemplate<T>::analisis2(Patient *P) {
     cout<<"\n";
 }
 
-
+*/
 
 
 

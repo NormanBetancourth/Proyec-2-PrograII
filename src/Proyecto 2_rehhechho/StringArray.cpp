@@ -28,10 +28,11 @@ void StringArray::addObject(string line) {
 }
 
 bool StringArray::empty() {
-    for (int i = 0; i < num; i++) {
-        if (vector[i] == "")
-            return true;
-    }
+    //for (int i = 0; i < num; i++) {
+        //TODO revisar
+       // if (&vector[i])
+      //      return true;
+    //}
     return false;
 }
 
