@@ -141,8 +141,8 @@ public:
     bool empty();
     string toString() const;
     //::::::::::::::::::::::::
-    //void analisis2(Patient *P);
-    //void analisis1(ArrayTemplate<Disease> *DVect);
+    void analisis2(Patient *P);
+    void analisis1(ArrayTemplate<Disease> *DVect);
 };
 
 template<class T>
@@ -261,7 +261,7 @@ string ArrayTemplate<T>::toString() const {
 }
 
 
-/*
+
 template<class T>
 void ArrayTemplate<T>::analisis1(ArrayTemplate<Disease> *DVect) {
     cout<<"Persona con enfermedades\n";
@@ -287,7 +287,7 @@ void ArrayTemplate<T>::analisis2(Patient *P) {
     cout<<"\n";
 }
 
-*/
+
 
 
 

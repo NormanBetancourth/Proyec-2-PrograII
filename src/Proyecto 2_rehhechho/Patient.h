@@ -2,11 +2,12 @@
 // Created by norma on 23/5/2021.
 //
 
+
 #ifndef PROYECTO_2_REHHECHHO_PATIENT_H
 #define PROYECTO_2_REHHECHHO_PATIENT_H
 #include<iostream>
 #include<sstream>
-
+/**
 using namespace std;
 //Este dato solo se usa para la inicializacion
 const int DISEASESIZE = 30;
@@ -37,9 +38,13 @@ public:
     string toStringSimple() const;
     string toStringDeseases() const;
     string toStringAll() const;
+
+
 };
 
-/*
+ **/
+
+
 #include<iostream>
 #include<sstream>
 #include<StringArray.h> //TODO
@@ -75,6 +80,6 @@ public:
     string toStringAll() const;
     void addDisease(string);
 };
-*/
+
 
 #endif //PROYECTO_2_REHHECHHO_PATIENT_H

@@ -1,9 +1,8 @@
 //
 // Created by norma on 1/6/2021.
 //
-/*
-#include "StringArray.h"
 
+#include "StringArray.h"
 StringArray::StringArray() {
     num = 0;
     vector = new string [30];
@@ -29,11 +28,10 @@ void StringArray::addObject(string line) {
 }
 
 bool StringArray::empty() {
-    //for (int i = 0; i < num; i++) {
-        //TODO revisar
-       // if (&vector[i])
-      //      return true;
-    //}
+    for (int i = 0; i < num; i++) {
+        if (vector[i] == "")
+            return true;
+    }
     return false;
 }
 
@@ -45,4 +43,3 @@ string StringArray::toString() const {
     }
     return ss.str();
 }
-*/

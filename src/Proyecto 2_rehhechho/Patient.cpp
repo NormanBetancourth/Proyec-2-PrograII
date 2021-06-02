@@ -1,7 +1,9 @@
 //
 // Created by norma on 23/5/2021.
 //
+/**
 #include "Patient.h"
+
 
 Patient::Patient(const string &name, const string &id, const string &ADNsequence, string *diseaseArray):
         name(name),id(id), ADNsequence(ADNsequence), diseaseArray(diseaseArray){
@@ -79,9 +81,9 @@ string Patient::toStringAll() const {
 
     return sss.str();
 }
+**/
 
 
-/*
 #include "Patient.h"
 
 Patient::Patient(const string &name, const string &id, const string &ADNsequence, StringArray *diseaseArray):
@@ -163,4 +165,3 @@ void Patient::addDisease(string k) {
     diseaseArray->addObject(k);
 }
 
-*/

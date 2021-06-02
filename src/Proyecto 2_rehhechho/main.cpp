@@ -57,8 +57,9 @@ int main() {
     DiseaseColection->addObject(dis17);
     DiseaseColection->addObject(dis18);
 
-    //cout<< DiseaseColection->toString();
-    //patientCollection->analisis1(DiseaseColection);
+    patientCollection->analisis1(DiseaseColection);
+    cout<< "-----------------------------------------------------------------"<<endl;
+    cout<< patientCollection->toString();
 
     delete patientCollection;
     delete reader;
