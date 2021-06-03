@@ -171,8 +171,8 @@ string ArrayTemplate<T>::toString() const {
 
 template<class T>
 void ArrayTemplate<T>::analisis2(Patient* P) {
-    string DNAsec = P->getADNsequence();//sobre lo que vamos a buscar matches.
-    string match;//el auxiliar que vamos ir usando, este sera cada code de enfermedad.
+    string DNAsec = P->getADNsequence();
+    string match;
     for(int i = 0; i < getNum(); i++){
         match = vector[i]->getADNsequence();
         if(DNAsec.find(match)!= string::npos ){
