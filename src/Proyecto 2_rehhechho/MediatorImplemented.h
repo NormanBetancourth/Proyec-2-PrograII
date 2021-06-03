@@ -15,6 +15,8 @@
 #include"PatientCSVTransformer.h"
 #include "Analyst.h"
 #include "View.h"
+#include "Mediator.h"
+
 using nlohmann::json;
 
 using namespace std;
@@ -26,9 +28,7 @@ public:
     MediatorImplemented();
     ~MediatorImplemented();
     void menu();
-    void analisis1();
-    void analisis2();
-    void analisis3();
+
 
     //void setMediator();
 };

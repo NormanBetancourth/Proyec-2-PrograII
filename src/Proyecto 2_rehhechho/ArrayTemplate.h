@@ -39,6 +39,7 @@ public:
     T* returnObjectPos(int);
     bool empty();
     string toString() const;
+    T** getData();
     //::::::::::::::::::::::::
     void analisis2(Patient*);
     void analisis1(ArrayTemplate<Disease> *DVect);
@@ -179,6 +180,11 @@ void ArrayTemplate<T>::analisis2(Patient* P) {
 
     }
     cout<<"\n";
+}
+
+template<class T>
+T **ArrayTemplate<T>::getData() {
+    return vector;
 }
 
 

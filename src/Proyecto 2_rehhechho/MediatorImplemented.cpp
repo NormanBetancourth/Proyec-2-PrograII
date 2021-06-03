@@ -70,15 +70,15 @@ void MediatorImplemented::menu() {
         switch(option){
             case 1:
                 View::clearScreen();
-                analisis1();
+                Analyst::analisis1(patientCollection);
                 break;
             case 2:
                 View::clearScreen();
-                analisis2();
+                Analyst::analisis2(patientCollection);
                 break;
             case 3:
                 View::clearScreen();
-                analisis3();
+                Analyst::analisis3(patientCollection);
                 break;
             case 4:
                 View::goodbye();
@@ -93,21 +93,6 @@ void MediatorImplemented::menu() {
 
     }
 
-}
-
-void MediatorImplemented::analisis1() {
-    cout<<"\tPacientes y sus susceptibilidades\n";
-    cout<<patientCollection->toString();
-
-}
-
-void MediatorImplemented::analisis2() {
-    cout<<"Análisis 2: Se debe mostrar la lista de pacientes y la concentración de cada base\n"
-          "nitrogenada en términos porcentuales. Por ejemplo: G - %35, A - 23%, T - 20%, C - 22%.";
-}
-
-void MediatorImplemented::analisis3() {
-    cout<<"\tHacer el metodo que cargue cosas \n";
 }
 
 
