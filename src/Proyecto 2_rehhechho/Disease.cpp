@@ -34,4 +34,8 @@ string Disease::toString() const {
     return ss.str();
 }
 
+string Disease::sortData() {
+    return name;
+}
+
 

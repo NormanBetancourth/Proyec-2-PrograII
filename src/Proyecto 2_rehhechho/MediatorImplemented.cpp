@@ -56,8 +56,8 @@ void MediatorImplemented::menu() {
     DiseaseColection->addObject(dis17);
     DiseaseColection->addObject(dis18);
 
-    patientCollection->analisis1(DiseaseColection);
-    //Analyst::analizar1(patientCollection->createIterador(),DiseaseColection->createIterador());
+    //patientCollection->analisis1(DiseaseColection);
+    Analyst::analizar1(patientCollection->createIterador(),DiseaseColection);
     View::welcome();
     int option=0;
     while(option != 4){
@@ -74,6 +74,7 @@ void MediatorImplemented::menu() {
                 break;
             case 3:
                 View::clearScreen();
+                patientCollection->sort();
                 Analyst::analisis3(patientCollection);
                 break;
             case 4:

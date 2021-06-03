@@ -12,8 +12,7 @@ public:
     static void analisis1(ArrayTemplate<Patient>* P);
     static void analisis2(ArrayTemplate<Patient>* P);
     static void analisis3(ArrayTemplate<Patient>* P);
-    static void analizar1(Iterator<Patient>* IP, Iterator<Disease>* ID);
-    static void analizar2(Patient* P, Iterator<Disease>* ID);
+    static void analizar1(Iterator<Patient>* IP, ArrayTemplate<Disease>* ID);
 };
 
 

@@ -21,6 +21,8 @@ int main() {
 
     MediatorImplemented* M = new MediatorImplemented();
     M->menu();
+    string a,b;
+
     return 0;
 }
 

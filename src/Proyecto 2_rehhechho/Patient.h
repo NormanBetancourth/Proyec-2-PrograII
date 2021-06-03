@@ -36,6 +36,7 @@ public:
     string toString() const;
     string toStringDeseases() const;
     string toStringSimple() const;
+    string sortData();
 };
 
 /*

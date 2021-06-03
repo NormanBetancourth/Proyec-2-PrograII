@@ -77,6 +77,12 @@ void Patient::addDisease(string x) {
     diseaseArray->addObject(x);
 }
 
+string Patient::sortData() {
+    stringstream ss;
+    ss<< diseaseArray->getNum();
+    return ss.str();
+}
+
 /*
 
 #include "Patient.h"
