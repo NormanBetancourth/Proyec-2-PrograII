@@ -8,4 +8,4 @@ include_directories(.)
 add_executable(Proyecto_2_rehhechho
         CadenaADN-Pacientes.csv lib/nlohmann/json.hpp ArrayTemplate.h Disease.cpp Disease.h Patient.cpp Patient.h main.cpp
         MediatorImplemented.cpp MediatorImplemented.h Analyst.cpp Analyst.h
-        IFiles.h CSVWriter.h CSVReader.h ICSVTransformer.h PatientCSVTransformer.cpp PatientCSVTransformer.h DiseaseCSVTransformer.cpp DiseaseCSVTransformer.h SimpleArrayTemplate.cpp SimpleArrayTemplate.h View.cpp View.h)
+        IFiles.h CSVWriter.h CSVReader.h ICSVTransformer.h PatientCSVTransformer.cpp PatientCSVTransformer.h DiseaseCSVTransformer.cpp DiseaseCSVTransformer.h SimpleArrayTemplate.cpp SimpleArrayTemplate.h View.cpp View.h JSONTransformer.cpp JSONTransformer.h JSONWriter.h JSONReader.h)
