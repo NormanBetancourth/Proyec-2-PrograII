@@ -39,6 +39,7 @@ public:
     T* returnObjectPos(int);
     bool empty();
     string toString() const;
+    T** getData();
     //::::::::::::::::::::::::
     void analisis2(Patient*);
     void analisis1(ArrayTemplate<Disease> *DVect);
@@ -162,7 +163,6 @@ string ArrayTemplate<T>::toString() const {
 
 template<class T>
 void ArrayTemplate<T>::analisis1(ArrayTemplate<Disease> *DVect) {
-    cout<<"Persona con enfermedades\n";
     for(int i = 0; i < getNum(); i++){
         DVect->analisis2(vector[i]);
     }
@@ -172,17 +172,19 @@ template<class T>
 void ArrayTemplate<T>::analisis2(Patient* P) {
     string DNAsec = P->getADNsequence();//sobre lo que vamos a buscar matches.
     string match;//el auxiliar que vamos ir usando, este sera cada code de enfermedad.
-    cout<<P->getName()<<endl;
-    cout<<"Enfermedades\n";
     for(int i = 0; i < getNum(); i++){
         match = vector[i]->getADNsequence();
         if(DNAsec.find(match)!= string::npos ){
-            cout<<vector[i]->getName()<<endl;
             P->getDiseaseArray()->addObject(vector[i]->getName());
         }
 
     }
     cout<<"\n";
+}
+
+template<class T>
+T **ArrayTemplate<T>::getData() {
+    return vector;
 }
 
 

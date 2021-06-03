@@ -4,16 +4,15 @@
 
 #ifndef PROYECTO_2_REHHECHHO_ANALYST_H
 #define PROYECTO_2_REHHECHHO_ANALYST_H
-#include "BasicComponent.h"
-//#include "List.h"
-
-class Analyst: public BasicComponent {
-private:
-//Lista *pacientes;
+#include "ArrayTemplate.h"
+class Analyst{
 public:
     Analyst();
     ~Analyst();
-    //Analist(Lista* = nullptr);
+    static void analisis1(ArrayTemplate<Patient>* P);
+    static void analisis2(ArrayTemplate<Patient>* P);
+    static void analisis3(ArrayTemplate<Patient>* P);
+
 };
 
 
