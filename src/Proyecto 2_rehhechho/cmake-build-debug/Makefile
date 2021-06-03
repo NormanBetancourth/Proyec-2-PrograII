@@ -169,6 +169,33 @@ Analyst.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make CMakeFiles/Proyecto_2_rehhechho.dir/Analyst.cpp.s
 .PHONY : Analyst.cpp.s
 
+ArrayIterator.obj: ArrayIterator.cpp.obj
+
+.PHONY : ArrayIterator.obj
+
+# target to build an object file
+ArrayIterator.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make CMakeFiles/Proyecto_2_rehhechho.dir/ArrayIterator.cpp.obj
+.PHONY : ArrayIterator.cpp.obj
+
+ArrayIterator.i: ArrayIterator.cpp.i
+
+.PHONY : ArrayIterator.i
+
+# target to preprocess a source file
+ArrayIterator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make CMakeFiles/Proyecto_2_rehhechho.dir/ArrayIterator.cpp.i
+.PHONY : ArrayIterator.cpp.i
+
+ArrayIterator.s: ArrayIterator.cpp.s
+
+.PHONY : ArrayIterator.s
+
+# target to generate assembly for a file
+ArrayIterator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make CMakeFiles/Proyecto_2_rehhechho.dir/ArrayIterator.cpp.s
+.PHONY : ArrayIterator.cpp.s
+
 Disease.obj: Disease.cpp.obj
 
 .PHONY : Disease.obj
@@ -397,6 +424,9 @@ help:
 	@echo ... Analyst.obj
 	@echo ... Analyst.i
 	@echo ... Analyst.s
+	@echo ... ArrayIterator.obj
+	@echo ... ArrayIterator.i
+	@echo ... ArrayIterator.s
 	@echo ... Disease.obj
 	@echo ... Disease.i
 	@echo ... Disease.s

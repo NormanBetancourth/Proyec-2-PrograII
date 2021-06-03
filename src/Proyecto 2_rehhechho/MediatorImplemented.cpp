@@ -55,12 +55,7 @@ void MediatorImplemented::menu() {
     DiseaseColection->addObject(dis16);
     DiseaseColection->addObject(dis17);
     DiseaseColection->addObject(dis18);
-    /**
-    if (patientCollection->getNum()==0)
-        throw "P";
-    if (DiseaseColection->getNum()==0)
-        throw "D";
-    **/
+
     patientCollection->analisis1(DiseaseColection);
     View::welcome();
     int option=0;
@@ -97,8 +92,8 @@ void MediatorImplemented::menu() {
 
 
 
-//void MediatorImplemented::setMediator() {
-//    patient->setMediator(this);
-//    disease->setMediator(this);
-//analist->setMediator(this);
-//}
+
+
+
+
+

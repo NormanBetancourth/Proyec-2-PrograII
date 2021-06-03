@@ -16,26 +16,31 @@ Analyst::~Analyst() {
 
 void Analyst::analisis1(ArrayTemplate<Patient>* P) {
     cout<<"\tPacientes y sus susceptibilidades\n";
-    cout<<P->toString();
+    Iterator<Patient>* It= P->createIterador();
+
+    while (It->isThereNext()){
+        cout<<It->getFirst()->toString();
+    }
+
+    delete It;
 }
 
 void Analyst::analisis2(ArrayTemplate<Patient>* P) {
-    cout<<"Mostrar la lista de pacientes y la concentracion de cada base\n"
+    cout<<"Mostrar los pacientes y la concentracion de cada base\n"
           "nitrogenada en terminos porcentuales"<<endl<<endl;
     float G=0;
     float T=0;
     float C=0;
     float A=0;
-
-    Patient ** temp;
     string DNA;
-    temp = P->getData();
-    for (int i = 0; i < P->getNum(); ++i) {
+    Iterator<Patient> *It = P->createIterador();
+    while (It->isThereNext()){
         G=0;
         A=0;
         T=0;
         C=0;
-        DNA = temp[i]->getADNsequence();
+        DNA = It->getFirst()->getADNsequence();
+        float tam = DNA.length();
         for (int j = 0; j < DNA.length(); ++j) {
             if (DNA[j] == 'G')
                 G++;
@@ -47,17 +52,17 @@ void Analyst::analisis2(ArrayTemplate<Patient>* P) {
                 A++;
 
         }
-
-        cout<<"El paciente"<<temp[i]->getName()<<endl;
+        cout<<"El paciente"<<It->getFirst()->getName()<<endl;
         cout<<"Tiene la siguiente concentracion nitrogenada"<<endl;
-        cout<<"\tDel componente A: "<<A/400 * 100<<"%"<<endl;
-        cout<<"\tDel componente G: "<< G/400 *100<<"%"<<endl;
-        cout<<"\tDel componente T: "<< T/400*100<<"%"<<endl;
-        cout<<"\tDel componente C: "<< C/400*100<<"%"<<endl<<endl;
-
+        cout<<"\tDel componente A: "<<A/tam * 100<<"%"<<endl;
+        cout<<"\tDel componente G: "<< G/tam *100<<"%"<<endl;
+        cout<<"\tDel componente T: "<< T/tam*100<<"%"<<endl;
+        cout<<"\tDel componente C: "<< C/tam*100<<"%"<<endl<<endl;
     }
 }
 
 void Analyst::analisis3(ArrayTemplate<Patient>* P) {
 
 }
+
+

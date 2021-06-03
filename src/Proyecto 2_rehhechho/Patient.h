@@ -27,6 +27,7 @@ public:
     const string &getId() const;
     const string &getADNsequence() const;
     SimpleArrayTemplate<string> *getDiseaseArray() const;
+    void addDisease(string x);
     int getNumDiseases();
     void setName(const string &);
     void setId(const string &);

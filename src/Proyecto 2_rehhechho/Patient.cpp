@@ -73,6 +73,10 @@ string Patient::toStringSimple() const {
     return sss.str();
 }
 
+void Patient::addDisease(string x) {
+    diseaseArray->addObject(x);
+}
+
 /*
 
 #include "Patient.h"

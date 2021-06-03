@@ -27,7 +27,7 @@ public:
     MediatorImplemented();
     ~MediatorImplemented();
     void menu();
-
+    void buscarEnPacientes();
 
     //void setMediator();
 };

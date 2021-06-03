@@ -9,9 +9,11 @@
 #include<string>
 #include<Disease.h>
 #include<Patient.h>
+
+#include<IterableCollection.h>
+#include<ArrayIterator.cpp>
 using namespace std;
 
-//TODO revisar size y num
 //SIZE1 para pacientes, SIZE2 para enfermedades
 const int SIZE1 = 100;
 const int SIZE2 = 30;
@@ -19,7 +21,7 @@ const int SIZE2 = 30;
 //:::::::::::   CLASE ARRAY TEMPLATE GENERALIZADA   :::::::::::::
 
 template <class T>
-class ArrayTemplate{
+class ArrayTemplate: public IterableCollection<T>{
 private:
     T** vector;
     int num;
@@ -42,6 +44,7 @@ public:
     //::::::::::::::::::::::::
     void analisis2(Patient*);
     void analisis1(ArrayTemplate<Disease> *DVect);
+    Iterator<T>* createIterador();
 };
 
 template<class T>
@@ -152,7 +155,6 @@ bool ArrayTemplate<T>::empty() {
 template<class T>
 string ArrayTemplate<T>::toString() const {
     stringstream ss;
-    //ss << "\nArray List Information\n";
     for(int i = 0; i < getNum(); i++){
         ss << vector[i]->toString() << "\n";
     }
@@ -178,7 +180,6 @@ void ArrayTemplate<T>::analisis2(Patient* P) {
         }
 
     }
-    cout<<"\n";
 }
 
 template<class T>
@@ -186,15 +187,10 @@ T **ArrayTemplate<T>::getData() {
     return vector;
 }
 
-
-
-//template<class T>
-//void ArrayTemplate<T>::setMediator(Mediator *m) {
-//    for(int i = 0; i < getNum(); i++){
-//        vector[i]->setMediator(m);
-//    }
-//}
-
+template<class T>
+Iterator<T> *ArrayTemplate<T>::createIterador() {
+    return new ArrayIterator<T>(vector,num);
+}
 
 
 #endif //PROYECTO_2_REHHECHHO_ARRAYTEMPLATE_H
