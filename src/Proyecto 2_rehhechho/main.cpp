@@ -6,6 +6,7 @@
 #include "MediatorImplemented.h"
 
 int main() {
+    /**
     IWriter<Patient>* writer = new JSONWriter<Patient>("pruebaJSON.json");
     auto* objeto1 = new Patient{ "Rebe", "123", "ABC", new SimpleArrayTemplate<string>() };
     auto* objeto2 = new Patient{ "Norman", "456", "DEF", new SimpleArrayTemplate<string>() };
@@ -16,12 +17,11 @@ int main() {
     delete objeto1;
     delete objeto2;
     delete writer;
+     **/
 
-
-    /*
     MediatorImplemented* M = new MediatorImplemented();
     M->menu();
-    return 0;*/
+    return 0;
 }
 
 
