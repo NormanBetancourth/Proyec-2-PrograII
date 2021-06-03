@@ -75,7 +75,7 @@ void MediatorImplemented::menu() {
             case 3:
                 View::clearScreen();
                 patientCollection->sort();
-                Analyst::analisis3(patientCollection);
+                Analyst::analisis3(patientCollection->createIterador());
                 break;
             case 4:
                 View::goodbye();
