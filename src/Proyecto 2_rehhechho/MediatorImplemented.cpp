@@ -57,6 +57,7 @@ void MediatorImplemented::menu() {
     DiseaseColection->addObject(dis18);
 
     patientCollection->analisis1(DiseaseColection);
+    //Analyst::analizar1(patientCollection->createIterador(),DiseaseColection->createIterador());
     View::welcome();
     int option=0;
     while(option != 4){

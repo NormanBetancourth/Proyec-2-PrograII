@@ -65,4 +65,23 @@ void Analyst::analisis3(ArrayTemplate<Patient>* P) {
 
 }
 
+void Analyst::analizar1(Iterator<Patient> *IP, Iterator<Disease> *ID) {
+    while (IP->isThereNext()){
+        analizar2(IP->getFirst(), ID);
+    }
+}
+
+void Analyst::analizar2(Patient *P, Iterator<Disease> *ID) {
+    string DNAsec = P->getADNsequence();//sobre lo que vamos a buscar matches.
+    string match;//el auxiliar que vamos ir usando, este sera cada code de enfermedad.
+    SimpleArrayTemplate<string>* SS = new SimpleArrayTemplate<string>();
+    while (ID->isThereNext()){
+        match = ID->getFirst()->getADNsequence();
+        if(DNAsec.find(match)!= string::npos ){
+            SS->addObject(ID->getFirst()->getName());
+        }
+    }
+    P->setDiseaseArray(SS);
+}
+
 
