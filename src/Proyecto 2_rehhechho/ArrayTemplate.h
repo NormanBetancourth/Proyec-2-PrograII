@@ -9,7 +9,6 @@
 #include<string>
 #include<Disease.h>
 #include<Patient.h>
-//#include "Mediator.h"
 using namespace std;
 
 //TODO revisar size y num

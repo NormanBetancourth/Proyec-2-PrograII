@@ -15,12 +15,11 @@
 #include"PatientCSVTransformer.h"
 #include "Analyst.h"
 #include "View.h"
-#include "Mediator.h"
 
 using nlohmann::json;
 
 using namespace std;
-class MediatorImplemented: public Mediator {
+class MediatorImplemented{
 private:
     ArrayTemplate<Patient>* patientCollection;
     ArrayTemplate<Disease>* DiseaseColection;

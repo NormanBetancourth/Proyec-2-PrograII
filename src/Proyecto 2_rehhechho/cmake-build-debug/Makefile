@@ -169,33 +169,6 @@ Analyst.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make CMakeFiles/Proyecto_2_rehhechho.dir/Analyst.cpp.s
 .PHONY : Analyst.cpp.s
 
-BasicComponent.obj: BasicComponent.cpp.obj
-
-.PHONY : BasicComponent.obj
-
-# target to build an object file
-BasicComponent.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make CMakeFiles/Proyecto_2_rehhechho.dir/BasicComponent.cpp.obj
-.PHONY : BasicComponent.cpp.obj
-
-BasicComponent.i: BasicComponent.cpp.i
-
-.PHONY : BasicComponent.i
-
-# target to preprocess a source file
-BasicComponent.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make CMakeFiles/Proyecto_2_rehhechho.dir/BasicComponent.cpp.i
-.PHONY : BasicComponent.cpp.i
-
-BasicComponent.s: BasicComponent.cpp.s
-
-.PHONY : BasicComponent.s
-
-# target to generate assembly for a file
-BasicComponent.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make CMakeFiles/Proyecto_2_rehhechho.dir/BasicComponent.cpp.s
-.PHONY : BasicComponent.cpp.s
-
 Disease.obj: Disease.cpp.obj
 
 .PHONY : Disease.obj
@@ -424,9 +397,6 @@ help:
 	@echo ... Analyst.obj
 	@echo ... Analyst.i
 	@echo ... Analyst.s
-	@echo ... BasicComponent.obj
-	@echo ... BasicComponent.i
-	@echo ... BasicComponent.s
 	@echo ... Disease.obj
 	@echo ... Disease.i
 	@echo ... Disease.s

@@ -146,24 +146,10 @@ CMakeFiles/Proyecto_2_rehhechho.dir/Analyst.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto_2_rehhechho.dir/Analyst.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\norma\source\repos\Progra II\Proyectos\Project 2\Proyec-2-PrograII\src\Proyecto 2_rehhechho\Analyst.cpp" -o CMakeFiles\Proyecto_2_rehhechho.dir\Analyst.cpp.s
 
-CMakeFiles/Proyecto_2_rehhechho.dir/BasicComponent.cpp.obj: CMakeFiles/Proyecto_2_rehhechho.dir/flags.make
-CMakeFiles/Proyecto_2_rehhechho.dir/BasicComponent.cpp.obj: CMakeFiles/Proyecto_2_rehhechho.dir/includes_CXX.rsp
-CMakeFiles/Proyecto_2_rehhechho.dir/BasicComponent.cpp.obj: ../BasicComponent.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\norma\source\repos\Progra II\Proyectos\Project 2\Proyec-2-PrograII\src\Proyecto 2_rehhechho\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Proyecto_2_rehhechho.dir/BasicComponent.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Proyecto_2_rehhechho.dir\BasicComponent.cpp.obj -c "C:\Users\norma\source\repos\Progra II\Proyectos\Project 2\Proyec-2-PrograII\src\Proyecto 2_rehhechho\BasicComponent.cpp"
-
-CMakeFiles/Proyecto_2_rehhechho.dir/BasicComponent.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto_2_rehhechho.dir/BasicComponent.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\norma\source\repos\Progra II\Proyectos\Project 2\Proyec-2-PrograII\src\Proyecto 2_rehhechho\BasicComponent.cpp" > CMakeFiles\Proyecto_2_rehhechho.dir\BasicComponent.cpp.i
-
-CMakeFiles/Proyecto_2_rehhechho.dir/BasicComponent.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto_2_rehhechho.dir/BasicComponent.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\norma\source\repos\Progra II\Proyectos\Project 2\Proyec-2-PrograII\src\Proyecto 2_rehhechho\BasicComponent.cpp" -o CMakeFiles\Proyecto_2_rehhechho.dir\BasicComponent.cpp.s
-
 CMakeFiles/Proyecto_2_rehhechho.dir/PatientCSVTransformer.cpp.obj: CMakeFiles/Proyecto_2_rehhechho.dir/flags.make
 CMakeFiles/Proyecto_2_rehhechho.dir/PatientCSVTransformer.cpp.obj: CMakeFiles/Proyecto_2_rehhechho.dir/includes_CXX.rsp
 CMakeFiles/Proyecto_2_rehhechho.dir/PatientCSVTransformer.cpp.obj: ../PatientCSVTransformer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\norma\source\repos\Progra II\Proyectos\Project 2\Proyec-2-PrograII\src\Proyecto 2_rehhechho\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Proyecto_2_rehhechho.dir/PatientCSVTransformer.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\norma\source\repos\Progra II\Proyectos\Project 2\Proyec-2-PrograII\src\Proyecto 2_rehhechho\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Proyecto_2_rehhechho.dir/PatientCSVTransformer.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Proyecto_2_rehhechho.dir\PatientCSVTransformer.cpp.obj -c "C:\Users\norma\source\repos\Progra II\Proyectos\Project 2\Proyec-2-PrograII\src\Proyecto 2_rehhechho\PatientCSVTransformer.cpp"
 
 CMakeFiles/Proyecto_2_rehhechho.dir/PatientCSVTransformer.cpp.i: cmake_force
@@ -177,7 +163,7 @@ CMakeFiles/Proyecto_2_rehhechho.dir/PatientCSVTransformer.cpp.s: cmake_force
 CMakeFiles/Proyecto_2_rehhechho.dir/DiseaseCSVTransformer.cpp.obj: CMakeFiles/Proyecto_2_rehhechho.dir/flags.make
 CMakeFiles/Proyecto_2_rehhechho.dir/DiseaseCSVTransformer.cpp.obj: CMakeFiles/Proyecto_2_rehhechho.dir/includes_CXX.rsp
 CMakeFiles/Proyecto_2_rehhechho.dir/DiseaseCSVTransformer.cpp.obj: ../DiseaseCSVTransformer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\norma\source\repos\Progra II\Proyectos\Project 2\Proyec-2-PrograII\src\Proyecto 2_rehhechho\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Proyecto_2_rehhechho.dir/DiseaseCSVTransformer.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\norma\source\repos\Progra II\Proyectos\Project 2\Proyec-2-PrograII\src\Proyecto 2_rehhechho\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Proyecto_2_rehhechho.dir/DiseaseCSVTransformer.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Proyecto_2_rehhechho.dir\DiseaseCSVTransformer.cpp.obj -c "C:\Users\norma\source\repos\Progra II\Proyectos\Project 2\Proyec-2-PrograII\src\Proyecto 2_rehhechho\DiseaseCSVTransformer.cpp"
 
 CMakeFiles/Proyecto_2_rehhechho.dir/DiseaseCSVTransformer.cpp.i: cmake_force
@@ -191,7 +177,7 @@ CMakeFiles/Proyecto_2_rehhechho.dir/DiseaseCSVTransformer.cpp.s: cmake_force
 CMakeFiles/Proyecto_2_rehhechho.dir/SimpleArrayTemplate.cpp.obj: CMakeFiles/Proyecto_2_rehhechho.dir/flags.make
 CMakeFiles/Proyecto_2_rehhechho.dir/SimpleArrayTemplate.cpp.obj: CMakeFiles/Proyecto_2_rehhechho.dir/includes_CXX.rsp
 CMakeFiles/Proyecto_2_rehhechho.dir/SimpleArrayTemplate.cpp.obj: ../SimpleArrayTemplate.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\norma\source\repos\Progra II\Proyectos\Project 2\Proyec-2-PrograII\src\Proyecto 2_rehhechho\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Proyecto_2_rehhechho.dir/SimpleArrayTemplate.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\norma\source\repos\Progra II\Proyectos\Project 2\Proyec-2-PrograII\src\Proyecto 2_rehhechho\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Proyecto_2_rehhechho.dir/SimpleArrayTemplate.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Proyecto_2_rehhechho.dir\SimpleArrayTemplate.cpp.obj -c "C:\Users\norma\source\repos\Progra II\Proyectos\Project 2\Proyec-2-PrograII\src\Proyecto 2_rehhechho\SimpleArrayTemplate.cpp"
 
 CMakeFiles/Proyecto_2_rehhechho.dir/SimpleArrayTemplate.cpp.i: cmake_force
@@ -205,7 +191,7 @@ CMakeFiles/Proyecto_2_rehhechho.dir/SimpleArrayTemplate.cpp.s: cmake_force
 CMakeFiles/Proyecto_2_rehhechho.dir/View.cpp.obj: CMakeFiles/Proyecto_2_rehhechho.dir/flags.make
 CMakeFiles/Proyecto_2_rehhechho.dir/View.cpp.obj: CMakeFiles/Proyecto_2_rehhechho.dir/includes_CXX.rsp
 CMakeFiles/Proyecto_2_rehhechho.dir/View.cpp.obj: ../View.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\norma\source\repos\Progra II\Proyectos\Project 2\Proyec-2-PrograII\src\Proyecto 2_rehhechho\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Proyecto_2_rehhechho.dir/View.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\norma\source\repos\Progra II\Proyectos\Project 2\Proyec-2-PrograII\src\Proyecto 2_rehhechho\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Proyecto_2_rehhechho.dir/View.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Proyecto_2_rehhechho.dir\View.cpp.obj -c "C:\Users\norma\source\repos\Progra II\Proyectos\Project 2\Proyec-2-PrograII\src\Proyecto 2_rehhechho\View.cpp"
 
 CMakeFiles/Proyecto_2_rehhechho.dir/View.cpp.i: cmake_force
@@ -223,7 +209,6 @@ Proyecto_2_rehhechho_OBJECTS = \
 "CMakeFiles/Proyecto_2_rehhechho.dir/main.cpp.obj" \
 "CMakeFiles/Proyecto_2_rehhechho.dir/MediatorImplemented.cpp.obj" \
 "CMakeFiles/Proyecto_2_rehhechho.dir/Analyst.cpp.obj" \
-"CMakeFiles/Proyecto_2_rehhechho.dir/BasicComponent.cpp.obj" \
 "CMakeFiles/Proyecto_2_rehhechho.dir/PatientCSVTransformer.cpp.obj" \
 "CMakeFiles/Proyecto_2_rehhechho.dir/DiseaseCSVTransformer.cpp.obj" \
 "CMakeFiles/Proyecto_2_rehhechho.dir/SimpleArrayTemplate.cpp.obj" \
@@ -237,7 +222,6 @@ Proyecto_2_rehhechho.exe: CMakeFiles/Proyecto_2_rehhechho.dir/Patient.cpp.obj
 Proyecto_2_rehhechho.exe: CMakeFiles/Proyecto_2_rehhechho.dir/main.cpp.obj
 Proyecto_2_rehhechho.exe: CMakeFiles/Proyecto_2_rehhechho.dir/MediatorImplemented.cpp.obj
 Proyecto_2_rehhechho.exe: CMakeFiles/Proyecto_2_rehhechho.dir/Analyst.cpp.obj
-Proyecto_2_rehhechho.exe: CMakeFiles/Proyecto_2_rehhechho.dir/BasicComponent.cpp.obj
 Proyecto_2_rehhechho.exe: CMakeFiles/Proyecto_2_rehhechho.dir/PatientCSVTransformer.cpp.obj
 Proyecto_2_rehhechho.exe: CMakeFiles/Proyecto_2_rehhechho.dir/DiseaseCSVTransformer.cpp.obj
 Proyecto_2_rehhechho.exe: CMakeFiles/Proyecto_2_rehhechho.dir/SimpleArrayTemplate.cpp.obj
@@ -246,7 +230,7 @@ Proyecto_2_rehhechho.exe: CMakeFiles/Proyecto_2_rehhechho.dir/build.make
 Proyecto_2_rehhechho.exe: CMakeFiles/Proyecto_2_rehhechho.dir/linklibs.rsp
 Proyecto_2_rehhechho.exe: CMakeFiles/Proyecto_2_rehhechho.dir/objects1.rsp
 Proyecto_2_rehhechho.exe: CMakeFiles/Proyecto_2_rehhechho.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\norma\source\repos\Progra II\Proyectos\Project 2\Proyec-2-PrograII\src\Proyecto 2_rehhechho\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable Proyecto_2_rehhechho.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\norma\source\repos\Progra II\Proyectos\Project 2\Proyec-2-PrograII\src\Proyecto 2_rehhechho\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable Proyecto_2_rehhechho.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Proyecto_2_rehhechho.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

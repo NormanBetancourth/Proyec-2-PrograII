@@ -93,12 +93,6 @@
 		<Unit filename="C:/Users/norma/source/repos/Progra II/Proyectos/Project 2/Proyec-2-PrograII/src/Proyecto 2_rehhechho/ArrayTemplate.h">
 			<Option target="Proyecto_2_rehhechho"/>
 		</Unit>
-		<Unit filename="C:/Users/norma/source/repos/Progra II/Proyectos/Project 2/Proyec-2-PrograII/src/Proyecto 2_rehhechho/BasicComponent.cpp">
-			<Option target="Proyecto_2_rehhechho"/>
-		</Unit>
-		<Unit filename="C:/Users/norma/source/repos/Progra II/Proyectos/Project 2/Proyec-2-PrograII/src/Proyecto 2_rehhechho/BasicComponent.h">
-			<Option target="Proyecto_2_rehhechho"/>
-		</Unit>
 		<Unit filename="C:/Users/norma/source/repos/Progra II/Proyectos/Project 2/Proyec-2-PrograII/src/Proyecto 2_rehhechho/CSVReader.h">
 			<Option target="Proyecto_2_rehhechho"/>
 		</Unit>
@@ -124,9 +118,6 @@
 			<Option target="Proyecto_2_rehhechho"/>
 		</Unit>
 		<Unit filename="C:/Users/norma/source/repos/Progra II/Proyectos/Project 2/Proyec-2-PrograII/src/Proyecto 2_rehhechho/IFiles.h">
-			<Option target="Proyecto_2_rehhechho"/>
-		</Unit>
-		<Unit filename="C:/Users/norma/source/repos/Progra II/Proyectos/Project 2/Proyec-2-PrograII/src/Proyecto 2_rehhechho/Mediator.h">
 			<Option target="Proyecto_2_rehhechho"/>
 		</Unit>
 		<Unit filename="C:/Users/norma/source/repos/Progra II/Proyectos/Project 2/Proyec-2-PrograII/src/Proyecto 2_rehhechho/MediatorImplemented.cpp">
