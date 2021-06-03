@@ -43,6 +43,11 @@ public:
     void analisis2(Patient*);
     T** getData();
     Iterator<T>* createIterador();
+    /**
+     * Usamos el iterador para respetar la generalidad del template, y realizamos
+     * los metodos especificos necesarios para cada clase fuera, en analyst, asi
+     * evitamos problemas de ejecucion
+     * **/
     void sort();
 };
 
