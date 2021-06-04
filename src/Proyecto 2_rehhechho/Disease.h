@@ -22,8 +22,8 @@ public:
     const string &getADNsequence() const;
     void setName(const string &);
     void setADNsequence(const string &);
-
     string toString() const;
+    string sortData();
 
 };
 

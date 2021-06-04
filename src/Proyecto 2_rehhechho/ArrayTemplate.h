@@ -40,11 +40,15 @@ public:
     T* returnObjectPos(int);
     bool empty();
     string toString() const;
-    T** getData();
-    //::::::::::::::::::::::::
     void analisis2(Patient*);
-    void analisis1(ArrayTemplate<Disease> *DVect);
+    T** getData();
     Iterator<T>* createIterador();
+    /**
+     * Usamos el iterador para respetar la generalidad del template, y realizamos
+     * los metodos especificos necesarios para cada clase fuera, en analyst, asi
+     * evitamos problemas de ejecucion
+     * **/
+    void sort();
 };
 
 template<class T>
@@ -162,17 +166,13 @@ string ArrayTemplate<T>::toString() const {
 }
 
 
-template<class T>
-void ArrayTemplate<T>::analisis1(ArrayTemplate<Disease> *DVect) {
-    for(int i = 0; i < getNum(); i++){
-        DVect->analisis2(vector[i]);
-    }
-}
+
+
 
 template<class T>
 void ArrayTemplate<T>::analisis2(Patient* P) {
-    string DNAsec = P->getADNsequence();//sobre lo que vamos a buscar matches.
-    string match;//el auxiliar que vamos ir usando, este sera cada code de enfermedad.
+    string DNAsec = P->getADNsequence();
+    string match;
     for(int i = 0; i < getNum(); i++){
         match = vector[i]->getADNsequence();
         if(DNAsec.find(match)!= string::npos ){
@@ -190,6 +190,20 @@ T **ArrayTemplate<T>::getData() {
 template<class T>
 Iterator<T> *ArrayTemplate<T>::createIterador() {
     return new ArrayIterator<T>(vector,num);
+}
+
+template<class T>
+void ArrayTemplate<T>::sort() {
+    T* temp;
+    for (int i = 0; i <getNum() -1; ++i) {
+        for (int j = i +1; j < getNum(); ++j) {
+            if (vector[i]->sortData()< vector[j]->sortData()){
+                temp = vector[i];
+                vector[i]= vector[j];
+                vector[j]= temp;
+            }
+        }
+    }
 }
 
 

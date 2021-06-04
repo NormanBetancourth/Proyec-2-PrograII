@@ -39,7 +39,8 @@ void Analyst::analisis2(ArrayTemplate<Patient>* P) {
         A=0;
         T=0;
         C=0;
-        DNA = It->getFirst()->getADNsequence();
+        Patient* Pc= It->getFirst();
+        DNA = Pc->getADNsequence();
         float tam = DNA.length();
         for (int j = 0; j < DNA.length(); ++j) {
             if (DNA[j] == 'G')
@@ -52,7 +53,7 @@ void Analyst::analisis2(ArrayTemplate<Patient>* P) {
                 A++;
 
         }
-        cout<<"El paciente"<<It->getFirst()->getName()<<endl;
+        cout<<"El paciente"<<Pc->getName()<<endl;
         cout<<"Tiene la siguiente concentracion nitrogenada"<<endl;
         cout<<"\tDel componente A: "<<A/tam * 100<<"%"<<endl;
         cout<<"\tDel componente G: "<< G/tam *100<<"%"<<endl;
@@ -61,8 +62,41 @@ void Analyst::analisis2(ArrayTemplate<Patient>* P) {
     }
 }
 
-void Analyst::analisis3(ArrayTemplate<Patient>* P) {
+void Analyst::analisis3(Iterator<Patient>* P) {
+    ArrayTemplate<Patient>* aux = new ArrayTemplate<Patient>(1);
+    while (P->isThereNext() ){
+        Patient* Ptt= P->getFirst();
+        if (Ptt->sortData() >= "2"){
+            aux->addObject(Ptt);
+        }
+
+    }
+    Iterator<Patient>* TT = aux->createIterador();
+    cout<<"Analisis 3"<<endl<<endl;
+    string _40 = "40%";
+    string _70 = "70%";
+    while (TT->isThereNext()){
+
+        Patient* Pc= TT->getFirst();
+        cout<<Pc->toString();
+        cout<<"Probabilidad de neceditar UCI: ";
+        if (Pc->sortData() == "2")
+            cout<<_40<<endl;
+        if (Pc->sortData() >= "3")
+            cout<<_70<<endl;
+
+    }
 
 }
+
+void Analyst::analizar1(Iterator<Patient> *IP, ArrayTemplate<Disease> *ID) {
+    while (IP->isThereNext()){
+        ID->analisis2(IP->getFirst());
+    }
+}
+
+
+
+
 
 
