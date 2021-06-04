@@ -120,6 +120,12 @@
 		<Unit filename="C:/Users/norma/source/repos/Progra II/Proyectos/Project 2/Proyec-2-PrograII/src/Proyecto 2_rehhechho/DiseaseCSVTransformer.h">
 			<Option target="Proyecto_2_rehhechho"/>
 		</Unit>
+		<Unit filename="C:/Users/norma/source/repos/Progra II/Proyectos/Project 2/Proyec-2-PrograII/src/Proyecto 2_rehhechho/DiseaseJSONTransformer.cpp">
+			<Option target="Proyecto_2_rehhechho"/>
+		</Unit>
+		<Unit filename="C:/Users/norma/source/repos/Progra II/Proyectos/Project 2/Proyec-2-PrograII/src/Proyecto 2_rehhechho/DiseaseJSONTransformer.h">
+			<Option target="Proyecto_2_rehhechho"/>
+		</Unit>
 		<Unit filename="C:/Users/norma/source/repos/Progra II/Proyectos/Project 2/Proyec-2-PrograII/src/Proyecto 2_rehhechho/ICSVTransformer.h">
 			<Option target="Proyecto_2_rehhechho"/>
 		</Unit>
@@ -162,7 +168,10 @@
 		<Unit filename="C:/Users/norma/source/repos/Progra II/Proyectos/Project 2/Proyec-2-PrograII/src/Proyecto 2_rehhechho/View.h">
 			<Option target="Proyecto_2_rehhechho"/>
 		</Unit>
-		<Unit filename="C:/Users/norma/source/repos/Progra II/Proyectos/Project 2/Proyec-2-PrograII/src/Proyecto 2_rehhechho/lib/nlohmann/json.hpp">
+		<Unit filename="C:/Users/norma/source/repos/Progra II/Proyectos/Project 2/Proyec-2-PrograII/src/Proyecto 2_rehhechho/dist/json">
+			<Option target="Proyecto_2_rehhechho"/>
+		</Unit>
+		<Unit filename="C:/Users/norma/source/repos/Progra II/Proyectos/Project 2/Proyec-2-PrograII/src/Proyecto 2_rehhechho/dist/jsoncpp.cpp">
 			<Option target="Proyecto_2_rehhechho"/>
 		</Unit>
 		<Unit filename="C:/Users/norma/source/repos/Progra II/Proyectos/Project 2/Proyec-2-PrograII/src/Proyecto 2_rehhechho/main.cpp">

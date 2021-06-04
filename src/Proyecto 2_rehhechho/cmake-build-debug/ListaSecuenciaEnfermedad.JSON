@@ -1,0 +1,122 @@
+[
+   {
+      "name" : "Cancer",
+      "ADNsequence" : "CGTTTA"
+   },
+   {
+      "name" : "Daltonismo",
+      "ADNsequence" : "GAGCATCT"
+   },
+   {
+      "name" : "Dermatitis",
+      "ADNsequence" : "TCTATG"
+   },
+   {
+      "name" : "Diabetes",
+      "ADNsequence" : "TCATG"
+   },
+   {
+      "name" : "Escoliosis",
+      "ADNsequence" : "TATTGC"
+   },
+   {
+      "name" : "Fiebre Amarilla",
+      "ADNsequence" : "AGTCTT"
+   },
+   {
+      "name" : "Galactorrea",
+      "ADNsequence" : "CTAGTT"
+   },
+   {
+      "name" : "Gastritis",
+      "ADNsequence" : "ATTACG"
+   },
+   {
+      "name" : "Hantavirus",
+      "ADNsequence" : "GTACATCG"
+   },
+   {
+      "name" : "Ictus Insomnio",
+      "ADNsequence" : "CGATTAGC"
+   },
+   {
+      "name" : "Insuficiencia Renal",
+      "ADNsequence" : "ATCAG"
+   },
+   {
+      "name" : "Leucemia",
+      "ADNsequence" : "ATCATGG"
+   },
+   {
+      "name" : "Lupus",
+      "ADNsequence" : "GGAAC"
+   },
+   {
+      "name" : "Melanoma",
+      "ADNsequence" : "CACGT"
+   },
+   {
+      "name" : "Meningitis",
+      "ADNsequence" : "TTGCAT"
+   },
+   {
+      "name" : "Microcefalia ",
+      "ADNsequence" : "CTGTA"
+   },
+   {
+      "name" : "Neurofibromatosis",
+      "ADNsequence" : "GTACT"
+   },
+   {
+      "name" : "Oncocercosis",
+      "ADNsequence" : "GTACATG"
+   },
+   {
+      "name" : "Osteonecrosis",
+      "ADNsequence" : "GGATATCC"
+   },
+   {
+      "name" : "Parkinson",
+      "ADNsequence" : "GGAATCCT"
+   },
+   {
+      "name" : "Pielonefritis",
+      "ADNsequence" : "CCAAGGTT"
+   },
+   {
+      "name" : "Sarcoidosis",
+      "ADNsequence" : "GAATGTCC"
+   },
+   {
+      "name" : "Sindrome de Angelman",
+      "ADNsequence" : "AGTCAGT"
+   },
+   {
+      "name" : "Teniasis",
+      "ADNsequence" : "TGGACTCA"
+   },
+   {
+      "name" : "Tracoma",
+      "ADNsequence" : "TTCAGGA"
+   },
+   {
+      "name" : "Tularemia",
+      "ADNsequence" : "GTCTGCAA"
+   },
+   {
+      "name" : "Varicocele",
+      "ADNsequence" : "CTTAG"
+   },
+   {
+      "name" : "Virus del nilo",
+      "ADNsequence" : "CTTCGAAG"
+   },
+   {
+      "name" : "Virus usutu",
+      "ADNsequence" : "AGTCT"
+   },
+   {
+      "name" : "Virus zika",
+      "ADNsequence" : "TAACTGCG"
+   }
+]
