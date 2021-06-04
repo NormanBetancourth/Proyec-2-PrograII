@@ -11,6 +11,10 @@ CMakeFiles/Proyecto_2_rehhechho.dir/Analyst.cpp.obj: ../SimpleArrayTemplate.h
 CMakeFiles/Proyecto_2_rehhechho.dir/Analyst.cpp.obj: ../Analyst.cpp
 CMakeFiles/Proyecto_2_rehhechho.dir/Analyst.cpp.obj: ../Analyst.h
 CMakeFiles/Proyecto_2_rehhechho.dir/Analyst.cpp.obj: ../ArrayTemplate.h
+CMakeFiles/Proyecto_2_rehhechho.dir/Analyst.cpp.obj: ../CSVWriter.h
+CMakeFiles/Proyecto_2_rehhechho.dir/Analyst.cpp.obj: ../ICSVTransformer.h
+CMakeFiles/Proyecto_2_rehhechho.dir/Analyst.cpp.obj: ../IFiles.h
+CMakeFiles/Proyecto_2_rehhechho.dir/Analyst.cpp.obj: ../PatientCSVTransformer.h
 
 CMakeFiles/Proyecto_2_rehhechho.dir/ArrayIterator.cpp.obj: ../ArrayIterator.cpp
 CMakeFiles/Proyecto_2_rehhechho.dir/ArrayIterator.cpp.obj: ../ArrayIterator.h

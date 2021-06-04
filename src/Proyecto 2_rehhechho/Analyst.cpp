@@ -86,6 +86,22 @@ void Analyst::analisis3(Iterator<Patient>* P) {
             cout<<_70<<endl;
 
     }
+    cout<<"\tDeseas Generar guardar estos Datos?\n";
+    string respuesta;
+    cin>> respuesta;
+    if (respuesta == "si" or respuesta == "Si" or respuesta == "SI" ){
+        IWriter<Patient>* writer = new CSVWriter<Patient>("../../InformePacientes/InformePacientes.csv", new PatientCSVTransformer());
+        Iterator<Patient>* W = aux->createIterador();
+
+        while (W->isThereNext()){
+            writer->write(W->getFirst());
+
+        }
+
+        delete writer;
+        W = nullptr;
+    }
+
     delete aux;
 
 }

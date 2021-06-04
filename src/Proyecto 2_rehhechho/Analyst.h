@@ -5,6 +5,8 @@
 #ifndef PROYECTO_2_REHHECHHO_ANALYST_H
 #define PROYECTO_2_REHHECHHO_ANALYST_H
 #include "ArrayTemplate.h"
+#include "CSVWriter.h"
+#include"PatientCSVTransformer.h"
 class Analyst{
 public:
     Analyst();
