@@ -9,6 +9,8 @@
 #include"iostream"
 #include"Patient.h"
 #include"Disease.h"
+#include"JSONReader.h"
+#include"DiseaseJSONTransformer.h"
 #include"CSVReader.h"
 #include"CSVWriter.h"
 #include"PatientCSVTransformer.h"
