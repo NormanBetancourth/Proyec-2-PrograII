@@ -4,20 +4,17 @@
 
 #ifndef JSON_HPP_JSONTRANSFORMER_H
 #define JSON_HPP_JSONTRANSFORMER_H
-#include"lib/nlohmann/json.hpp"
+#include"dist/json/json.h"
+#include"ArrayTemplate.h"
 #include"Patient.h"
 #include"Disease.h"
 
-using nlohmann::json;
-
-//NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE(Enfermedad, getEnfermedad(), getSecuencia())
-
-void to_json(json& j, const Patient*);
-void to_json(json& j, const Patient&);
-void to_json(json& j, const Disease&);
-
-void from_json(json& j, const Disease&);
-
-
+template<class T>
+class JSONTransformer {
+public:
+    virtual Json::Value convertToJson(T* element) = 0;
+    virtual T* convertFromJson(Json::Value) = 0;
+    virtual ~JSONTransformer() = default;
+};
 
 #endif //JSON_HPP_JSONTRANSFORMER_H

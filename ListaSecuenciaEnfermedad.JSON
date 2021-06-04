@@ -1,122 +1,122 @@
 [
    {
-      "nombre" : "Cancer",
-      "secuencia" : "CGTTTA"
+      "name" : "Cancer",
+      "ADNsequence" : "CGTTTA"
    },
    {
-      "nombre" : "Daltonismo",
-      "secuencia" : "GAGCATCT"
+      "name" : "Daltonismo",
+      "ADNsequence" : "GAGCATCT"
    },
    {
-      "nombre" : "Dermatitis",
-      "secuencia" : "TCTATG"
+      "name" : "Dermatitis",
+      "ADNsequence" : "TCTATG"
    },
    {
-      "nombre" : "Diabetes",
-      "secuencia" : "TCATG"
+      "name" : "Diabetes",
+      "ADNsequence" : "TCATG"
    },
    {
-      "nombre" : "Escoliosis",
-      "secuencia" : "TATTGC"
+      "name" : "Escoliosis",
+      "ADNsequence" : "TATTGC"
    },
    {
-      "nombre" : "Fiebre Amarilla",
-      "secuencia" : "AGTCTT"
+      "name" : "Fiebre Amarilla",
+      "ADNsequence" : "AGTCTT"
    },
    {
-      "nombre" : "Galactorrea",
-      "secuencia" : "CTAGTT"
+      "name" : "Galactorrea",
+      "ADNsequence" : "CTAGTT"
    },
    {
-      "nombre" : "Gastritis",
-      "secuencia" : "ATTACG"
+      "name" : "Gastritis",
+      "ADNsequence" : "ATTACG"
    },
    {
-      "nombre" : "Hantavirus",
-      "secuencia" : "GTACATCG"
+      "name" : "Hantavirus",
+      "ADNsequence" : "GTACATCG"
    },
    {
-      "nombre" : "Ictus Insomnio",
-      "secuencia" : "CGATTAGC"
+      "name" : "Ictus Insomnio",
+      "ADNsequence" : "CGATTAGC"
    },
    {
-      "nombre" : "Insuficiencia Renal",
-      "secuencia" : "ATCAG"
+      "name" : "Insuficiencia Renal",
+      "ADNsequence" : "ATCAG"
    },
    {
-      "nombre" : "Leucemia",
-      "secuencia" : "ATCATGG"
+      "name" : "Leucemia",
+      "ADNsequence" : "ATCATGG"
    },
    {
-      "nombre" : "Lupus",
-      "secuencia" : "GGAAC"
+      "name" : "Lupus",
+      "ADNsequence" : "GGAAC"
    },
    {
-      "nombre" : "Melanoma",
-      "secuencia" : "CACGT"
+      "name" : "Melanoma",
+      "ADNsequence" : "CACGT"
    },
    {
-      "nombre" : "Meningitis",
-      "secuencia" : "TTGCAT"
+      "name" : "Meningitis",
+      "ADNsequence" : "TTGCAT"
    },
    {
-      "nombre" : "Microcefalia ",
-      "secuencia" : "CTGTA"
+      "name" : "Microcefalia ",
+      "ADNsequence" : "CTGTA"
    },
    {
-      "nombre" : "Neurofibromatosis",
-      "secuencia" : "GTACT"
+      "name" : "Neurofibromatosis",
+      "ADNsequence" : "GTACT"
    },
    {
-      "nombre" : "Oncocercosis",
-      "secuencia" : "GTACATG"
+      "name" : "Oncocercosis",
+      "ADNsequence" : "GTACATG"
    },
    {
-      "nombre" : "Osteonecrosis",
-      "secuencia" : "GGATATCC"
+      "name" : "Osteonecrosis",
+      "ADNsequence" : "GGATATCC"
    },
    {
-      "nombre" : "Parkinson",
-      "secuencia" : "GGAATCCT"
+      "name" : "Parkinson",
+      "ADNsequence" : "GGAATCCT"
    },
    {
-      "nombre" : "Pielonefritis",
-      "secuencia" : "CCAAGGTT"
+      "name" : "Pielonefritis",
+      "ADNsequence" : "CCAAGGTT"
    },
    {
-      "nombre" : "Sarcoidosis",
-      "secuencia" : "GAATGTCC"
+      "name" : "Sarcoidosis",
+      "ADNsequence" : "GAATGTCC"
    },
    {
-      "nombre" : "Sindrome de Angelman",
-      "secuencia" : "AGTCAGT"
+      "name" : "Sindrome de Angelman",
+      "ADNsequence" : "AGTCAGT"
    },
    {
-      "nombre" : "Teniasis",
-      "secuencia" : "TGGACTCA"
+      "name" : "Teniasis",
+      "ADNsequence" : "TGGACTCA"
    },
    {
-      "nombre" : "Tracoma",
-      "secuencia" : "TTCAGGA"
+      "name" : "Tracoma",
+      "ADNsequence" : "TTCAGGA"
    },
    {
-      "nombre" : "Tularemia",
-      "secuencia" : "GTCTGCAA"
+      "name" : "Tularemia",
+      "ADNsequence" : "GTCTGCAA"
    },
    {
-      "nombre" : "Varicocele",
-      "secuencia" : "CTTAG"
+      "name" : "Varicocele",
+      "ADNsequence" : "CTTAG"
    },
    {
-      "nombre" : "Virus del nilo",
-      "secuencia" : "CTTCGAAG"
+      "name" : "Virus del nilo",
+      "ADNsequence" : "CTTCGAAG"
    },
    {
-      "nombre" : "Virus usutu",
-      "secuencia" : "AGTCT"
+      "name" : "Virus usutu",
+      "ADNsequence" : "AGTCT"
    },
    {
-      "nombre" : "Virus zika",
-      "secuencia" : "TAACTGCG"
+      "name" : "Virus zika",
+      "ADNsequence" : "TAACTGCG"
    }
 ]
