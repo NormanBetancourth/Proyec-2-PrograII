@@ -81,15 +81,22 @@ CMakeFiles/Proyecto_2_rehhechho.dir/main.cpp.obj: ../ArrayIterator.cpp
 CMakeFiles/Proyecto_2_rehhechho.dir/main.cpp.obj: ../ArrayIterator.h
 CMakeFiles/Proyecto_2_rehhechho.dir/main.cpp.obj: ../IterableCollection.h
 CMakeFiles/Proyecto_2_rehhechho.dir/main.cpp.obj: ../Iterator.h
+CMakeFiles/Proyecto_2_rehhechho.dir/main.cpp.obj: ../Analyst.h
 CMakeFiles/Proyecto_2_rehhechho.dir/main.cpp.obj: ../ArrayTemplate.h
+CMakeFiles/Proyecto_2_rehhechho.dir/main.cpp.obj: ../CSVReader.h
+CMakeFiles/Proyecto_2_rehhechho.dir/main.cpp.obj: ../CSVWriter.h
 CMakeFiles/Proyecto_2_rehhechho.dir/main.cpp.obj: ../Disease.h
 CMakeFiles/Proyecto_2_rehhechho.dir/main.cpp.obj: ../DiseaseJSONTransformer.h
+CMakeFiles/Proyecto_2_rehhechho.dir/main.cpp.obj: ../ICSVTransformer.h
 CMakeFiles/Proyecto_2_rehhechho.dir/main.cpp.obj: ../IFiles.h
 CMakeFiles/Proyecto_2_rehhechho.dir/main.cpp.obj: ../JSONReader.h
 CMakeFiles/Proyecto_2_rehhechho.dir/main.cpp.obj: ../JSONTransformer.h
 CMakeFiles/Proyecto_2_rehhechho.dir/main.cpp.obj: ../JSONWriter.h
+CMakeFiles/Proyecto_2_rehhechho.dir/main.cpp.obj: ../MediatorImplemented.h
 CMakeFiles/Proyecto_2_rehhechho.dir/main.cpp.obj: ../Patient.h
+CMakeFiles/Proyecto_2_rehhechho.dir/main.cpp.obj: ../PatientCSVTransformer.h
 CMakeFiles/Proyecto_2_rehhechho.dir/main.cpp.obj: ../SimpleArrayTemplate.h
+CMakeFiles/Proyecto_2_rehhechho.dir/main.cpp.obj: ../View.h
 CMakeFiles/Proyecto_2_rehhechho.dir/main.cpp.obj: ../dist/json/json.h
 CMakeFiles/Proyecto_2_rehhechho.dir/main.cpp.obj: ../main.cpp
 

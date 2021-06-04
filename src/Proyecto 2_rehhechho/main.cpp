@@ -5,6 +5,7 @@
 #include "Disease.h"
 #include"JSONReader.h"
 #include"JSONWriter.h"
+#include"MediatorImplemented.h"
 #include"DiseaseJSONTransformer.h"
 
 int main() {
@@ -16,13 +17,14 @@ int main() {
 
     delete diseaseArr;
     delete reader;
+    MediatorImplemented* M = new MediatorImplemented();
+    M->menu();
 
     return 0;
 }
-/*
-    MediatorImplemented* M = new MediatorImplemented();
-    M->menu();
-    */
+
+
+
 
 
 
