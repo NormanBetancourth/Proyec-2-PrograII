@@ -7,7 +7,6 @@
 
 #include"sstream"
 #include"iostream"
-#include "lib/nlohmann/json.hpp"
 #include"Patient.h"
 #include"Disease.h"
 #include"CSVReader.h"
@@ -15,8 +14,6 @@
 #include"PatientCSVTransformer.h"
 #include "Analyst.h"
 #include "View.h"
-
-using nlohmann::json;
 
 using namespace std;
 class MediatorImplemented{

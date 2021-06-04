@@ -2,29 +2,27 @@
 // Created by norma on 23/5/2021.
 //
 #include"Patient.h"
+#include "Disease.h"
+#include"JSONReader.h"
 #include"JSONWriter.h"
-#include "MediatorImplemented.h"
+#include"DiseaseJSONTransformer.h"
 
 int main() {
-    /**
-    IWriter<Patient>* writer = new JSONWriter<Patient>("pruebaJSON.json");
-    auto* objeto1 = new Patient{ "Rebe", "123", "ABC", new SimpleArrayTemplate<string>() };
-    auto* objeto2 = new Patient{ "Norman", "456", "DEF", new SimpleArrayTemplate<string>() };
+    IReader<Disease>* reader = new JSONReader<Disease>("ListaSecuenciaEnfermedad.JSON", new DiseaseJSONTransformer());
+    ArrayTemplate<Disease>* diseaseArr = reader->readAll();
 
-    writer->write(objeto1);
-    writer->write(objeto2);
+    cout << diseaseArr->toString();
+    cout << diseaseArr->getNum();
 
-    delete objeto1;
-    delete objeto2;
-    delete writer;
-     **/
+    delete diseaseArr;
+    delete reader;
 
-
-    MediatorImplemented* M = new MediatorImplemented();
-    M->menu();
-    //Todo: meter mas Try catch
-    //Todo: Argumentar pq solo usamos 1 patron
     return 0;
 }
+/*
+    MediatorImplemented* M = new MediatorImplemented();
+    M->menu();
+    */
+
 
 

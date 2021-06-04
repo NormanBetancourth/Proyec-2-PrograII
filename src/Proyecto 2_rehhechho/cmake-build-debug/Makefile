@@ -250,6 +250,33 @@ DiseaseCSVTransformer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make CMakeFiles/Proyecto_2_rehhechho.dir/DiseaseCSVTransformer.cpp.s
 .PHONY : DiseaseCSVTransformer.cpp.s
 
+DiseaseJSONTransformer.obj: DiseaseJSONTransformer.cpp.obj
+
+.PHONY : DiseaseJSONTransformer.obj
+
+# target to build an object file
+DiseaseJSONTransformer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make CMakeFiles/Proyecto_2_rehhechho.dir/DiseaseJSONTransformer.cpp.obj
+.PHONY : DiseaseJSONTransformer.cpp.obj
+
+DiseaseJSONTransformer.i: DiseaseJSONTransformer.cpp.i
+
+.PHONY : DiseaseJSONTransformer.i
+
+# target to preprocess a source file
+DiseaseJSONTransformer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make CMakeFiles/Proyecto_2_rehhechho.dir/DiseaseJSONTransformer.cpp.i
+.PHONY : DiseaseJSONTransformer.cpp.i
+
+DiseaseJSONTransformer.s: DiseaseJSONTransformer.cpp.s
+
+.PHONY : DiseaseJSONTransformer.s
+
+# target to generate assembly for a file
+DiseaseJSONTransformer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make CMakeFiles/Proyecto_2_rehhechho.dir/DiseaseJSONTransformer.cpp.s
+.PHONY : DiseaseJSONTransformer.cpp.s
+
 MediatorImplemented.obj: MediatorImplemented.cpp.obj
 
 .PHONY : MediatorImplemented.obj
@@ -385,6 +412,33 @@ View.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make CMakeFiles/Proyecto_2_rehhechho.dir/View.cpp.s
 .PHONY : View.cpp.s
 
+dist/jsoncpp.obj: dist/jsoncpp.cpp.obj
+
+.PHONY : dist/jsoncpp.obj
+
+# target to build an object file
+dist/jsoncpp.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make CMakeFiles/Proyecto_2_rehhechho.dir/dist/jsoncpp.cpp.obj
+.PHONY : dist/jsoncpp.cpp.obj
+
+dist/jsoncpp.i: dist/jsoncpp.cpp.i
+
+.PHONY : dist/jsoncpp.i
+
+# target to preprocess a source file
+dist/jsoncpp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make CMakeFiles/Proyecto_2_rehhechho.dir/dist/jsoncpp.cpp.i
+.PHONY : dist/jsoncpp.cpp.i
+
+dist/jsoncpp.s: dist/jsoncpp.cpp.s
+
+.PHONY : dist/jsoncpp.s
+
+# target to generate assembly for a file
+dist/jsoncpp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make CMakeFiles/Proyecto_2_rehhechho.dir/dist/jsoncpp.cpp.s
+.PHONY : dist/jsoncpp.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -433,6 +487,9 @@ help:
 	@echo ... DiseaseCSVTransformer.obj
 	@echo ... DiseaseCSVTransformer.i
 	@echo ... DiseaseCSVTransformer.s
+	@echo ... DiseaseJSONTransformer.obj
+	@echo ... DiseaseJSONTransformer.i
+	@echo ... DiseaseJSONTransformer.s
 	@echo ... MediatorImplemented.obj
 	@echo ... MediatorImplemented.i
 	@echo ... MediatorImplemented.s
@@ -448,6 +505,9 @@ help:
 	@echo ... View.obj
 	@echo ... View.i
 	@echo ... View.s
+	@echo ... dist/jsoncpp.obj
+	@echo ... dist/jsoncpp.i
+	@echo ... dist/jsoncpp.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
