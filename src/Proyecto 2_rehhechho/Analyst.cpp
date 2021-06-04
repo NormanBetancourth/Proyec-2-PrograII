@@ -86,6 +86,7 @@ void Analyst::analisis3(Iterator<Patient>* P) {
             cout<<_70<<endl;
 
     }
+    delete aux;
 
 }
 

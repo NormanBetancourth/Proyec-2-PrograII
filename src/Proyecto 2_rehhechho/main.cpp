@@ -22,7 +22,8 @@ int main() {
 
     MediatorImplemented* M = new MediatorImplemented();
     M->menu();
-
+    //Todo: meter mas Try catch
+    //Todo: Argumentar pq solo usamos 1 patron
     return 0;
 }
 
