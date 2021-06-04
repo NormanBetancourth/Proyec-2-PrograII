@@ -15,17 +15,17 @@ SimpleArrayTemplate<string> *PatientCSVTransformer::toStringVector(Patient* elem
     //TODO ajustar
     //records->addObject("...");
 
-    return records;
     //records->addObject("enfermedadesx");
 
-    /*
+
     for(int i=0;i<element->getNumDiseases();i++){
-        records->addObject(element->getDiseaseArray()[i]);
+        records->addObject(element->getDiseaseArray()->getInPos(i));
     }
-     */
+
 
     //casteo de operador maybeee
     //return records + records2;
+    return records;
 }
 
 //Lo usa el Reader: Deserealizar
