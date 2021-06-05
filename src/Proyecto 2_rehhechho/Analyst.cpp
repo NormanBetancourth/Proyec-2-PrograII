@@ -88,7 +88,7 @@ void Analyst::analisis3(Iterator<Patient>* P) {
     cout<<"\tDeseas Generar guardar estos Datos?\n";
     string respuesta;
     cin>> respuesta;
-    if (respuesta == "si" or respuesta == "Si" or respuesta == "SI" ){
+    if (respuesta == "si" || respuesta == "Si" || respuesta == "SI" ){
         generarReporte(aux);
     }
 
