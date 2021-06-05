@@ -196,6 +196,33 @@ ArrayIterator.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make CMakeFiles/Proyecto_2_rehhechho.dir/ArrayIterator.cpp.s
 .PHONY : ArrayIterator.cpp.s
 
+Control.obj: Control.cpp.obj
+
+.PHONY : Control.obj
+
+# target to build an object file
+Control.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make CMakeFiles/Proyecto_2_rehhechho.dir/Control.cpp.obj
+.PHONY : Control.cpp.obj
+
+Control.i: Control.cpp.i
+
+.PHONY : Control.i
+
+# target to preprocess a source file
+Control.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make CMakeFiles/Proyecto_2_rehhechho.dir/Control.cpp.i
+.PHONY : Control.cpp.i
+
+Control.s: Control.cpp.s
+
+.PHONY : Control.s
+
+# target to generate assembly for a file
+Control.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make CMakeFiles/Proyecto_2_rehhechho.dir/Control.cpp.s
+.PHONY : Control.cpp.s
+
 Disease.obj: Disease.cpp.obj
 
 .PHONY : Disease.obj
@@ -276,33 +303,6 @@ DiseaseJSONTransformer.s: DiseaseJSONTransformer.cpp.s
 DiseaseJSONTransformer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make CMakeFiles/Proyecto_2_rehhechho.dir/DiseaseJSONTransformer.cpp.s
 .PHONY : DiseaseJSONTransformer.cpp.s
-
-MediatorImplemented.obj: MediatorImplemented.cpp.obj
-
-.PHONY : MediatorImplemented.obj
-
-# target to build an object file
-MediatorImplemented.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make CMakeFiles/Proyecto_2_rehhechho.dir/MediatorImplemented.cpp.obj
-.PHONY : MediatorImplemented.cpp.obj
-
-MediatorImplemented.i: MediatorImplemented.cpp.i
-
-.PHONY : MediatorImplemented.i
-
-# target to preprocess a source file
-MediatorImplemented.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make CMakeFiles/Proyecto_2_rehhechho.dir/MediatorImplemented.cpp.i
-.PHONY : MediatorImplemented.cpp.i
-
-MediatorImplemented.s: MediatorImplemented.cpp.s
-
-.PHONY : MediatorImplemented.s
-
-# target to generate assembly for a file
-MediatorImplemented.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_2_rehhechho.dir\build.make CMakeFiles/Proyecto_2_rehhechho.dir/MediatorImplemented.cpp.s
-.PHONY : MediatorImplemented.cpp.s
 
 Patient.obj: Patient.cpp.obj
 
@@ -481,6 +481,9 @@ help:
 	@echo ... ArrayIterator.obj
 	@echo ... ArrayIterator.i
 	@echo ... ArrayIterator.s
+	@echo ... Control.obj
+	@echo ... Control.i
+	@echo ... Control.s
 	@echo ... Disease.obj
 	@echo ... Disease.i
 	@echo ... Disease.s
@@ -490,9 +493,6 @@ help:
 	@echo ... DiseaseJSONTransformer.obj
 	@echo ... DiseaseJSONTransformer.i
 	@echo ... DiseaseJSONTransformer.s
-	@echo ... MediatorImplemented.obj
-	@echo ... MediatorImplemented.i
-	@echo ... MediatorImplemented.s
 	@echo ... Patient.obj
 	@echo ... Patient.i
 	@echo ... Patient.s

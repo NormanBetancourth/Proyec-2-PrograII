@@ -7,15 +7,10 @@
 //Lo usa el Writer: Serializar
 SimpleArrayTemplate<string> *PatientCSVTransformer::toStringVector(Patient* element) {
     auto* records= new SimpleArrayTemplate<string>();
-    //auto* records2= new SimpleArrayTemplate<string>(0);
 
     records->addObject(element->getName());
     records->addObject(element->getId());
     records->addObject(element->getADNsequence());
-    //TODO ajustar
-    //records->addObject("...");
-
-    //records->addObject("enfermedadesx");
 
 
     for(int i=0;i<element->getNumDiseases();i++){
@@ -23,8 +18,7 @@ SimpleArrayTemplate<string> *PatientCSVTransformer::toStringVector(Patient* elem
     }
 
 
-    //casteo de operador maybeee
-    //return records + records2;
+
     return records;
 }
 

@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Proyecto_2_rehhechho.dir/Analyst.cpp.obj"
   "CMakeFiles/Proyecto_2_rehhechho.dir/ArrayIterator.cpp.obj"
+  "CMakeFiles/Proyecto_2_rehhechho.dir/Control.cpp.obj"
   "CMakeFiles/Proyecto_2_rehhechho.dir/Disease.cpp.obj"
   "CMakeFiles/Proyecto_2_rehhechho.dir/DiseaseCSVTransformer.cpp.obj"
   "CMakeFiles/Proyecto_2_rehhechho.dir/DiseaseJSONTransformer.cpp.obj"
-  "CMakeFiles/Proyecto_2_rehhechho.dir/MediatorImplemented.cpp.obj"
   "CMakeFiles/Proyecto_2_rehhechho.dir/Patient.cpp.obj"
   "CMakeFiles/Proyecto_2_rehhechho.dir/PatientCSVTransformer.cpp.obj"
   "CMakeFiles/Proyecto_2_rehhechho.dir/SimpleArrayTemplate.cpp.obj"

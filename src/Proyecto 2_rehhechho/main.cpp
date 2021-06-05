@@ -6,10 +6,10 @@
 #include"JSONReader.h"
 #include"JSONWriter.h"
 #include"DiseaseJSONTransformer.h"
-#include"MediatorImplemented.h"
+#include"Control.h"
 
 int main() {
-    MediatorImplemented* M = new MediatorImplemented();
+    Control* M = new Control();
     M->menu();
 
     return 0;

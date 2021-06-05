@@ -20,6 +20,28 @@ CMakeFiles/Proyecto_2_rehhechho.dir/ArrayIterator.cpp.obj: ../ArrayIterator.cpp
 CMakeFiles/Proyecto_2_rehhechho.dir/ArrayIterator.cpp.obj: ../ArrayIterator.h
 CMakeFiles/Proyecto_2_rehhechho.dir/ArrayIterator.cpp.obj: ../Iterator.h
 
+CMakeFiles/Proyecto_2_rehhechho.dir/Control.cpp.obj: ../ArrayIterator.cpp
+CMakeFiles/Proyecto_2_rehhechho.dir/Control.cpp.obj: ../ArrayIterator.h
+CMakeFiles/Proyecto_2_rehhechho.dir/Control.cpp.obj: ../IterableCollection.h
+CMakeFiles/Proyecto_2_rehhechho.dir/Control.cpp.obj: ../Iterator.h
+CMakeFiles/Proyecto_2_rehhechho.dir/Control.cpp.obj: ../Analyst.h
+CMakeFiles/Proyecto_2_rehhechho.dir/Control.cpp.obj: ../ArrayTemplate.h
+CMakeFiles/Proyecto_2_rehhechho.dir/Control.cpp.obj: ../CSVReader.h
+CMakeFiles/Proyecto_2_rehhechho.dir/Control.cpp.obj: ../CSVWriter.h
+CMakeFiles/Proyecto_2_rehhechho.dir/Control.cpp.obj: ../Control.cpp
+CMakeFiles/Proyecto_2_rehhechho.dir/Control.cpp.obj: ../Control.h
+CMakeFiles/Proyecto_2_rehhechho.dir/Control.cpp.obj: ../Disease.h
+CMakeFiles/Proyecto_2_rehhechho.dir/Control.cpp.obj: ../DiseaseJSONTransformer.h
+CMakeFiles/Proyecto_2_rehhechho.dir/Control.cpp.obj: ../ICSVTransformer.h
+CMakeFiles/Proyecto_2_rehhechho.dir/Control.cpp.obj: ../IFiles.h
+CMakeFiles/Proyecto_2_rehhechho.dir/Control.cpp.obj: ../JSONReader.h
+CMakeFiles/Proyecto_2_rehhechho.dir/Control.cpp.obj: ../JSONTransformer.h
+CMakeFiles/Proyecto_2_rehhechho.dir/Control.cpp.obj: ../Patient.h
+CMakeFiles/Proyecto_2_rehhechho.dir/Control.cpp.obj: ../PatientCSVTransformer.h
+CMakeFiles/Proyecto_2_rehhechho.dir/Control.cpp.obj: ../SimpleArrayTemplate.h
+CMakeFiles/Proyecto_2_rehhechho.dir/Control.cpp.obj: ../View.h
+CMakeFiles/Proyecto_2_rehhechho.dir/Control.cpp.obj: ../dist/json/json.h
+
 CMakeFiles/Proyecto_2_rehhechho.dir/Disease.cpp.obj: ../Disease.cpp
 CMakeFiles/Proyecto_2_rehhechho.dir/Disease.cpp.obj: ../Disease.h
 
@@ -42,28 +64,6 @@ CMakeFiles/Proyecto_2_rehhechho.dir/DiseaseJSONTransformer.cpp.obj: ../JSONTrans
 CMakeFiles/Proyecto_2_rehhechho.dir/DiseaseJSONTransformer.cpp.obj: ../Patient.h
 CMakeFiles/Proyecto_2_rehhechho.dir/DiseaseJSONTransformer.cpp.obj: ../SimpleArrayTemplate.h
 CMakeFiles/Proyecto_2_rehhechho.dir/DiseaseJSONTransformer.cpp.obj: ../dist/json/json.h
-
-CMakeFiles/Proyecto_2_rehhechho.dir/MediatorImplemented.cpp.obj: ../ArrayIterator.cpp
-CMakeFiles/Proyecto_2_rehhechho.dir/MediatorImplemented.cpp.obj: ../ArrayIterator.h
-CMakeFiles/Proyecto_2_rehhechho.dir/MediatorImplemented.cpp.obj: ../IterableCollection.h
-CMakeFiles/Proyecto_2_rehhechho.dir/MediatorImplemented.cpp.obj: ../Iterator.h
-CMakeFiles/Proyecto_2_rehhechho.dir/MediatorImplemented.cpp.obj: ../Analyst.h
-CMakeFiles/Proyecto_2_rehhechho.dir/MediatorImplemented.cpp.obj: ../ArrayTemplate.h
-CMakeFiles/Proyecto_2_rehhechho.dir/MediatorImplemented.cpp.obj: ../CSVReader.h
-CMakeFiles/Proyecto_2_rehhechho.dir/MediatorImplemented.cpp.obj: ../CSVWriter.h
-CMakeFiles/Proyecto_2_rehhechho.dir/MediatorImplemented.cpp.obj: ../Disease.h
-CMakeFiles/Proyecto_2_rehhechho.dir/MediatorImplemented.cpp.obj: ../DiseaseJSONTransformer.h
-CMakeFiles/Proyecto_2_rehhechho.dir/MediatorImplemented.cpp.obj: ../ICSVTransformer.h
-CMakeFiles/Proyecto_2_rehhechho.dir/MediatorImplemented.cpp.obj: ../IFiles.h
-CMakeFiles/Proyecto_2_rehhechho.dir/MediatorImplemented.cpp.obj: ../JSONReader.h
-CMakeFiles/Proyecto_2_rehhechho.dir/MediatorImplemented.cpp.obj: ../JSONTransformer.h
-CMakeFiles/Proyecto_2_rehhechho.dir/MediatorImplemented.cpp.obj: ../MediatorImplemented.cpp
-CMakeFiles/Proyecto_2_rehhechho.dir/MediatorImplemented.cpp.obj: ../MediatorImplemented.h
-CMakeFiles/Proyecto_2_rehhechho.dir/MediatorImplemented.cpp.obj: ../Patient.h
-CMakeFiles/Proyecto_2_rehhechho.dir/MediatorImplemented.cpp.obj: ../PatientCSVTransformer.h
-CMakeFiles/Proyecto_2_rehhechho.dir/MediatorImplemented.cpp.obj: ../SimpleArrayTemplate.h
-CMakeFiles/Proyecto_2_rehhechho.dir/MediatorImplemented.cpp.obj: ../View.h
-CMakeFiles/Proyecto_2_rehhechho.dir/MediatorImplemented.cpp.obj: ../dist/json/json.h
 
 CMakeFiles/Proyecto_2_rehhechho.dir/Patient.cpp.obj: ../Patient.cpp
 CMakeFiles/Proyecto_2_rehhechho.dir/Patient.cpp.obj: ../Patient.h
@@ -93,6 +93,7 @@ CMakeFiles/Proyecto_2_rehhechho.dir/main.cpp.obj: ../Analyst.h
 CMakeFiles/Proyecto_2_rehhechho.dir/main.cpp.obj: ../ArrayTemplate.h
 CMakeFiles/Proyecto_2_rehhechho.dir/main.cpp.obj: ../CSVReader.h
 CMakeFiles/Proyecto_2_rehhechho.dir/main.cpp.obj: ../CSVWriter.h
+CMakeFiles/Proyecto_2_rehhechho.dir/main.cpp.obj: ../Control.h
 CMakeFiles/Proyecto_2_rehhechho.dir/main.cpp.obj: ../Disease.h
 CMakeFiles/Proyecto_2_rehhechho.dir/main.cpp.obj: ../DiseaseJSONTransformer.h
 CMakeFiles/Proyecto_2_rehhechho.dir/main.cpp.obj: ../ICSVTransformer.h
@@ -100,7 +101,6 @@ CMakeFiles/Proyecto_2_rehhechho.dir/main.cpp.obj: ../IFiles.h
 CMakeFiles/Proyecto_2_rehhechho.dir/main.cpp.obj: ../JSONReader.h
 CMakeFiles/Proyecto_2_rehhechho.dir/main.cpp.obj: ../JSONTransformer.h
 CMakeFiles/Proyecto_2_rehhechho.dir/main.cpp.obj: ../JSONWriter.h
-CMakeFiles/Proyecto_2_rehhechho.dir/main.cpp.obj: ../MediatorImplemented.h
 CMakeFiles/Proyecto_2_rehhechho.dir/main.cpp.obj: ../Patient.h
 CMakeFiles/Proyecto_2_rehhechho.dir/main.cpp.obj: ../PatientCSVTransformer.h
 CMakeFiles/Proyecto_2_rehhechho.dir/main.cpp.obj: ../SimpleArrayTemplate.h
