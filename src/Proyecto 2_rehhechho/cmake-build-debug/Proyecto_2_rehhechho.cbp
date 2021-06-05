@@ -108,6 +108,12 @@
 		<Unit filename="C:/Users/norma/source/repos/Progra II/Proyectos/Project 2/Proyec-2-PrograII/src/Proyecto 2_rehhechho/CadenaADN-Pacientes.csv">
 			<Option target="Proyecto_2_rehhechho"/>
 		</Unit>
+		<Unit filename="C:/Users/norma/source/repos/Progra II/Proyectos/Project 2/Proyec-2-PrograII/src/Proyecto 2_rehhechho/Control.cpp">
+			<Option target="Proyecto_2_rehhechho"/>
+		</Unit>
+		<Unit filename="C:/Users/norma/source/repos/Progra II/Proyectos/Project 2/Proyec-2-PrograII/src/Proyecto 2_rehhechho/Control.h">
+			<Option target="Proyecto_2_rehhechho"/>
+		</Unit>
 		<Unit filename="C:/Users/norma/source/repos/Progra II/Proyectos/Project 2/Proyec-2-PrograII/src/Proyecto 2_rehhechho/Disease.cpp">
 			<Option target="Proyecto_2_rehhechho"/>
 		</Unit>
@@ -136,12 +142,6 @@
 			<Option target="Proyecto_2_rehhechho"/>
 		</Unit>
 		<Unit filename="C:/Users/norma/source/repos/Progra II/Proyectos/Project 2/Proyec-2-PrograII/src/Proyecto 2_rehhechho/Iterator.h">
-			<Option target="Proyecto_2_rehhechho"/>
-		</Unit>
-		<Unit filename="C:/Users/norma/source/repos/Progra II/Proyectos/Project 2/Proyec-2-PrograII/src/Proyecto 2_rehhechho/MediatorImplemented.cpp">
-			<Option target="Proyecto_2_rehhechho"/>
-		</Unit>
-		<Unit filename="C:/Users/norma/source/repos/Progra II/Proyectos/Project 2/Proyec-2-PrograII/src/Proyecto 2_rehhechho/MediatorImplemented.h">
 			<Option target="Proyecto_2_rehhechho"/>
 		</Unit>
 		<Unit filename="C:/Users/norma/source/repos/Progra II/Proyectos/Project 2/Proyec-2-PrograII/src/Proyecto 2_rehhechho/Patient.cpp">

@@ -132,19 +132,19 @@ CMakeFiles/Proyecto_2_rehhechho.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto_2_rehhechho.dir/main.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\norma\source\repos\Progra II\Proyectos\Project 2\Proyec-2-PrograII\src\Proyecto 2_rehhechho\main.cpp" -o CMakeFiles\Proyecto_2_rehhechho.dir\main.cpp.s
 
-CMakeFiles/Proyecto_2_rehhechho.dir/MediatorImplemented.cpp.obj: CMakeFiles/Proyecto_2_rehhechho.dir/flags.make
-CMakeFiles/Proyecto_2_rehhechho.dir/MediatorImplemented.cpp.obj: CMakeFiles/Proyecto_2_rehhechho.dir/includes_CXX.rsp
-CMakeFiles/Proyecto_2_rehhechho.dir/MediatorImplemented.cpp.obj: ../MediatorImplemented.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\norma\source\repos\Progra II\Proyectos\Project 2\Proyec-2-PrograII\src\Proyecto 2_rehhechho\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Proyecto_2_rehhechho.dir/MediatorImplemented.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Proyecto_2_rehhechho.dir\MediatorImplemented.cpp.obj -c "C:\Users\norma\source\repos\Progra II\Proyectos\Project 2\Proyec-2-PrograII\src\Proyecto 2_rehhechho\MediatorImplemented.cpp"
+CMakeFiles/Proyecto_2_rehhechho.dir/Control.cpp.obj: CMakeFiles/Proyecto_2_rehhechho.dir/flags.make
+CMakeFiles/Proyecto_2_rehhechho.dir/Control.cpp.obj: CMakeFiles/Proyecto_2_rehhechho.dir/includes_CXX.rsp
+CMakeFiles/Proyecto_2_rehhechho.dir/Control.cpp.obj: ../Control.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\norma\source\repos\Progra II\Proyectos\Project 2\Proyec-2-PrograII\src\Proyecto 2_rehhechho\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Proyecto_2_rehhechho.dir/Control.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Proyecto_2_rehhechho.dir\Control.cpp.obj -c "C:\Users\norma\source\repos\Progra II\Proyectos\Project 2\Proyec-2-PrograII\src\Proyecto 2_rehhechho\Control.cpp"
 
-CMakeFiles/Proyecto_2_rehhechho.dir/MediatorImplemented.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto_2_rehhechho.dir/MediatorImplemented.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\norma\source\repos\Progra II\Proyectos\Project 2\Proyec-2-PrograII\src\Proyecto 2_rehhechho\MediatorImplemented.cpp" > CMakeFiles\Proyecto_2_rehhechho.dir\MediatorImplemented.cpp.i
+CMakeFiles/Proyecto_2_rehhechho.dir/Control.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto_2_rehhechho.dir/Control.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\norma\source\repos\Progra II\Proyectos\Project 2\Proyec-2-PrograII\src\Proyecto 2_rehhechho\Control.cpp" > CMakeFiles\Proyecto_2_rehhechho.dir\Control.cpp.i
 
-CMakeFiles/Proyecto_2_rehhechho.dir/MediatorImplemented.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto_2_rehhechho.dir/MediatorImplemented.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\norma\source\repos\Progra II\Proyectos\Project 2\Proyec-2-PrograII\src\Proyecto 2_rehhechho\MediatorImplemented.cpp" -o CMakeFiles\Proyecto_2_rehhechho.dir\MediatorImplemented.cpp.s
+CMakeFiles/Proyecto_2_rehhechho.dir/Control.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto_2_rehhechho.dir/Control.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\norma\source\repos\Progra II\Proyectos\Project 2\Proyec-2-PrograII\src\Proyecto 2_rehhechho\Control.cpp" -o CMakeFiles\Proyecto_2_rehhechho.dir\Control.cpp.s
 
 CMakeFiles/Proyecto_2_rehhechho.dir/Analyst.cpp.obj: CMakeFiles/Proyecto_2_rehhechho.dir/flags.make
 CMakeFiles/Proyecto_2_rehhechho.dir/Analyst.cpp.obj: CMakeFiles/Proyecto_2_rehhechho.dir/includes_CXX.rsp
@@ -250,7 +250,7 @@ Proyecto_2_rehhechho_OBJECTS = \
 "CMakeFiles/Proyecto_2_rehhechho.dir/Disease.cpp.obj" \
 "CMakeFiles/Proyecto_2_rehhechho.dir/Patient.cpp.obj" \
 "CMakeFiles/Proyecto_2_rehhechho.dir/main.cpp.obj" \
-"CMakeFiles/Proyecto_2_rehhechho.dir/MediatorImplemented.cpp.obj" \
+"CMakeFiles/Proyecto_2_rehhechho.dir/Control.cpp.obj" \
 "CMakeFiles/Proyecto_2_rehhechho.dir/Analyst.cpp.obj" \
 "CMakeFiles/Proyecto_2_rehhechho.dir/DiseaseJSONTransformer.cpp.obj" \
 "CMakeFiles/Proyecto_2_rehhechho.dir/PatientCSVTransformer.cpp.obj" \
@@ -266,7 +266,7 @@ Proyecto_2_rehhechho.exe: CMakeFiles/Proyecto_2_rehhechho.dir/dist/jsoncpp.cpp.o
 Proyecto_2_rehhechho.exe: CMakeFiles/Proyecto_2_rehhechho.dir/Disease.cpp.obj
 Proyecto_2_rehhechho.exe: CMakeFiles/Proyecto_2_rehhechho.dir/Patient.cpp.obj
 Proyecto_2_rehhechho.exe: CMakeFiles/Proyecto_2_rehhechho.dir/main.cpp.obj
-Proyecto_2_rehhechho.exe: CMakeFiles/Proyecto_2_rehhechho.dir/MediatorImplemented.cpp.obj
+Proyecto_2_rehhechho.exe: CMakeFiles/Proyecto_2_rehhechho.dir/Control.cpp.obj
 Proyecto_2_rehhechho.exe: CMakeFiles/Proyecto_2_rehhechho.dir/Analyst.cpp.obj
 Proyecto_2_rehhechho.exe: CMakeFiles/Proyecto_2_rehhechho.dir/DiseaseJSONTransformer.cpp.obj
 Proyecto_2_rehhechho.exe: CMakeFiles/Proyecto_2_rehhechho.dir/PatientCSVTransformer.cpp.obj

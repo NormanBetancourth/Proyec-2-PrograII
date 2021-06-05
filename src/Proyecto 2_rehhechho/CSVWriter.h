@@ -23,7 +23,6 @@ private:
         stringstream ss;
 
         if (begin != end) {
-            //iterador
             ss << begin;
             begin = record->getInPos(cont);
         }
@@ -76,9 +75,11 @@ void CSVWriter<T>::write(T* element) {
 }
 
 
+
+
 template<class T>
 void CSVWriter<T>::writeAll(ArrayTemplate<T>* elements) {
-    for(int i = 0;i < elements->getSize();i++){
+    for(int i = 0;i < elements->getNum();i++){
         this->write(elements->returnObjectPos(i));
     }
 }
@@ -92,6 +93,7 @@ template<class T>
 void CSVWriter<T>::setTransformer(ICSVTransformer<T> *transformer) {
     this->transformer=transformer;
 }
+
 
 
 
