@@ -75,6 +75,8 @@ void CSVWriter<T>::write(T* element) {
 }
 
 
+
+
 template<class T>
 void CSVWriter<T>::writeAll(ArrayTemplate<T>* elements) {
     for(int i = 0;i < elements->getNum();i++){
@@ -91,6 +93,7 @@ template<class T>
 void CSVWriter<T>::setTransformer(ICSVTransformer<T> *transformer) {
     this->transformer=transformer;
 }
+
 
 
 

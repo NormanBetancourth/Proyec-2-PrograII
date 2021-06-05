@@ -90,16 +90,7 @@ void Analyst::analisis3(Iterator<Patient>* P) {
     string respuesta;
     cin>> respuesta;
     if (respuesta == "si" or respuesta == "Si" or respuesta == "SI" ){
-        IWriter<Patient>* writer = new CSVWriter<Patient>("../../InformePacientes/InformePacientes.csv", new PatientCSVTransformer());
-        Iterator<Patient>* W = aux->createIterador();
-
-        while (W->isThereNext()){
-            writer->write(W->getFirst());
-
-        }
-
-        delete writer;
-        W = nullptr;
+        generarReporte(aux);
     }
 
     delete aux;
@@ -110,6 +101,25 @@ void Analyst::analizar1(Iterator<Patient> *IP, ArrayTemplate<Disease> *ID) {
     while (IP->isThereNext()){
         ID->analisis2(IP->getFirst());
     }
+}
+
+void Analyst::generarReporte(ArrayTemplate<Patient> *P) {
+    IWriter<Patient>* writer = new CSVWriter<Patient>("../../InformePacientes/InformePacientes.csv", new PatientCSVTransformer());
+    Iterator<Patient>* W = P->createIterador();
+
+    while (W->isThereNext()){
+        Patient* Wp =W->getFirst();
+        if (Wp->sortData() >= "3"){
+            Wp->addDisease("70%");
+        }
+        if (Wp->sortData() == "2"){
+            Wp->addDisease("40%");
+        }
+
+        writer->write(Wp);
+    }
+
+    delete writer;
 }
 
 
