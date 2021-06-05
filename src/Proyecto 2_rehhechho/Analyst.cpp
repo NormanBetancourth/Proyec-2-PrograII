@@ -11,7 +11,6 @@ Analyst::Analyst() {
 }
 
 Analyst::~Analyst() {
-
 }
 
 void Analyst::analisis1(ArrayTemplate<Patient>* P) {
